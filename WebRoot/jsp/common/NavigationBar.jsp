@@ -39,11 +39,32 @@
 					</div><!-- #sidebar-shortcuts -->
 
 					<ul class="nav nav-list">
-						<li id = "financialManage">
+						<li id = "dailyBusiness">
 							<a href="#">
 								<i class="icon-home"></i>
 								<span class="menu-text"> 日常业务 </span>
 							</a> 
+							<ul class="submenu">
+								<li id="quickBusiness">
+									<a href="jsp/manage/index.jsp">
+										<i class="icon-double-angle-right"></i>
+										快保业务
+									</a>
+								</li>
+
+								<li id="goodSales">
+									<a href="#">
+										<i class="icon-double-angle-right"></i>
+										商品销售
+									</a>
+								</li>
+								<li id="applyCard">
+									<a href="#">
+										<i class="icon-double-angle-right"></i>
+										会员卡
+									</a>
+								</li>
+							</ul>
 						</li>
 
                        <li id = "financialManage">
@@ -81,11 +102,38 @@
 							</a>
 						</li>
 
-						<li id = "financialManage">
-							<a href="#">
+						<li id = "report">
+							<a href="jsp/report/dailyBusinessReport.jsp">
 								<i class="icon-file"></i>
 								<span class="menu-text"> 报表管理 </span>
 							</a>
+							<ul class="submenu">
+								<li id="dailyBusinessReport">
+									<a href="jsp/report/dailyBusinessReport.jsp">
+										<i class="icon-double-angle-right"></i>
+										日常业务统计
+									</a>
+								</li>
+
+								<li id="dailyBusinessReport1">
+									<a href="jsp/report/dailyBusinessReport1.jsp">
+										<i class="icon-double-angle-right"></i>
+										门店综合实力统计
+									</a>
+								</li>
+								<li id="dailyBusinessReport2">
+									<a href="jsp/report/dailyBusinessReport2.jsp">
+										<i class="icon-double-angle-right"></i>
+										门店销售统计
+									</a>
+								</li>
+								<li id="dailyBusinessReport3">
+									<a href="jsp/report/dailyBusinessReport3.jsp">
+										<i class="icon-double-angle-right"></i>
+										实时经营统计
+									</a>
+								</li>
+							</ul>
 						</li>
 
 						<li id = "financialManage">
