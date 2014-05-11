@@ -11,7 +11,7 @@ $(function() {
 							zoomType : 'x'
 						},
 						title : {
-							text : '2006到2008 门店日营业额'
+							text : '2006到2008门店日营业额统计'
 						},
 						subtitle : {
 							text : document.ontouchstart === undefined ? 'Click and drag in the plot area to zoom in'
@@ -24,7 +24,7 @@ $(function() {
 						},
 						yAxis : {
 							title : {
-								text : 'Exchange rate'
+								text : '日营业额'
 							}
 						},
 						legend : {
