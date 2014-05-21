@@ -67,11 +67,44 @@
 							</ul>
 						</li>
 
-                       <li id = "financialManage">
-							<a href="#">
+                       <li id = "stockManagement">
+							<a href="jsp/stockManagement/quickOperationGuide.jsp">
 								<i class="icon-briefcase"></i>
 								<span class="menu-text"> 库存管理 </span>
 							</a>
+							<ul class="submenu">
+								<li id="bussinessGuide">
+									<a href="jsp/stockManagement/quickOperationGuide.jsp">
+										<i class="icon-double-angle-right"></i>
+										快捷指南
+									</a>
+								</li>
+
+								<li id="inBounds">
+									<a href="#">
+										<i class="icon-double-angle-right"></i>
+										入库管理
+									</a>
+								</li>
+								<li id="outBounds">
+									<a href="#">
+										<i class="icon-double-angle-right"></i>
+										出库管理
+									</a>
+								</li>
+								<li id="inventoryCheck">
+									<a href="#">
+										<i class="icon-double-angle-right"></i>
+										库存盘点
+									</a>
+								</li>
+								<li id="goodsloan">
+									<a href="#">
+										<i class="icon-double-angle-right"></i>
+										货品借调
+									</a>
+								</li>
+							</ul>
 						</li>
 
 						<li id = "financialManage">
@@ -95,11 +128,42 @@
 							</a>
 						</li>
 
-						<li id = "financialManage">
-							<a href="#">
+						<li id = "basicDataMgr">
+							<a href="jsp/basicDataManagement/categoryManagement.jsp">
 								<i class="icon-wrench"></i>
 								<span class="menu-text"> 基础数据管理 </span>
-							</a>
+							</a>		
+							<ul class="submenu">
+								<li id="supplierMgr">
+									<a href="jsp/basicDataManagement/supplierManagement.jsp">
+										<i class="icon-double-angle-right"></i>
+										供应商信息管理
+									</a>
+								</li>
+								<li id="categoryMgr">
+									<a href="jsp/basicDataManagement/categoryManagement.jsp">
+										<i class="icon-double-angle-right"></i>
+										商品目录管理
+									</a>
+								</li>
+								<li id="categoryMgr">
+									<a href="jsp/basicDataManagement/categoryManagement.jsp">
+										<i class="icon-double-angle-right"></i>
+										仓库管理
+									</a>
+								</li>
+								<li id="categoryMgr">
+									<a href="jsp/basicDataManagement/categoryManagement.jsp">
+										<i class="icon-double-angle-right"></i>
+										仓库货位管理
+									</a>
+								</li>
+							</ul>
+							
+							
+							
+							
+							
 						</li>
 
 						<li id = "report">
