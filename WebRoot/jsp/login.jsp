@@ -42,7 +42,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 
 										<div class="space-6"></div>
 
-										<form action="loginAction.ajax" method="post" name="loginForm" id="loginForm">
 											<fieldset>
 												<label class="block clearfix">
 												 <span
@@ -71,7 +70,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 														name="needCookie" class="ace"> 
 													<span class="lbl">
 															记住我 </span>
-													</label> <input type="submit" value="登  录"
+													</label> <input name="loginAction" type="submit" value="登  录"
 														class="width-35 pull-right btn btn-sm btn-primary">
 												</div>
 												<div class="space-4"></div>
@@ -84,7 +83,8 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 
 												</s:if>
 											</fieldset>
-										</form>
+											
+											
 									</div>
 									<!-- /widget-main -->
 								</div>
@@ -131,20 +131,22 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 </script>
 <![endif]-->
 
-	<script type="text/javascript">
+	<!-- script type="text/javascript">
 		if ("ontouchend" in document)
 			document
 					.write("<script src='assets/js/jquery.mobile.custom.min.js'>"
 							+ "<"+"/script>");
 	</script>
 
-	<!-- inline scripts related to this page -->
 
 	<script type="text/javascript">
 		function show_box(id) {
 			jQuery('.widget-box.visible').removeClass('visible');
 			jQuery('#' + id).addClass('visible');
 		}
-	</script>
+	</script-->
+	<script src="jsp/js/login.js">
+		</script>
+	
 </body>
 </html>

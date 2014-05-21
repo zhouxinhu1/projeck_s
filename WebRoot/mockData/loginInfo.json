@@ -1,0 +1,20 @@
+{
+ "userInfo":[
+ 	{
+ 		"username" : "clientuser",
+		"password" : "123456",
+		"accounttype" : "3"
+ 	},
+ 	{
+ 		"username" : "regionuser",
+		"password" : "123456",
+		"accounttype" : "2"
+ 	},
+ 	{
+ 		"username" : "supervisor",
+		"password" : "123456",
+		"accounttype" : "1"
+ 	}
+ ]
+	
+}
