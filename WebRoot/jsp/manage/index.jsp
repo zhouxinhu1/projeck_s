@@ -14,6 +14,7 @@ String basePath = request.getScheme() + "://"
         <meta name="keywords" content="日常业务" />
         <meta name="description" content="日常业务" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="apple-touch-icon" sizes="72x72" href="jsp/images/icon-ipad.png" />
         <!-- basic styles -->
         <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
         <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
