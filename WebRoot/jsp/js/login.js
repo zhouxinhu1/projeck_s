@@ -60,7 +60,7 @@ function loginTheMainPage(level)
 	else if (level == 3)
 		location.replace("jsp/manage/index.jsp");
 	else if (level == 4)
-		location.replace("jsp/manage/index.jsp");
+		location.replace("jsp/manage/operator.jsp");
 	else
 		alert("出错了！");
 }
