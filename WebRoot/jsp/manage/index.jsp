@@ -22,8 +22,6 @@ String basePath = request.getScheme() + "://"
             <link rel="stylesheet" href="assets/css/font-awesome-ie7.min.css" />
         <![endif]--><!-- page specific plugin styles -->
         <link rel="stylesheet" href="assets/css/jquery-ui-1.10.3.full.min.css" />
-        <link rel="stylesheet" href="assets/css/datepicker.css" />
-        <link rel="stylesheet" href="assets/css/ui.jqgrid.css" />
         <!-- fonts -->
         <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300" />
         <!-- ace styles -->
@@ -62,60 +60,6 @@ String basePath = request.getScheme() + "://"
                             catch (e) {
                             }
                         </script>
-                        <div class="ui-jqdialog" id="search-car">
-                            <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal">
-                                    &times;
-                                </button>
-                                <h4>接车</h4>
-                            </div>
-                            <div class="modal-body">
-                                <div class="row">
-                                    <input type="text" class="form-control" placeholder="请输入车牌号">
-                                </div>
-                            </div>
-                            <div class="modal-footer">
-                                <a href="#search-car-result" data-toggle="modal" data-dismiss="modal" class="btn btn-danger">搜索</a>
-                                <a href="#" class="btn btn-warning" data-dismiss="modal">关闭</a>
-                            </div>
-                        </div>
-                        <div class="ui-jqdialog" id="search-car-result">
-                            <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal">
-                                    &times;
-                                </button>
-                                <h4>车量信息</h4>
-                            </div>
-                            <div class="modal-body">
-                                <div class="row">
-                                    <div class="col-sm-12">
-                                        <ul>
-                                            <li>
-                                                 <b>车牌：</b>沪C 449X6
-                                            </li>
-                                            <li>
-                                                 <b>车主：</b>张先生，金牌会员
-                                            </li>
-                                            <li>
-                                                 <b>车形：</b>2010款 1.4T 自动舒适型
-                                            </li>
-                                            <li>
-                                                 <b>上次进店事由：</b>18000公里第三次保养
-                                            </li>
-                                            <li>
-                                                 <b>上次进店时间：</b>2014-03-02
-                                            </li>
-                                            <li>
-                                                <b>建议查看：</b>下次，保养23000KM
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="modal-footer">
-                                <a href="#" class="btn btn-warning" data-dismiss="modal">关闭</a>
-                            </div>
-                        </div>
                         <ul class="breadcrumb">
                             <li>
                                 <i class="icon-home home-icon"></i>
@@ -142,7 +86,7 @@ String basePath = request.getScheme() + "://"
                             <div class="col-xs-12">
                                 <!-- PAGE CONTENT BEGINS -->
                                 <div class="col-sm-7 infobox-container">
-                                    <a href="#search-car" data-toggle="modal">
+                                    <a id="btn-dialog-search">
                                         <div class="infobox infobox-green">
                                             <div class="infobox-icon">
                                                 <i class="icon-comments"></i>
@@ -152,8 +96,9 @@ String basePath = request.getScheme() + "://"
                                             </div>
                                         </div>
                                     </a>
-                                    <a href="#">
-                                        <div class="infobox infobox-blue  ">
+									
+                                    <a href="jsp/manage/wel_1_searchcar.jsp">
+                                        <div class="infobox infobox-blue">
                                             <div class="infobox-icon">
                                                 <i class="icon-twitter"></i>
                                             </div>
@@ -229,9 +174,8 @@ String basePath = request.getScheme() + "://"
             </script>
         <![endif]-->
         <script type="text/javascript">
-            if ("ontouchend" in document) 
-                document.write("__tag_240$52_" + "__tag_240$109_");
-        </script>
+			if("ontouchend" in document) document.write("<script src='assets/js/jquery.mobile.custom.min.js'>"+"<"+"/script>");
+		</script>
         <script src="assets/js/bootstrap.min.js">
         </script>
         <script src="assets/js/typeahead-bs2.min.js">
@@ -246,7 +190,7 @@ String basePath = request.getScheme() + "://"
         <!--[if lte IE 8]>
             <script src="assets/js/excanvas.min.js"></script>
         <![endif]-->
-        <script src="assets/js/jquery-ui-1.10.3.custom.min.js">
+        <script src="assets/js/jquery-ui-1.10.3.full.min.js">
         </script>
         <script src="assets/js/jquery.ui.touch-punch.min.js">
         </script>
