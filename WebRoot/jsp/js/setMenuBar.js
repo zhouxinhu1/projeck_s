@@ -52,9 +52,9 @@ function initMenu()
 		$("#regionMgrLine").removeClass("hidden");
 
 		
-		$("#purchesCategoryMgr").removeClass("hidden");
-		$("#purchesCategoryMgrhref").removeClass("hidden");
-		$("#purchesCategoryMgrLine").removeClass("hidden");
+		$("#purchaseCategoryMgr").removeClass("hidden");
+		$("#purchaseCategoryMgrhref").removeClass("hidden");
+		$("#purchaseCategoryMgrLine").removeClass("hidden");
 //		
 //		
 //		$("#dailyBusinessReport3").removeClass("hidden");
@@ -75,6 +75,32 @@ function initMenu()
 		$("#dailyBussinesshref").removeClass("hidden");
 		$("#dailyBusinessLine").removeClass("hidden");
 		$("#dailyBusinessSpan").removeClass("hidden");
+		
+		
+		
+		$("#basicDataForClientMgr").removeClass("hidden");
+		$("#basicDataForClientMgrhref").removeClass("hidden");
+		$("#basicDataForClientMgrLine").removeClass("hidden");
+		$("#basicDataForClientMgrSpan").removeClass("hidden");
+		$("#basicDataForClientMgrSubMenu").removeClass("hidden");
+		
+		
+		$("#supplierMgr").removeClass("hidden");
+		$("#supplierMgrhref").removeClass("hidden");
+		$("#supplierMgrLine").removeClass("hidden");
+		
+		$("#categoryMgr").removeClass("hidden");
+		$("#categoryMgrhref").removeClass("hidden");
+		$("#categoryMgrLine").removeClass("hidden");
+		
+		$("#warehouseMgr").removeClass("hidden");
+		$("#warehouseMgrhref").removeClass("hidden");
+		$("#warehouseMgrLine").removeClass("hidden");
+		
+		$("#locationMgr").removeClass("hidden");
+		$("#locationMgrhref").removeClass("hidden");
+		$("#locationMgrLine").removeClass("hidden");
+		
 //		$("#dailyBussinesshref").show();
 //		$("#dailyBussinesshref").show();
 //		$("#dailyBussinesshref").show();
@@ -83,6 +109,8 @@ function initMenu()
 //		$("#dailyBussinesshref").show();
 //		$("#dailyBussinesshref").show();
 		
+		break;
+	case 4:
 		break;
 	default:
 		alert("sth verybad happend!");

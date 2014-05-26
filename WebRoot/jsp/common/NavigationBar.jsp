@@ -135,32 +135,38 @@
 							</a>		
 							<ul class="submenu hidden" id="basicDataMgrSubMenu">
 								<li id="regionMgr" class = "hidden">
-									<a href="jsp/basicDataManagement/supplierManagement.jsp" class="hidden" id="regionMgrhref">
+									<a href="jsp/basicDataManagement/regionMgr.jsp" class="hidden" id="regionMgrhref">
 										<i class="icon-double-angle-right hidden" id="regionMgrline"></i>
 										区域门店管理
 									</a>
 								</li>
 								
 								<li id="userMgr" class = "hidden">
-									<a href="jsp/basicDataManagement/supplierManagement.jsp" class="hidden" id="userMgrhref">
+									<a href="jsp/basicDataManagement/userMgr.jsp" class="hidden" id="userMgrhref">
 										<i class="icon-double-angle-right hidden" id="userMgrline"></i>
 										区域门店用户管理
 									</a>
 								</li>
 								
-								<li id="purchesCategoryMgr" class = "hidden">
-									<a href="jsp/basicDataManagement/supplierManagement.jsp" class="hidden" id="purchesCategoryMgrhref">
+								<li id="purchaseCategoryMgr" class = "hidden">
+									<a href="jsp/basicDataManagement/purchaseCategoryMgr.jsp" class="hidden" id="purchaseCategoryMgrhref">
 										<i class="icon-double-angle-right hidden" id="purchesCategoryMgrline"></i>
 										门店采购目录管理
 									</a>
 								</li>
-								
-								
-								
-								
+							</ul>	
+						</li>
+						
+						
+						<li id="basicDataForClientMgr" class="hidden">
+							<a href="jsp/basicDataManagement/categoryManagement.jsp" class="hidden" id="basicDataForClientMgrhref">
+								<i class="icon-wrench hidden" id="basicDataForClientMgrLine"></i>
+								<span class="menu-text hidden" id="basicDataForClientMgrSpan"> 基础数据管理 </span>
+							</a>
+							<ul class="submenu hidden" id="basicDataForClientMgrSubMenu">
 								<li id="supplierMgr" class = "hidden">
 									<a href="jsp/basicDataManagement/supplierManagement.jsp" class="hidden" id="supplierMgrhref">
-										<i class="icon-double-angle-right hidden" id="supplierMgrline"></i>
+										<i class="icon-double-angle-right hidden" id="supplierMgrLine"></i>
 										供应商信息管理
 									</a>
 								</li>
@@ -170,19 +176,19 @@
 										商品目录管理
 									</a>
 								</li>
-								<li id="categoryMgr" class="hidden">
-									<a href="jsp/basicDataManagement/categoryManagement.jsp" class="hidden" id="categoryMgrhref">
-										<i class="icon-double-angle-right hidden"></i>
+								<li id="warehouseMgr" class="hidden">
+									<a href="jsp/basicDataManagement/categoryManagement.jsp" class="hidden" id="warehouseMgrhref">
+										<i class="icon-double-angle-right hidden" id="warehouseMgrLine"></i>
 										仓库管理
 									</a>
 								</li>
-								<li id="categoryMgr" class = "hidden">
-									<a href="jsp/basicDataManagement/categoryManagement.jsp" class = "hidden">
-										<i class="icon-double-angle-right hidden"></i>
+								<li id="locationMgr" class = "hidden">
+									<a href="jsp/basicDataManagement/categoryManagement.jsp" class = "hidden" id="locationMgrhref">
+										<i class="icon-double-angle-right hidden" id="locationMgrLine"></i>
 										仓库货位管理
 									</a>
 								</li>
-							</ul>	
+							</ul>
 						</li>
 
 
