@@ -169,7 +169,7 @@
 						<li id = "report">
 							<a href="jsp/report/dailyBusinessReport.jsp">
 								<i class="icon-file"></i>
-								<span class="menu-text"> 报表管理 </span>
+								<span class="menu-text"> 报表统计 </span>
 							</a>
 							<ul class="submenu">
 								<li id="dailyBusinessReport">

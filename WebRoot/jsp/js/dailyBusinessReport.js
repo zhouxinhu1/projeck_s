@@ -3,6 +3,8 @@ $(".active open").removeClass("active open");
 $("#report").addClass("active open");
 $("#dailyBusinessReport").addClass("active");
 
+
+
 $(function() {
 	$('#container')
 			.highcharts(
@@ -292,3 +294,5 @@ $(function() {
 						} ]
 					});
 });
+
+

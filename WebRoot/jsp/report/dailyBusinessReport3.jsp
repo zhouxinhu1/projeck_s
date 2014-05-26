@@ -170,6 +170,8 @@ String basePath = request.getScheme() + "://"
 		</script>
 		<script src="jsp/js/dailyBusinessReport3.js">
 		</script>
+		<script src="jsp/js/cookies.js"></script>
+		<script src="jsp/js/setMenuBar.js"></script>
 		<!-- inline scripts related to this page -->
     </body>
 </html>

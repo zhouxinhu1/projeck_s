@@ -145,8 +145,8 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 			jQuery('#' + id).addClass('visible');
 		}
 	</script-->
-	<script src="jsp/js/login.js">
-		</script>
+	<script src="jsp/js/login.js"></script>
+	<script src="jsp/js/cookies.js"></script>
 	
 </body>
 </html>

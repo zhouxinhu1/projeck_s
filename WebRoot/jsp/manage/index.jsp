@@ -270,6 +270,7 @@ String basePath = request.getScheme() + "://"
         <!--common biz scripts -->
         <!--<script src="jsp/js/common/common.js"></script>-->
         <!--page biz scripts -->
+        <script src="jsp/js/login.js"></script>
         <script src="jsp/js/index.js">
         </script>
         <!-- inline scripts related to this page -->
