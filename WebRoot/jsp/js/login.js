@@ -13,9 +13,7 @@ $("input[name='loginAction']").click(
 					var result = checkLoginInfo(username,password);
 					 if(result == true)
 						 {
-//						 alert(window.accountType);
 						 loginTheMainPage(window.accountType);
-						 
 						 }
 					 else
 						 alert("用户名密码不正确！");
