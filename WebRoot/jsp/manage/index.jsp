@@ -51,7 +51,6 @@ String basePath = request.getScheme() + "://"
             </script>
             <div class="main-container-inner">
                 <%@ include file="../common/NavigationBar.jsp" %>
-				<%@ include file="../manage/wel_01_inputcarno.jsp" %>
                 <div class="main-content">
                     <div class="breadcrumbs" id="breadcrumbs">
                         <script type="text/javascript">

@@ -58,45 +58,23 @@ String basePath = request.getScheme() + "://"
                 </button>
             </div>
             <div id="pt-main">
-                <div class="pt-page pt-page-1">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <h1>.col-md-1</h1>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-8">
-                            .col-md-8
-                        </div>
-                        <div class="col-md-4">
-                            .col-md-4
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <h1><span>A collection of</span><strong>Page1</strong> Transitions</h1>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <h1><span>A collection of</span><strong>Page1</strong> Transitions</h1>
-                        </div>
-                    </div>
+                <div class="pt-page">
+                    <%@ include file="./wel_01_inputcarno.jsp" %>
                 </div>
                 <div class="pt-page pt-page-2">
-                    <h1><span>A collection of</span><strong>Page2</strong> Transitions</h1>
+                    <%@ include file="./wel_02_carinfo.jsp" %>
                 </div>
-                <div class="pt-page pt-page-3">
-                    <h1><span>A collection of</span><strong>Page3</strong> Transitions</h1>
+                <div class="pt-page">
+                    <%@ include file="./wel_03_signboardsuite.jsp" %>
                 </div>
-                <div class="pt-page pt-page-4">
-                    <h1><span>A collection of</span><strong>Page4</strong> Transitions</h1>
+                <div class="pt-page">
+                    <%@ include file="./wel_04_signboardsuitedetail.jsp" %>
                 </div>
-                <div class="pt-page pt-page-5">
-                    <h1><span>A collection of</span><strong>Page5</strong> Transitions</h1>
+                <div class="pt-page">
+                    <%@ include file="./wel_05_otherservice.jsp" %>
                 </div>
-                <div class="pt-page pt-page-6">
-                    <h1><span>A collection of</span><strong>Page6</strong> Transitions</h1>
+                <div class="pt-page">
+                    <%@ include file="./wel_06_confirm.jsp" %>
                 </div>
             </div>
         </div>

@@ -1,7 +1,7 @@
 var PageTransitions = (function() {
 
 	var $main = $( '#pt-main' ),
-		$pages = $main.children( 'div.pt-page' ),
+		$pages = $main.children( 'div.pt-page ' ),
 		$iterate = $( '#iterateEffects' ),
 		
 		animcursor = 1,

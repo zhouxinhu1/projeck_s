@@ -1,37 +1,174 @@
-﻿<div class="ui-jqdialog" id="search-car-result" class="hide">
-    <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal">
-            &times;
+﻿<div style="background:url(/ProjectS/jsp/images/carBg.jpg) center 75px no-repeat;height:100%;width:990px;" class = "page-content">
+    <div class="btn-group open" style="position:absolute;left: 17px; top: 295px; z-index: 1;">
+        <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle" style="width:160px">
+            Infomation
         </button>
-        <h4>车量信息</h4>
+        <ul class="dropdown-menu">
+            <ul class="list-unstyled">
+                <li>
+                    <i class="icon-caret-right blue"></i>
+                    Nested List Item
+                </li>
+                <li>
+                    <i class="icon-caret-right blue"></i>
+                    Nested List Item
+                </li>
+                <li>
+                    <i class="icon-caret-right blue"></i>
+                    Nested List Item
+                </li>
+            </ul>
+        </ul>
     </div>
-    <div class="modal-body">
-        <div class="row">
-            <div class="col-sm-12">
-                <ul>
-                    <li>
-                        <b>车牌：</b>沪C 449X6
-                    </li>
-                    <li>
-                        <b>车主：</b>张先生，金牌会员
-                    </li>
-                    <li>
-                        <b>车形：</b>2010款 1.4T 自动舒适型
-                    </li>
-                    <li>
-                        <b>上次进店事由：</b>18000公里第三次保养
-                    </li>
-                    <li>
-                        <b>上次进店时间：</b>2014-03-02
-                    </li>
-                    <li>
-                        <b>建议查看：</b>下次，保养23000KM
-                    </li>
-                </ul>
-            </div>
-        </div>
+	 <div class="btn-group open" style="position:absolute;left: 40px; top: 145px; z-index: 1;">
+        <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle" style="width:160px">
+            IInfomation
+        </button>
+        <ul class="dropdown-menu">
+            <ul class="list-unstyled">
+                <li>
+                    <i class="icon-caret-right blue"></i>
+                    Nested List Item
+                </li>
+                <li>
+                    <i class="icon-caret-right blue"></i>
+                    Nested List Item
+                </li>
+                <li>
+                    <i class="icon-caret-right blue"></i>
+                    Nested List Item
+                </li>
+            </ul>
+        </ul>
     </div>
-    <div class="modal-footer">
-        <a href="#" class="btn btn-warning" data-dismiss="modal">关闭</a>
+	
+	 <div class="btn-group open" style="position:absolute;left: 280px; top: 45px; z-index: 1;">
+        <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle" style="width:160px">
+            IInfomation
+        </button>
+        <ul class="dropdown-menu">
+            <ul class="list-unstyled">
+                <li>
+                    <i class="icon-caret-right blue"></i>
+                    Nested List Item
+                </li>
+                <li>
+                    <i class="icon-caret-right blue"></i>
+                    Nested List Item
+                </li>
+                <li>
+                    <i class="icon-caret-right blue"></i>
+                    Nested List Item
+                </li>
+            </ul>
+        </ul>
+    </div>
+	
+	 <div class="btn-group open" style="position:absolute;left: 530px; top: 58px; z-index: 1;">
+        <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle" style="width:160px">
+            IInfomation
+        </button>
+        <ul class="dropdown-menu">
+            <ul class="list-unstyled">
+                <li>
+                    <i class="icon-caret-right blue"></i>
+                    Nested List Item
+                </li>
+                <li>
+                    <i class="icon-caret-right blue"></i>
+                    Nested List Item
+                </li>
+                <li>
+                    <i class="icon-caret-right blue"></i>
+                    Nested List Item
+                </li>
+            </ul>
+        </ul>
+    </div>
+	
+	 <div class="btn-group open" style="position:absolute;left: 810px; top: 185px; z-index: 1;">
+        <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle" style="width:160px">
+            IInfomation
+        </button>
+        <ul class="dropdown-menu">
+            <ul class="list-unstyled">
+                <li>
+                    <i class="icon-caret-right blue"></i>
+                    Nested List Item
+                </li>
+                <li>
+                    <i class="icon-caret-right blue"></i>
+                    Nested List Item
+                </li>
+                <li>
+                    <i class="icon-caret-right blue"></i>
+                    Nested List Item
+                </li>
+            </ul>
+        </ul>
+    </div>
+	
+	 <div class="btn-group open" style="position:absolute;left: 810px; top: 288px; z-index: 1;">
+        <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle" style="width:160px">
+            IInfomation
+        </button>
+        <ul class="dropdown-menu">
+            <ul class="list-unstyled">
+                <li>
+                    <i class="icon-caret-right blue"></i>
+                    Nested List Item
+                </li>
+                <li>
+                    <i class="icon-caret-right blue"></i>
+                    Nested List Item
+                </li>
+                <li>
+                    <i class="icon-caret-right blue"></i>
+                    Nested List Item
+                </li>
+            </ul>
+        </ul>
+    </div>
+	 <div class="btn-group open" style="position:absolute;left: 690px; top: 395px; z-index: 1;">
+        <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle" style="width:160px">
+            IInfomation
+        </button>
+        <ul class="dropdown-menu">
+            <ul class="list-unstyled">
+                <li>
+                    <i class="icon-caret-right blue"></i>
+                    Nested List Item
+                </li>
+                <li>
+                    <i class="icon-caret-right blue"></i>
+                    Nested List Item
+                </li>
+                <li>
+                    <i class="icon-caret-right blue"></i>
+                    Nested List Item
+                </li>
+            </ul>
+        </ul>
+    </div>
+	<div class="btn-group open" style="position:absolute;left: 210px; top: 196px; z-index: 1;">
+        <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle" style="width:160px">
+            IInfomation
+        </button>
+        <ul class="dropdown-menu">
+            <ul class="list-unstyled">
+                <li>
+                    <i class="icon-caret-right blue"></i>
+                    Nested List Item
+                </li>
+                <li>
+                    <i class="icon-caret-right blue"></i>
+                    Nested List Item
+                </li>
+                <li>
+                    <i class="icon-caret-right blue"></i>
+                    Nested List Item
+                </li>
+            </ul>
+        </ul>
     </div>
 </div>
