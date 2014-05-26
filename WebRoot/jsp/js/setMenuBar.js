@@ -12,6 +12,10 @@ function initMenu()
 		$("#dailyBusiness").hide();
 		$("#stockManagement").hide();
 		$("#financialManage").hide();
+		$("#traningMgr").hide();
+		$("#basicDataMgr").hide();
+		$("#humanResourceMgr").hide();
+		$("#customerMgr").hide();
 		break;
 	case 2:
 		break;

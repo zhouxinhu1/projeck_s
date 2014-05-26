@@ -114,14 +114,14 @@
 							</a>
 						</li>
 
-						<li id = "financialManage">
+						<li id = "customerMgr">
 							<a href="#">
 								<i class="icon-user"></i>
 								<span class="menu-text"> 客户关系管理 </span>
 							</a>
 						</li>
 
-                        <li id = "financialManage">
+                        <li id = "humanResourceMgr">
 							<a href="#">
 								<i class="icon-thumbs-up"></i>
 								<span class="menu-text"> 人事管理 </span>
@@ -200,7 +200,7 @@
 							</ul>
 						</li>
 
-						<li id = "financialManage">
+						<li id = "traningMgr">
 							<a href="#">
 								<i class="icon-align-left"></i>
 								<span class="menu-text"> CBT培训 </span>
