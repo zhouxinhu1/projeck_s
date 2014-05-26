@@ -220,7 +220,13 @@
 								<li id="dailyBusinessReport3" class = "hidden">
 									<a href="jsp/report/dailyBusinessReport3.jsp" class = "hidden" id="dailyBussinessReport3href">
 										<i class="icon-double-angle-right hidden" id="dailyBussinessReport3Line"></i>
-										实时经营统计
+										实时经营统计3
+									</a>
+								</li>
+								<li id="dailyBusinessReport4" class="hidden">
+									<a href="jsp/report/dailyBusinessReport4.jsp" class="hidden" id="dailyBussinessReport4href">
+										<i class="icon-double-angle-right hidden" id="dailyBussinessReport4Line"></i>
+										全国日常业务统计
 									</a>
 								</li>
 							</ul>
