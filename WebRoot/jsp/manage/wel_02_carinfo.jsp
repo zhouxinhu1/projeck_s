@@ -1,4 +1,4 @@
-﻿<div class="ui-jqdialog" id="search-car-result">
+﻿<div class="ui-jqdialog" id="search-car-result" class="hide">
     <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal">
             &times;
