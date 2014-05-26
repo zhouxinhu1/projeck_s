@@ -1,7 +1,12 @@
 {
  "userInfo":[
  	{
- 		"username" : "clientuser",
+ 		"username" : "operator",
+		"password" : "123456",
+		"accounttype" : "4"
+ 	},
+ 	{
+ 		"username" : "clientadmin",
 		"password" : "123456",
 		"accounttype" : "3"
  	},

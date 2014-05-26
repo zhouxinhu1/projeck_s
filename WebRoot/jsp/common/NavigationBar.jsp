@@ -39,171 +39,197 @@
 					</div><!-- #sidebar-shortcuts -->
 
 					<ul class="nav nav-list">
-						<li id = "dailyBusiness">
-							<a href="#">
-								<i class="icon-home"></i>
-								<span class="menu-text"> 日常业务 </span>
-							</a> 
-							<ul class="submenu">
-								<li id="quickBusiness">
-									<a href="jsp/manage/index.jsp">
-										<i class="icon-double-angle-right"></i>
+						<li id = "dailyBusiness" class ="hidden">
+							<a href="#" class = "hidden" id = "dailyBussinesshref">
+								<i class="icon-home hidden" id = "dailyBusinessLine"></i>
+								<span class="menu-text hidden" id = "dailyBusinessSpan"> 日常业务 </span>
+							</a>
+							<ul class="submenu hidden">
+								<li id="quickBusiness" class = "hidden">
+									<a href="jsp/manage/index.jsp" class = "hidden">
+										<i class="icon-double-angle-right hidden"></i>
 										快保业务
 									</a>
 								</li>
 
-								<li id="goodSales">
-									<a href="#">
-										<i class="icon-double-angle-right"></i>
+								<li id="goodSales" class = "hidden">
+									<a href="#" >
+										<i class="icon-double-angle-right hidden"></i>
 										商品销售
 									</a>
 								</li>
-								<li id="applyCard">
-									<a href="#">
-										<i class="icon-double-angle-right"></i>
+								<li id="applyCard" class = "hidden">
+									<a href="#" class = "hidden">
+										<i class="icon-double-angle-right hidden"></i>
 										会员卡
 									</a>
 								</li>
 							</ul>
 						</li>
 
-                       <li id = "stockManagement">
-							<a href="jsp/stockManagement/quickOperationGuide.jsp">
-								<i class="icon-briefcase"></i>
+                       <li id = "stockManagement" class = "hidden">
+							<a href="jsp/stockManagement/quickOperationGuide.jsp" class = "hidden">
+								<i class="icon-briefcase hidden"></i>
 								<span class="menu-text"> 库存管理 </span>
 							</a>
-							<ul class="submenu">
-								<li id="bussinessGuide">
-									<a href="jsp/stockManagement/quickOperationGuide.jsp">
-										<i class="icon-double-angle-right"></i>
+							<ul class="submenu hidden">
+								<li id="bussinessGuide" class = "hidden">
+									<a href="jsp/stockManagement/quickOperationGuide.jsp" class = "hidden">
+										<i class="icon-double-angle-right hidden"></i>
 										快捷指南
 									</a>
 								</li>
 
-								<li id="inBounds">
-									<a href="#">
-										<i class="icon-double-angle-right"></i>
+								<li id="inBounds" class = "hidden">
+									<a href="#" class = "hidden">
+										<i class="icon-double-angle-right hidden"></i>
 										入库管理
 									</a>
 								</li>
-								<li id="outBounds">
-									<a href="#">
-										<i class="icon-double-angle-right"></i>
+								<li id="outBounds" class = "hidden">
+									<a href="#" class = "hidden">
+										<i class="icon-double-angle-right hidden"></i>
 										出库管理
 									</a>
 								</li>
-								<li id="inventoryCheck">
+								<li id="inventoryCheck" class = "hidden">
 									<a href="#">
-										<i class="icon-double-angle-right"></i>
+										<i class="icon-double-angle-right hidden"></i>
 										库存盘点
 									</a>
 								</li>
-								<li id="goodsloan">
-									<a href="#">
-										<i class="icon-double-angle-right"></i>
+								<li id="goodsloan" class = "hidden">
+									<a href="#" class = "hidden">
+										<i class="icon-double-angle-right hidden"></i>
 										货品借调
 									</a>
 								</li>
 							</ul>
 						</li>
 
-						<li id = "financialManage">
-							<a href="#">
-								<i class="icon-barcode"></i>
-								<span class="menu-text"> 卡卷套餐优惠管理 </span>
+						<li id = "financialManage" class = "hidden">
+							<a href="#" class = "hidden">
+								<i class="icon-barcode hidden"></i>
+								<span class="menu-text hidden"> 卡卷套餐优惠管理 </span>
 							</a>
 						</li>
 
-						<li id = "financialManage">
-							<a href="#">
-								<i class="icon-user"></i>
-								<span class="menu-text"> 客户关系管理 </span>
+						<li id = "customerMgr" class = "hidden">
+							<a href="#" class = "hidden">
+								<i class="icon-user hidden"></i>
+								<span class="menu-text hidden"> 客户关系管理 </span>
 							</a>
 						</li>
 
-                        <li id = "financialManage">
-							<a href="#">
-								<i class="icon-thumbs-up"></i>
-								<span class="menu-text"> 人事管理 </span>
+                        <li id = "humanResourceMgr" class = "hidden">
+							<a href="#" class = "hidden">
+								<i class="icon-thumbs-up hidden"></i>
+								<span class="menu-text hidden"> 人事管理 </span>
 							</a>
 						</li>
 
-						<li id = "basicDataMgr">
-							<a href="jsp/basicDataManagement/categoryManagement.jsp">
-								<i class="icon-wrench"></i>
-								<span class="menu-text"> 基础数据管理 </span>
+						<li id="basicDataMgr" class="hidden">
+							<a href="jsp/basicDataManagement/categoryManagement.jsp" class="hidden" id="basicDataMgrhref">
+								<i class="icon-wrench hidden" id="basicDataMgrLine"></i>
+								<span class="menu-text hidden" id="basicDataMgrSpan"> 基础数据管理 </span>
 							</a>		
-							<ul class="submenu">
-								<li id="supplierMgr">
-									<a href="jsp/basicDataManagement/supplierManagement.jsp">
-										<i class="icon-double-angle-right"></i>
+							<ul class="submenu hidden" id="basicDataMgrSubMenu">
+								<li id="regionMgr" class = "hidden">
+									<a href="jsp/basicDataManagement/regionMgr.jsp" class="hidden" id="regionMgrhref">
+										<i class="icon-double-angle-right hidden" id="regionMgrline"></i>
+										区域门店管理
+									</a>
+								</li>
+								
+								<li id="userMgr" class = "hidden">
+									<a href="jsp/basicDataManagement/userMgr.jsp" class="hidden" id="userMgrhref">
+										<i class="icon-double-angle-right hidden" id="userMgrline"></i>
+										区域门店用户管理
+									</a>
+								</li>
+								
+								<li id="purchaseCategoryMgr" class = "hidden">
+									<a href="jsp/basicDataManagement/purchaseCategoryMgr.jsp" class="hidden" id="purchaseCategoryMgrhref">
+										<i class="icon-double-angle-right hidden" id="purchesCategoryMgrline"></i>
+										门店采购目录管理
+									</a>
+								</li>
+							</ul>	
+						</li>
+						
+						
+						<li id="basicDataForClientMgr" class="hidden">
+							<a href="jsp/basicDataManagement/categoryManagement.jsp" class="hidden" id="basicDataForClientMgrhref">
+								<i class="icon-wrench hidden" id="basicDataForClientMgrLine"></i>
+								<span class="menu-text hidden" id="basicDataForClientMgrSpan"> 基础数据管理 </span>
+							</a>
+							<ul class="submenu hidden" id="basicDataForClientMgrSubMenu">
+								<li id="supplierMgr" class = "hidden">
+									<a href="jsp/basicDataManagement/supplierManagement.jsp" class="hidden" id="supplierMgrhref">
+										<i class="icon-double-angle-right hidden" id="supplierMgrLine"></i>
 										供应商信息管理
 									</a>
 								</li>
-								<li id="categoryMgr">
-									<a href="jsp/basicDataManagement/categoryManagement.jsp">
-										<i class="icon-double-angle-right"></i>
+								<li id="categoryMgr" class="hidden">
+									<a href="jsp/basicDataManagement/categoryManagement.jsp" class="hidden" id="categoryMgrhref">
+										<i class="icon-double-angle-right hidden" id="categoryMgrLine"></i>
 										商品目录管理
 									</a>
 								</li>
-								<li id="categoryMgr">
-									<a href="jsp/basicDataManagement/categoryManagement.jsp">
-										<i class="icon-double-angle-right"></i>
+								<li id="warehouseMgr" class="hidden">
+									<a href="jsp/basicDataManagement/categoryManagement.jsp" class="hidden" id="warehouseMgrhref">
+										<i class="icon-double-angle-right hidden" id="warehouseMgrLine"></i>
 										仓库管理
 									</a>
 								</li>
-								<li id="categoryMgr">
-									<a href="jsp/basicDataManagement/categoryManagement.jsp">
-										<i class="icon-double-angle-right"></i>
+								<li id="locationMgr" class = "hidden">
+									<a href="jsp/basicDataManagement/categoryManagement.jsp" class = "hidden" id="locationMgrhref">
+										<i class="icon-double-angle-right hidden" id="locationMgrLine"></i>
 										仓库货位管理
 									</a>
 								</li>
 							</ul>
-							
-							
-							
-							
-							
 						</li>
 
-						<li id = "report">
-							<a href="jsp/report/dailyBusinessReport.jsp">
-								<i class="icon-file"></i>
-								<span class="menu-text"> 报表管理 </span>
+
+						<li id="report" class="hidden">
+							<a href="jsp/report/dailyBusinessReport.jsp" class = "hidden" id="reporthref">
+								<i class="icon-file hidden" id="reportLine"></i>
+								<span class="menu-text hidden" id="reportSpan"> 报表统计 </span>
 							</a>
-							<ul class="submenu">
-								<li id="dailyBusinessReport">
-									<a href="jsp/report/dailyBusinessReport.jsp">
-										<i class="icon-double-angle-right"></i>
+							<ul class="submenu hidden" id="reportSubMenuUl">
+								<li id="dailyBusinessReport" class="hidden">
+									<a href="jsp/report/dailyBusinessReport.jsp" class="hidden" id="dailyBussinessReporthref">
+										<i class="icon-double-angle-right hidden" id="dailyBussinessReportLine"></i>
 										日常业务统计
 									</a>
 								</li>
 
-								<li id="dailyBusinessReport1">
-									<a href="jsp/report/dailyBusinessReport1.jsp">
-										<i class="icon-double-angle-right"></i>
+								<li id="dailyBusinessReport1" class="hidden">
+									<a href="jsp/report/dailyBusinessReport1.jsp" class="hidden" id="dailyBussinessReport1href">
+										<i class="icon-double-angle-right hidden" id="dailyBussinessReport1Line"></i>
 										门店综合实力统计
 									</a>
 								</li>
-								<li id="dailyBusinessReport2">
-									<a href="jsp/report/dailyBusinessReport2.jsp">
-										<i class="icon-double-angle-right"></i>
+								<li id="dailyBusinessReport2" class="hidden">
+									<a href="jsp/report/dailyBusinessReport2.jsp" class="hidden" id="dailyBussinessReport2href">
+										<i class="icon-double-angle-right hidden" id="dailyBussinessReport2Line"></i>
 										门店销售统计
 									</a>
 								</li>
-								<li id="dailyBusinessReport3">
-									<a href="jsp/report/dailyBusinessReport3.jsp">
-										<i class="icon-double-angle-right"></i>
+								<li id="dailyBusinessReport3" class = "hidden">
+									<a href="jsp/report/dailyBusinessReport3.jsp" class = "hidden" id="dailyBussinessReport3href">
+										<i class="icon-double-angle-right hidden" id="dailyBussinessReport3Line"></i>
 										实时经营统计
 									</a>
 								</li>
 							</ul>
 						</li>
 
-						<li id = "financialManage">
-							<a href="#">
-								<i class="icon-align-left"></i>
-								<span class="menu-text"> CBT培训 </span>
+						<li id = "traningMgr" class="hidden">
+							<a href="#" class = "hidden">
+								<i class="icon-align-left hidden"></i>
+								<span class="menu-text hidden"> CBT培训 </span>
 							</a>
 						</li>
 					</ul><!-- /.nav-list -->

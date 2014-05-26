@@ -13,9 +13,7 @@ $("input[name='loginAction']").click(
 					var result = checkLoginInfo(username,password);
 					 if(result == true)
 						 {
-//						 alert(window.accountType);
-						 loginTheMainPage(window.accountType)
-						 
+						 loginTheMainPage(window.accountType);
 						 }
 					 else
 						 alert("用户名密码不正确！");
@@ -39,6 +37,12 @@ function checkLoginInfo(username,password) {
 	$.each(window.userArray, function(idx, val) {
 		if(val.username ==username && val.password == password)
 			{
+				$.cookie('shellCookieType', null);
+				$.cookie('shellCookieType', val.accounttype);
+				$.cookie('shellCookieUserName', null);
+				$.cookie('shellCookieUserName', username);
+				$.cookie('shellCookiePassword', null);
+				$.cookie('shellCookiePassword', username);
 			 	window.accountType = val.accounttype;
 			 	result = true;
 			}
@@ -55,6 +59,25 @@ function loginTheMainPage(level)
 		location.replace("jsp/basicDataManagement/categoryManagement.jsp");
 	else if (level == 3)
 		location.replace("jsp/manage/index.jsp");
+	else if (level == 4)
+		location.replace("jsp/manage/index.jsp");
 	else
 		alert("出错了！");
-	}
+}
+
+
+
+
+//$.cookie('the_cookie'); // 获得cookie
+//$.cookie('the_cookie', 'the_value'); // 设置cookie
+//$.cookie('the_cookie', 'the_value', { expires: 7 }); //设置带时间的cookie  7天
+//$.cookie('the_cookie', '', { expires: -1 }); // 删除
+//$.cookie('the_cookie', null); // 删除 cookie
+////设置cookie的名值对，有效期，路径，域，安全
+//$.cookie(’name’, ‘value’, {expires: 7, path: ‘/’, domain: ‘jquery.com’, secure: true});
+//
+//如果在action中出现乱码，需URLDecoder.decode(cookievalue,"utf-8")
+
+
+
+//function setUserInfoForOtherPge
