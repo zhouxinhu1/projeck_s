@@ -45,12 +45,12 @@ body {
 /* @end */
 /* @group Typography */
 a {
-  color: #da0d25;
+  color: #000000;
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #f22840;
+  color: #000000;
   text-decoration: none;
 }
 p {
@@ -225,8 +225,26 @@ body {
 }
 .Button.Block {
   padding: 20px 40px;
-  width: 300px;
-  height: 200px;
+  width: 400px;
+  height: 550px;
+  color: #7a0715;
+  background: #7a0715;
+}
+
+.Button.Blockfinish {
+  padding: 20px 40px;
+  width: 400px;
+  height: 550px;
+  color: #979797;
+  background: #979797;
+}
+
+.Button.Blockdoing {
+  padding: 20px 40px;
+  width: 400px;
+  height: 550px;
+  color: #7a0715;
+  background: #7a0715;
 }
 .Button h1 {
   font-size: 2em;
@@ -235,7 +253,7 @@ body {
 }
 /* Custom Flipster Styles */
 .flipster {
-  padding-bottom: 50px;
+  padding-bottom: 10px;
 }
 .pull-right {
   float: right;

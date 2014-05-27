@@ -54,7 +54,7 @@ function loginTheMainPage(level)
 {
 	//level 1 is supervisor,level 2 is regionuser,level 3 is clientuser
 	if(level == 1)
-		location.replace("jsp/report/dailyBusinessReport.jsp");
+		location.replace("jsp/report/dailyBusinessReport_main.jsp");
 	else if(level == 2)
 		location.replace("jsp/basicDataManagement/categoryManagement.jsp");
 	else if (level == 3)

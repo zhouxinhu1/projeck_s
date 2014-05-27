@@ -1455,6 +1455,8 @@ String basePath = request.getScheme() + "://"
         <!--page biz scripts -->
         <script src="jsp/js/quickOperationGuide.js">
         </script>
+        <script src="jsp/js/cookies.js"></script>
+		<script src="jsp/js/setMenuBar.js"></script>
         <!-- inline scripts related to this page -->
     </body>
 </html>
