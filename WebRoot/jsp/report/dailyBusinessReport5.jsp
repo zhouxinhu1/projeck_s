@@ -84,7 +84,17 @@ String basePath = request.getScheme() + "://"
                         <div class="row">
                             <div class="col-xs-9">
                                 <!-- PAGE CONTENT BEGINS -->
-                                <div id="combination-chart" style="height:500px;border:1px solid #ccc;padding:10px;">
+                                <div class="row">
+                                	<div class="col-xs-12">
+                                    <div id="combination-chart" style="height:100%;border:1px solid #ccc;padding:10px;">
+                                    </div>
+									</div>
+                                </div>
+                                <div class="row">
+                                	<div class="col-xs-12">
+                                	 <div id="combination-chart1" style="height:100%;border:1px solid #ccc;padding:10px;">
+                                    </div>
+									</div>
                                 </div>
                                 <!--/span--><!-- PAGE CONTENT ENDS -->
                             </div>
