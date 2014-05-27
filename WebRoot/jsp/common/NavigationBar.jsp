@@ -193,7 +193,7 @@
 
 
 						<li id="report" class="hidden">
-							<a href="jsp/report/dailyBusinessReport.jsp" class = "hidden" id="reporthref">
+							<a href="jsp/report/dailyBusinessReport_main.jsp" class = "hidden" id="reporthref">
 								<i class="icon-file hidden" id="reportLine"></i>
 								<span class="menu-text hidden" id="reportSpan"> 报表统计 </span>
 							</a>
@@ -227,6 +227,12 @@
 									<a href="jsp/report/dailyBusinessReport4.jsp" class="hidden" id="dailyBussinessReport4href">
 										<i class="icon-double-angle-right hidden" id="dailyBussinessReport4Line"></i>
 										全国日常业务统计
+									</a>
+								</li>
+								<li id="dailyBusinessReport5" class="hidden">
+									<a href="jsp/report/dailyBusinessReport5.jsp" class="hidden" id="dailyBussinessReport5href">
+										<i class="icon-double-angle-right hidden" id="dailyBussinessReport5Line"></i>
+										自定义报表
 									</a>
 								</li>
 							</ul>

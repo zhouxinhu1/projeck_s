@@ -40,6 +40,9 @@ function initMenu()
 		$("#dailyBussinessReport4href").removeClass("hidden");
 		$("#dailyBussinessReport4Line").removeClass("hidden");
 		
+		$("#dailyBusinessReport5").removeClass("hidden");
+		$("#dailyBussinessReport5href").removeClass("hidden");
+		$("#dailyBussinessReport5Line").removeClass("hidden");
 		//展示基础设置页面
 		$("#basicDataMgr").removeClass("hidden");
 		$("#basicDataMgrhref").removeClass("hidden");
