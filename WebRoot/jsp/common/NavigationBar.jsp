@@ -40,27 +40,27 @@
 
 					<ul class="nav nav-list">
 						<li id = "dailyBusiness" class ="hidden">
-							<a href="#" class = "hidden" id = "dailyBussinesshref">
+							<a href="jsp/manage/index.jsp" class = "hidden" id = "dailyBusinesshref">
 								<i class="icon-home hidden" id = "dailyBusinessLine"></i>
 								<span class="menu-text hidden" id = "dailyBusinessSpan"> 日常业务 </span>
 							</a>
-							<ul class="submenu hidden">
+							<ul class="submenu hidden" id="dailyBusinessSubMenu">
 								<li id="quickBusiness" class = "hidden">
-									<a href="jsp/manage/index.jsp" class = "hidden">
-										<i class="icon-double-angle-right hidden"></i>
+									<a href="jsp/manage/index.jsp" class = "hidden" id="quickBusinesshref">
+										<i class="icon-double-angle-right hidden" id="quickBusinessLine"></i>
 										快保业务
 									</a>
 								</li>
 
 								<li id="goodSales" class = "hidden">
-									<a href="#" >
-										<i class="icon-double-angle-right hidden"></i>
+									<a href="#" id="goodSaleshref" class="hidden">
+										<i class="icon-double-angle-right hidden" id="goodSalesLine"></i>
 										商品销售
 									</a>
 								</li>
 								<li id="applyCard" class = "hidden">
-									<a href="#" class = "hidden">
-										<i class="icon-double-angle-right hidden"></i>
+									<a href="#" class = "hidden" id="applyCardhref">
+										<i class="icon-double-angle-right hidden" id="applyCardLine"></i>
 										会员卡
 									</a>
 								</li>

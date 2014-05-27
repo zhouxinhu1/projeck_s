@@ -9,10 +9,25 @@ function initMenu()
 	switch(thePath)
 	{
 	case 1:
-		//展示报表页面－－all report
+//      展示基本操作页面
+		$("#dailyBusiness").removeClass("hidden");
+		$("#dailyBusinesshref").removeClass("hidden");
+		$("#dailyBusinessLine").removeClass("hidden");
+		$("#dailyBusinessSpan").removeClass("hidden");
+		$("#dailyBusinessSubMenu").removeClass("hidden");
+		
+		$("#quickBusiness").removeClass("hidden");
+		$("#quickBusinesshref").removeClass("hidden");
+		$("#quickBusinessLine").removeClass("hidden");
+		
+		$("#goodSales").removeClass("hidden");
+		$("#goodSaleshref").removeClass("hidden");
+		$("#goodSalesLine").removeClass("hidden");
+		
+		
+//		展示报表页面－－all report
 		$("#report").removeClass("hidden");
 		$("#reporthref").removeClass("hidden");
-		
 		$("#reportLine").removeClass("hidden");
 		$("#reportSpan").removeClass("hidden");
 		$("#reportSubMenuUl").removeClass("hidden");
@@ -43,25 +58,59 @@ function initMenu()
 		$("#dailyBusinessReport5").removeClass("hidden");
 		$("#dailyBussinessReport5href").removeClass("hidden");
 		$("#dailyBussinessReport5Line").removeClass("hidden");
-		//展示基础设置页面
-		$("#basicDataMgr").removeClass("hidden");
-		$("#basicDataMgrhref").removeClass("hidden");
-		$("#basicDataMgrLine").removeClass("hidden");
-		$("#basicDataMgrSpan").removeClass("hidden");
-		$("#basicDataMgrSubMenu").removeClass("hidden");
-		
-		$("#userMgr").removeClass("hidden");
-		$("#userMgrhref").removeClass("hidden");
-		$("#userMgrLine").removeClass("hidden");
-		
-		$("#regionMgr").removeClass("hidden");
-		$("#regionMgrhref").removeClass("hidden");
-		$("#regionMgrLine").removeClass("hidden");
-
-		
-		$("#purchaseCategoryMgr").removeClass("hidden");
-		$("#purchaseCategoryMgrhref").removeClass("hidden");
-		$("#purchaseCategoryMgrLine").removeClass("hidden");
+//		//展示基础设置页面
+//		$("#basicDataMgr").removeClass("hidden");
+//		$("#basicDataMgrhref").removeClass("hidden");
+//		$("#basicDataMgrLine").removeClass("hidden");
+//		$("#basicDataMgrSpan").removeClass("hidden");
+//		$("#basicDataMgrSubMenu").removeClass("hidden");
+//		
+//		$("#userMgr").removeClass("hidden");
+//		$("#userMgrhref").removeClass("hidden");
+//		$("#userMgrLine").removeClass("hidden");
+//		
+//		$("#regionMgr").removeClass("hidden");
+//		$("#regionMgrhref").removeClass("hidden");
+//		$("#regionMgrLine").removeClass("hidden");
+//
+//		
+//		$("#purchaseCategoryMgr").removeClass("hidden");
+//		$("#purchaseCategoryMgrhref").removeClass("hidden");
+//		$("#purchaseCategoryMgrLine").removeClass("hidden");
+//		
+//		
+//		
+//		
+//		
+//		$("#dailyBusiness").removeClass("hidden");
+//		$("#dailyBussinesshref").removeClass("hidden");
+//		$("#dailyBusinessLine").removeClass("hidden");
+//		$("#dailyBusinessSpan").removeClass("hidden");
+//		
+//		
+//		
+//		$("#basicDataForClientMgr").removeClass("hidden");
+//		$("#basicDataForClientMgrhref").removeClass("hidden");
+//		$("#basicDataForClientMgrLine").removeClass("hidden");
+//		$("#basicDataForClientMgrSpan").removeClass("hidden");
+//		$("#basicDataForClientMgrSubMenu").removeClass("hidden");
+//		
+//		
+//		$("#supplierMgr").removeClass("hidden");
+//		$("#supplierMgrhref").removeClass("hidden");
+//		$("#supplierMgrLine").removeClass("hidden");
+//		
+//		$("#categoryMgr").removeClass("hidden");
+//		$("#categoryMgrhref").removeClass("hidden");
+//		$("#categoryMgrLine").removeClass("hidden");
+//		
+//		$("#warehouseMgr").removeClass("hidden");
+//		$("#warehouseMgrhref").removeClass("hidden");
+//		$("#warehouseMgrLine").removeClass("hidden");
+//		
+//		$("#locationMgr").removeClass("hidden");
+//		$("#locationMgrhref").removeClass("hidden");
+//		$("#locationMgrLine").removeClass("hidden");
 //		
 //		
 //		$("#dailyBusinessReport3").removeClass("hidden");
