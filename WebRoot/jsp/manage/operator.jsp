@@ -50,12 +50,8 @@ String basePath = request.getScheme() + "://"
 </head>
 <body>
 	<%@ include file="../common/header.jsp" %>
-<header id="Main-Header">
-	<h1>Flipster Demos </h1>
-</header>
-<div id="Main-Content">
-	<div class="Container">
-<!-- Flipster List -->	
+	<div class="main-container" id="main-container">
+		<!-- Flipster List -->	
 		<div class="flipster">
 		  <ul>
 		  	<li>
@@ -90,10 +86,12 @@ String basePath = request.getScheme() + "://"
 	  		</li>
 		  </ul>
 		</div>
-<!-- End Flipster List -->
-
+		<!-- End Flipster List -->
+	
+	
+	
+	
 	</div>
-</div>
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script src="jsp/js/jquery.flipster.js"></script>
