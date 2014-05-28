@@ -70,20 +70,20 @@
 						</li>
 
                        <li id = "stockManagement" class = "hidden">
-							<a href="jsp/stockManagement/quickOperationGuide.jsp" class = "hidden" id="stockManagementhref">
+							<a href="jsp/systemBuildingPage.jsp" class = "hidden" id="stockManagementhref">
 								<i class="icon-briefcase hidden" id="stockManagementLine"></i>
 								<span class="menu-text" id="stockManagementSpan"> 库存管理 </span>
 							</a>
 							<ul class="submenu hidden" id="stockManagementSubMenu">
 								<li id="businessGuide" class = "hidden">
-									<a href="jsp/stockManagement/quickOperationGuide.jsp" class = "hidden" id="businessGuidehref">
+									<a href="jsp/systemBuildingPage.jsp" class = "hidden" id="businessGuidehref">
 										<i class="icon-double-angle-right hidden" id="businessGuideLine"></i>
 										快捷指南
 									</a>
 								</li>
 
 								<li id="inBounds" class = "hidden">
-									<a href="#" class = "hidden" id="inBoundshref">
+									<a href="jsp/systemBuildingPage.jsp" class = "hidden" id="inBoundshref">
 										<i class="icon-double-angle-right hidden" id="inBoundsLine"></i>
 										入库管理
 									</a>
@@ -95,13 +95,13 @@
 									</a>
 								</li>
 								<li id="inventoryCheck" class = "hidden">
-									<a href="#" class="hidden" id="inventoryCheckhref">
+									<a href="jsp/systemBuildingPage.jsp" class="hidden" id="inventoryCheckhref">
 										<i class="icon-double-angle-right hidden" id="inventoryCheckLine"></i>
 										库存盘点
 									</a>
 								</li>
 								<li id="goodsloan" class = "hidden">
-									<a href="#" class = "hidden" id="goodsloanhref">
+									<a href="jsp/systemBuildingPage.jsp" class = "hidden" id="goodsloanhref">
 										<i class="icon-double-angle-right hidden" id="goodsloanLine"></i>
 										货品借调
 									</a>
@@ -110,14 +110,14 @@
 						</li>
 
 						<li id = "financialManage" class = "hidden">
-							<a href="#" class = "hidden" id="financialManagehref">
+							<a href="jsp/systemBuildingPage.jsp" class = "hidden" id="financialManagehref">
 								<i class="icon-barcode hidden" id="financialManageLine"></i>
 								<span class="menu-text hidden" id="financialManageSpan"> 卡卷套餐优惠管理 </span>
 							</a>
 						</li>
 
 						<li id = "customerMgr" class = "hidden">
-							<a href="#" class = "hidden" id="customerMgrhref">
+							<a href="jsp/systemBuildingPage.jsp" class = "hidden" id="customerMgrhref">
 								<i class="icon-user hidden" id="customerMgrLine"></i>
 								<span class="menu-text hidden" id="customerMgrSpan"> 客户关系管理 </span>
 							</a>
