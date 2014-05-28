@@ -85,16 +85,16 @@ String basePath = request.getScheme() + "://"
                             <div class="col-xs-9">
                                 <!-- PAGE CONTENT BEGINS -->
                                 <div class="row">
-                                	<div class="col-xs-12">
-                                    <div id="combination-chart" style="height:100%;border:1px solid #ccc;padding:10px;">
+                                    <div class="col-xs-12">
+                                        <div id="combination-chart" style="height:100%;border:1px solid #ccc;padding:10px;">
+                                        </div>
                                     </div>
-									</div>
                                 </div>
                                 <div class="row">
-                                	<div class="col-xs-12">
-                                	 <div id="combination-chart1" style="height:100%;border:1px solid #ccc;padding:10px;">
+                                    <div class="col-xs-12">
+                                        <div id="combination-chart1" style="height:100%;border:1px solid #ccc;padding:10px;">
+                                        </div>
                                     </div>
-									</div>
                                 </div>
                                 <!--/span--><!-- PAGE CONTENT ENDS -->
                             </div>
@@ -243,7 +243,6 @@ String basePath = request.getScheme() + "://"
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <h4 class="header smaller lighter">更多</h4>
                                                 <div class="form-group">
                                                     <div class="row">
                                                         <label class="col-sm-4 control-label no-padding-left bolder blue">
@@ -275,6 +274,24 @@ String basePath = request.getScheme() + "://"
                                                             </select>
                                                         </div>
                                                     </div>
+                                                </div>
+												<br/>
+                                                    <div class="row pager">
+                                                    	<p>
+                                                         <button class="col-sm-4 btn btn-app btn-success btn-xs radius-4">
+                                                            <i class="icon-refresh bigger-160"></i>
+                                                            Reload<span class="badge badge-transparent"></span>
+                                                        </button>
+														
+                                                        <button class="col-sm-4 btn btn-app btn-primary btn-xs radius-4">
+                                                            <i class="icon-save bigger-160"></i>
+                                                            Save
+                                                        </button>
+														<button class="col-sm-4 btn btn-app btn-pink btn-xs radius-4">
+                                                            <i class="icon-share-alt bigger-160"></i>
+                                                            Share
+                                                        </button>
+														</p>
                                                 </div>
                                             </div>
                                         </div>
