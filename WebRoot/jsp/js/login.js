@@ -58,7 +58,7 @@ function loginTheMainPage(level)
 	else if(level == 2)
 		location.replace("jsp/basicDataManagement/categoryManagement.jsp");
 	else if (level == 3)
-		location.replace("jsp/manage/index.jsp");
+		location.replace("jsp/clientAdminPage.jsp");
 	else if (level == 4)
 		location.replace("jsp/manage/operator.jsp");
 	else

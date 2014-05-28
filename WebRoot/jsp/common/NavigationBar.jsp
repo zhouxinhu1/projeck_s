@@ -55,13 +55,13 @@
 								</li>
 
 								<li id="goodSales" class = "hidden">
-									<a href="#" id="goodSaleshref" class="hidden">
+									<a href="jsp/systemBuildingPage.jsp" id="goodSaleshref" class="hidden">
 										<i class="icon-double-angle-right hidden" id="goodSalesLine"></i>
 										商品销售
 									</a>
 								</li>
 								<li id="applyCard" class = "hidden">
-									<a href="#" class = "hidden" id="applyCardhref">
+									<a href="jsp/systemBuildingPage.jsp" class = "hidden" id="applyCardhref">
 										<i class="icon-double-angle-right hidden" id="applyCardLine"></i>
 										会员卡
 									</a>
@@ -89,7 +89,7 @@
 									</a>
 								</li>
 								<li id="outBounds" class = "hidden">
-									<a href="#" class = "hidden" id="outBoundshref">
+									<a href="jsp/systemBuildingPage.jsp" class = "hidden" id="outBoundshref">
 										<i class="icon-double-angle-right hidden" id="outBoundsLine"></i>
 										出库管理
 									</a>
@@ -124,34 +124,34 @@
 						</li>
 
                         <li id = "humanResourceMgr" class = "hidden">
-							<a href="#" class = "hidden" id="humanResourceMgrhref">
+							<a href="jsp/systemBuildingPage.jsp" class = "hidden" id="humanResourceMgrhref">
 								<i class="icon-thumbs-up hidden" id="humanResourceMgrLine"></i>
 								<span class="menu-text hidden" id="humanResourceMgrSpan"> 人事管理 </span>
 							</a>
 						</li>
 
 						<li id="basicDataMgr" class="hidden">
-							<a href="jsp/basicDataManagement/categoryManagement.jsp" class="hidden" id="basicDataMgrhref">
+							<a href="jsp/systemBuildingPage.jsp" class="hidden" id="basicDataMgrhref">
 								<i class="icon-wrench hidden" id="basicDataMgrLine"></i>
 								<span class="menu-text hidden" id="basicDataMgrSpan"> 基础数据管理 </span>
 							</a>		
 							<ul class="submenu hidden" id="basicDataMgrSubMenu">
 								<li id="regionMgr" class = "hidden">
-									<a href="jsp/basicDataManagement/regionMgr.jsp" class="hidden" id="regionMgrhref">
+									<a href="jsp/systemBuildingPage.jsp" class="hidden" id="regionMgrhref">
 										<i class="icon-double-angle-right hidden" id="regionMgrline"></i>
 										区域门店管理
 									</a>
 								</li>
 								
 								<li id="userMgr" class = "hidden">
-									<a href="jsp/basicDataManagement/userMgr.jsp" class="hidden" id="userMgrhref">
+									<a href="jsp/systemBuildingPage.jsp" class="hidden" id="userMgrhref">
 										<i class="icon-double-angle-right hidden" id="userMgrline"></i>
 										区域门店用户管理
 									</a>
 								</li>
 								
 								<li id="purchaseCategoryMgr" class = "hidden">
-									<a href="jsp/basicDataManagement/purchaseCategoryMgr.jsp" class="hidden" id="purchaseCategoryMgrhref">
+									<a href="jsp/systemBuildingPage.jsp" class="hidden" id="purchaseCategoryMgrhref">
 										<i class="icon-double-angle-right hidden" id="purchesCategoryMgrline"></i>
 										门店采购目录管理
 									</a>
@@ -161,31 +161,31 @@
 						
 						
 						<li id="basicDataForClientMgr" class="hidden">
-							<a href="jsp/basicDataManagement/categoryManagement.jsp" class="hidden" id="basicDataForClientMgrhref">
+							<a href="jsp/systemBuildingPage.jsp" class="hidden" id="basicDataForClientMgrhref">
 								<i class="icon-wrench hidden" id="basicDataForClientMgrLine"></i>
 								<span class="menu-text hidden" id="basicDataForClientMgrSpan"> 基础数据管理 </span>
 							</a>
 							<ul class="submenu hidden" id="basicDataForClientMgrSubMenu">
 								<li id="supplierMgr" class = "hidden">
-									<a href="jsp/basicDataManagement/supplierManagement.jsp" class="hidden" id="supplierMgrhref">
+									<a href="jsp/systemBuildingPage.jsp" class="hidden" id="supplierMgrhref">
 										<i class="icon-double-angle-right hidden" id="supplierMgrLine"></i>
 										供应商信息管理
 									</a>
 								</li>
 								<li id="categoryMgr" class="hidden">
-									<a href="jsp/basicDataManagement/categoryManagement.jsp" class="hidden" id="categoryMgrhref">
+									<a href="jsp/systemBuildingPage.jsp" class="hidden" id="categoryMgrhref">
 										<i class="icon-double-angle-right hidden" id="categoryMgrLine"></i>
 										商品目录管理
 									</a>
 								</li>
 								<li id="warehouseMgr" class="hidden">
-									<a href="jsp/basicDataManagement/categoryManagement.jsp" class="hidden" id="warehouseMgrhref">
+									<a href="jsp/systemBuildingPage.jsp" class="hidden" id="warehouseMgrhref">
 										<i class="icon-double-angle-right hidden" id="warehouseMgrLine"></i>
 										仓库管理
 									</a>
 								</li>
 								<li id="locationMgr" class = "hidden">
-									<a href="jsp/basicDataManagement/categoryManagement.jsp" class = "hidden" id="locationMgrhref">
+									<a href="jsp/systemBuildingPage.jsp" class = "hidden" id="locationMgrhref">
 										<i class="icon-double-angle-right hidden" id="locationMgrLine"></i>
 										仓库货位管理
 									</a>
@@ -241,7 +241,7 @@
 						</li>
 
 						<li id = "traningMgr" class="hidden">
-							<a href="#" class = "hidden">
+							<a href="jsp/systemBuildingPage.jsp" class = "hidden">
 								<i class="icon-align-left hidden"></i>
 								<span class="menu-text hidden"> CBT培训 </span>
 							</a>

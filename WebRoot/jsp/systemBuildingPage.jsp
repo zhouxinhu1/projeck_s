@@ -11,8 +11,8 @@ String basePath = request.getScheme() + "://"
         <base href='<%=basePath%>'>
         <meta charset="utf-8" />
         <title>Project_S</title>
-        <meta name="keywords" content="商品目录管理" />
-        <meta name="description" content="商品目录管理" />
+        <meta name="keywords" content="系统维护页面" />
+        <meta name="description" content="系统维护页面" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <!-- basic styles -->
         <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
@@ -201,8 +201,6 @@ String basePath = request.getScheme() + "://"
         <!--common biz scripts -->
         <!--<script src="jsp/js/common/common.js"></script>-->
         <!--page biz scripts -->
-        <script src="jsp/js/categoryManagement.js">
-        </script>
         <script src="jsp/js/cookies.js"></script>
 		<script src="jsp/js/setMenuBar.js"></script>
         <!-- inline scripts related to this page -->
