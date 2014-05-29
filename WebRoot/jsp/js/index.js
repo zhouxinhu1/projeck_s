@@ -25,7 +25,6 @@ jQuery(function($) {
 //			})
 		 $('#close-modal-wizard').modal("hide");
 	 });
-	 $('#open-modal-wizard')
 	$.widget("ui.dialog", $.extend({}, $.ui.dialog.prototype, {
 		_title: function(title) {
 			var $title = this.options.title || '&nbsp;'
