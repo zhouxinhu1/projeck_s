@@ -69,7 +69,7 @@
 					<ul class="breadcrumb">
 						<li><i class="icon-home home-icon"></i> <a href="#">快保系统</a>
 						</li>
-						<li class="active">客户服务中心</li>
+						<li>客户服务中心</li>
 					</ul>
 					<!-- .breadcrumb -->
 					<div class="nav-search" id="nav-search">
@@ -98,51 +98,56 @@
 										class="btn btn-app radius-4 btn-xs"> <i
 										class="icon-key bigger-160"></i> 招牌业务 <span
 										class="badge badge-pink">+3</span>
-									</a> <a href="#" class="btn btn-app radius-4 btn-xs"> <i
+									</a> 
+									<a href="#" class="btn btn-app radius-4 btn-xs"> <i
 										class="icon-dashboard bigger-160"></i> 服务中心 <span
 										class="badge badge-pink">+3</span>
-									</a> <a href="#" class="btn btn-app btn-primary no-radius btn-xs">
-										<i class="icon-edit bigger-160"></i> 编辑 <span
-										class="badge badge-warning badge-left">11</span>
-									</a> <a href="#" class="btn btn-app btn-success btn-xs"> <i
-										class="icon-refresh bigger-160"></i> Reload
-									</a>
-
-									<button class="btn btn-app btn-warning btn-xs">
-										<i class="icon-undo bigger-160"></i> Undo
-									</button>
-
-									<a href="#" class="btn btn-app btn-info btn-xs"> <i
+									</a> 
+									<a href="#" class="btn btn-app btn-xs"> <i
 										class="icon-envelope bigger-160"></i> 借调请求 <span
 										class="label label-inverse arrowed-in">6+</span>
 									</a>
+									
+									<a href="#" class="btn btn-app no-radius btn-xs">
+										<i class="icon-edit bigger-160"></i> 工单速录 <span
+										></span>
+									</a> 
+									<a href="#" class="btn btn-app  btn-xs"> <i
+										class="icon-group bigger-160"></i> 新增会员
+									</a>
 
-									<button class="btn btn-app btn-danger btn-xs">
-										<i class="icon-trash bigger-160"></i> Delete
+									<button class="btn btn-app  btn-xs">
+										<i class="icon-book bigger-160"></i> 快速盘点
 									</button>
 
-									<button class="btn btn-app btn-purple btn-xs">
-										<i class="icon-cloud-upload bigger-160"></i> Upload
+									
+
+									<button class="btn btn-app btn-xs">
+										<i class="icon-credit-card bigger-160"></i> 快速收银
 									</button>
 
-									<button class="btn btn-app btn-pink btn-xs">
-										<i class="icon-share-alt bigger-160"></i> Share
+									<button class="btn btn-app btn-xs">
+										<i class="icon-cloud-upload bigger-160"></i> 快速备份
+									</button>
+
+									<button class="btn btn-app  btn-xs">
+										<i class="icon-share-alt bigger-160"></i> 申请借调
 									</button>
 
 
-									<button class="btn btn-app btn-grey btn-xs radius-4">
-										<i class="icon-save bigger-160"></i> Save <span
+									<button class="btn btn-app  btn-xs radius-4">
+										<i class="icon-barcode bigger-160"></i> 快速出券 <span
 											class="badge badge-transparent"> <i
 											class="light-red icon-asterisk"></i>
 										</span>
 									</button>
 
-									<button class="btn btn-app btn-light btn-xs">
-										<i class="icon-print bigger-160"></i> Print
+									<button class="btn btn-app btn-xs">
+										<i class="icon-print bigger-160"></i> 考勤报表
 									</button>
 
-									<a href="#" class="btn btn-app btn-yellow btn-xs"> <i
-										class="icon-shopping-cart bigger-160"></i> Shop
+									<a href="#" class="btn btn-app btn-xs"> <i
+										class="icon-shopping-cart bigger-160"></i> 快速采购
 									</a>
 									
 									<button class="btn btn-app btn-danger btn-xs">
@@ -160,12 +165,12 @@
 
 												<div class="widget-toolbar no-border">
 													<ul class="nav nav-tabs" id="recent-tab">
-														<li class="active"><a data-toggle="tab"
-															href="#task-tab">任务</a></li>
+														<li class="active" id="taskForChat"><a data-toggle="tab"
+															href="#task-tab">待处理</a></li>
 
-														<li><a data-toggle="tab" href="#member-tab">会员</a></li>
+														<li><a data-toggle="tab" href="#member-tab">当日新增会员</a></li>
 
-														<li><a data-toggle="tab" href="#comment-tab">评论</a></li>
+														<li><a data-toggle="tab" href="#comment-tab">服务反馈</a></li>
 													</ul>
 												</div>
 											</div>
@@ -177,7 +182,7 @@
 															<ul id="tasks" class="item-list ui-sortable">
 																<li class="item-orange clearfix"><label
 																	class="inline"> <input type="checkbox"
-																		class="ace"> <span class="lbl"> 问答</span>
+																		class="ace"> <span class="lbl">当前待处理工单<a href="#">4笔</a></span>
 																</label>
 
 																	<div
@@ -191,7 +196,7 @@
 
 																<li class="item-red clearfix"><label class="inline">
 																		<input type="checkbox" class="ace"> <span
-																		class="lbl"> BUG修复</span>
+																		class="lbl"> Shell特供坦克机油<a href="#">采购中</a></span>
 																</label>
 
 																	<div class="pull-right action-buttons">
@@ -206,7 +211,7 @@
 
 																<li class="item-default clearfix"><label
 																	class="inline"> <input type="checkbox"
-																		class="ace"> <span class="lbl">添加新的特征</span>
+																		class="ace"> <span class="lbl">工单：<a href="#">40987655</a>处理中</span>
 																</label>
 
 																	<div
@@ -235,17 +240,17 @@
 
 																<li class="item-blue clearfix"><label
 																	class="inline"> <input type="checkbox"
-																		class="ace"> <span class="lbl"> 更新模版脚本</span>
+																		class="ace"> <span class="lbl"> 员工：<a href="#">张学友</a>打卡迟到</span>
 																</label></li>
 
 																<li class="item-grey clearfix"><label
 																	class="inline"> <input type="checkbox"
-																		class="ace"> <span class="lbl"> 添加新皮肤</span>
+																		class="ace"> <span class="lbl"> 货品：<a href="#">尾灯43122</a>缺货</span>
 																</label></li>
 
 																<li class="item-green clearfix"><label
 																	class="inline"> <input type="checkbox"
-																		class="ace"> <span class="lbl"> 升级服务端</span>
+																		class="ace"> <span class="lbl"> 升级：<a href="#">系统待更新项目</a></span>
 																</label></li>
 															</ul>
 														</div>
@@ -269,7 +274,7 @@
 																		</div>
 
 																		<div>
-																			<span class="label label-warning label-sm">pending</span>
+																			<span class="label label-warning label-sm">金牌</span>
 
 																			<div class="inline position-relative">
 																				<button
@@ -326,7 +331,7 @@
 																		</div>
 
 																		<div>
-																			<span class="label label-warning label-sm">pending</span>
+																			<span class="label label-warning label-sm">金牌</span>
 
 																			<div class="inline position-relative">
 																				<button
@@ -383,7 +388,7 @@
 																		</div>
 
 																		<div>
-																			<span class="label label-warning label-sm">pending</span>
+																			<span class="label label-warning label-sm">金牌</span>
 
 																			<div class="inline position-relative">
 																				<button
@@ -440,7 +445,7 @@
 																		</div>
 
 																		<div>
-																			<span class="label label-danger label-sm">blocked</span>
+																			<span class="label label-danger label-sm">需缴费</span>
 																		</div>
 																	</div>
 																</div>
@@ -462,7 +467,7 @@
 																		</div>
 
 																		<div>
-																			<span class="label label-success label-sm arrowed-in">approved</span>
+																			<span class="label label-success label-sm arrowed-in">使用服务中</span>
 																		</div>
 																	</div>
 																</div>
@@ -479,11 +484,11 @@
 																		</div>
 
 																		<div class="time">
-																			<i class="icon-time"></i> <span class="green">yesterday</span>
+																			<i class="icon-time"></i> <span class="green">1 hour</span>
 																		</div>
 
 																		<div>
-																			<span class="label label-success label-sm arrowed-in">approved</span>
+																			<span class="label label-success label-sm arrowed-in">使用服务中</span>
 																		</div>
 																	</div>
 																</div>
@@ -506,7 +511,7 @@
 
 																		<div>
 																			<span
-																				class="label label-info label-sm arrowed-in arrowed-in-right">online</span>
+																				class="label label-info label-sm arrowed-in arrowed-in-right">等级提升中</span>
 																		</div>
 																	</div>
 																</div>
@@ -523,11 +528,11 @@
 																		</div>
 
 																		<div class="time">
-																			<i class="icon-time"></i> <span class="green">3天以前</span>
+																			<i class="icon-time"></i> <span class="green">3 hour</span>
 																		</div>
 
 																		<div>
-																			<span class="label label-success label-sm arrowed-in">approved</span>
+																			<span class="label label-success label-sm arrowed-in">使用服务中</span>
 																		</div>
 																	</div>
 																</div>
@@ -565,9 +570,7 @@
 																			</div>
 
 																			<div class="text">
-																				<i class="icon-quote-left"></i> Lorem ipsum dolor
-																				sit amet, consectetur adipiscing elit. Quisque
-																				commodo massa sed ipsum porttitor facilisis …
+																				<i class="icon-quote-left"></i> 等待的时间长了点，店里的小妹很是热情，服务的小哥态度也很好，非常满意 …
 																			</div>
 																		</div>
 
@@ -626,9 +629,7 @@
 																			</div>
 
 																			<div class="text">
-																				<i class="icon-quote-left"></i> Lorem ipsum dolor
-																				sit amet, consectetur adipiscing elit. Quisque
-																				commodo massa sed ipsum porttitor facilisis …
+																				<i class="icon-quote-left"></i> 车的零部件都是正品，能够出具正品资质，提前了10天短信通知了我保养的项目，非常好，这个会员办的还是挺值得的 …
 																			</div>
 																		</div>
 
@@ -658,9 +659,7 @@
 																			</div>
 
 																			<div class="text">
-																				<i class="icon-quote-left"></i> Lorem ipsum dolor
-																				sit amet, consectetur adipiscing elit. Quisque
-																				commodo massa sed ipsum porttitor facilisis …
+																				<i class="icon-quote-left"></i> 我的车放在这边，大修居然只用了3天，太出乎意料了，升级钻石会员的Shell专享套餐优惠，直接就让我多了200块私房钱..^_^ …
 																			</div>
 																		</div>
 
@@ -706,7 +705,7 @@
 										<div class="widget-box ">
 											<div class="widget-header">
 												<h4 class="lighter smaller">
-													<i class="icon-comment blue"></i> 会话
+													<i class="icon-facetime-video blue"></i> 全局监控
 												</h4>
 											</div>
 
@@ -724,13 +723,13 @@
 
 																<div class="body">
 																	<div class="time">
-																		<i class="icon-time"></i> <span class="green">4秒钟前</span>
+																		<i class="icon-time"></i> <span class="green">7小时前</span>
 																	</div>
 
 																	<div class="name">
-																		<a href="#">Alexa</a>
+																		<a href="#">operator1</a>
 																	</div>
-																	<div class="text">大家好啊</div>
+																	<div class="text">完成：工单<a href="#">42103312</a></div>
 
 																	<div class="tools">
 																		<a href="#" class="btn btn-minier btn-info"> <i
@@ -748,13 +747,13 @@
 
 																<div class="body">
 																	<div class="time">
-																		<i class="icon-time"></i> <span class="blue">38秒以前</span>
+																		<i class="icon-time"></i> <span class="blue">6小时前前</span>
 																	</div>
 
 																	<div class="name">
 																		<a href="#">John</a>
 																	</div>
-																	<div class="text">框架很好用嘛</div>
+																	<div class="text">完成：工单<a href="#">42103315</a></div>
 
 																	<div class="tools">
 																		<a href="#" class="btn btn-minier btn-info"> <i
@@ -775,10 +774,10 @@
 																	</div>
 
 																	<div class="name">
-																		<a href="#">Bob</a> <span
+																		<a href="#">clientadmin</a> <span
 																			class="label label-info arrowed arrowed-in-right">admin</span>
 																	</div>
-																	<div class="text">欢迎大家使用ACE后台管理系统.</div>
+																	<div class="text">登录：操作了<a href="#">开 店</a></div>
 
 																	<div class="tools">
 																		<a href="#" class="btn btn-minier btn-info"> <i
@@ -796,13 +795,13 @@
 
 																<div class="body">
 																	<div class="time">
-																		<i class="icon-time"></i> <span class="grey">3分钟以前</span>
+																		<i class="icon-time"></i> <span class="grey">30秒以前</span>
 																	</div>
 
 																	<div class="name">
 																		<a href="#">Jim</a>
 																	</div>
-																	<div class="text">大家多提提BUG</div>
+																	<div class="text">打卡并开始：工单<a href="#">42103512</a></div>
 
 																	<div class="tools">
 																		<a href="#" class="btn btn-minier btn-info"> <i
@@ -820,7 +819,7 @@
 
 																<div class="body">
 																	<div class="time">
-																		<i class="icon-time"></i> <span class="green">4分钟以前</span>
+																		<i class="icon-time"></i> <span class="green">现在</span>
 																	</div>
 
 																	<div class="name">
@@ -1029,7 +1028,7 @@
 											<div class="widget-header widget-header-flat widget-header-small">
 												<h5>
 													<i class="icon-signal"></i>
-													访问来源
+													进销存报表一览
 												</h5>
 
 												<div class="widget-toolbar no-border">
@@ -1079,24 +1078,24 @@
 													<div class="clearfix">
 														<div class="grid3">
 															<span class="grey">
-																<i class="icon-facebook-sign icon-2x blue"></i>
-																&nbsp; likes
+																<i class="icon-legal icon-2x blue"></i>
+																&nbsp; 处理工单数
 															</span>
-															<h4 class="bigger pull-right">1,255</h4>
+															<h4 class="bigger pull-right">55</h4>
 														</div>
 
 														<div class="grid3">
 															<span class="grey">
-																<i class="icon-twitter-sign icon-2x purple"></i>
-																&nbsp; tweets
+																<i class="icon-credit-card icon-2x purple"></i>
+																&nbsp; 平均单价
 															</span>
 															<h4 class="bigger pull-right">941</h4>
 														</div>
 
 														<div class="grid3">
 															<span class="grey">
-																<i class="icon-pinterest-sign icon-2x red"></i>
-																&nbsp; pins
+																<i class="icon-group icon-2x red"></i>
+																&nbsp; 会员总数
 															</span>
 															<h4 class="bigger pull-right">1,050</h4>
 														</div>
@@ -1213,6 +1212,7 @@
 					<!--page biz scripts -->
 					<script src="jsp/js/cookies.js"></script>
 					<script src="jsp/js/setMenuBar.js"></script>
+					<script src="jsp/js/clientAdminPage.js"></script>
 					<!-- inline scripts related to this page -->
 </body>
 </html>

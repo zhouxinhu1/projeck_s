@@ -42,7 +42,7 @@
 
 					<ul class="nav nav-list">
 						<li id = "dailyBusiness" class ="hidden">
-							<a href="jsp/manage/index.jsp" class = "hidden" id = "dailyBusinesshref">
+							<a href="jsp/clientAdminPage.jsp" class = "hidden" id = "dailyBusinesshref">
 								<i class="icon-home hidden" id = "dailyBusinessLine"></i>
 								<span class="menu-text hidden" id = "dailyBusinessSpan"> 日常业务 </span>
 							</a>
