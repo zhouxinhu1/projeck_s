@@ -41,7 +41,7 @@
 					</div><!-- #sidebar-shortcuts -->
 
 					<ul class="nav nav-list">
-						<li id = "dailyBusiness" class ="hidden">
+						<li id = "dailyBusiness" class ="hidden open active">
 							<a href="jsp/clientAdminPage.jsp" class = "hidden" id = "dailyBusinesshref">
 								<i class="icon-home hidden" id = "dailyBusinessLine"></i>
 								<span class="menu-text hidden" id = "dailyBusinessSpan"> 日常业务 </span>
@@ -69,7 +69,7 @@
 							</ul>
 						</li>
 
-                       <li id = "stockManagement" class = "hidden">
+                       <li id = "stockManagement" class = "hidden open active">
 							<a href="jsp/systemBuildingPage.jsp" class = "hidden" id="stockManagementhref">
 								<i class="icon-briefcase hidden" id="stockManagementLine"></i>
 								<span class="menu-text" id="stockManagementSpan"> 库存管理 </span>
@@ -109,28 +109,28 @@
 							</ul>
 						</li>
 
-						<li id = "financialManage" class = "hidden">
+						<li id = "financialManage" class = "hidden open active">
 							<a href="jsp/systemBuildingPage.jsp" class = "hidden" id="financialManagehref">
 								<i class="icon-barcode hidden" id="financialManageLine"></i>
 								<span class="menu-text hidden" id="financialManageSpan"> 卡卷套餐优惠管理 </span>
 							</a>
 						</li>
 
-						<li id = "customerMgr" class = "hidden">
+						<li id = "customerMgr" class = "hidden open active">
 							<a href="jsp/systemBuildingPage.jsp" class = "hidden" id="customerMgrhref">
 								<i class="icon-user hidden" id="customerMgrLine"></i>
 								<span class="menu-text hidden" id="customerMgrSpan"> 客户关系管理 </span>
 							</a>
 						</li>
 
-                        <li id = "humanResourceMgr" class = "hidden">
+                        <li id = "humanResourceMgr" class = "hidden open active">
 							<a href="jsp/systemBuildingPage.jsp" class = "hidden" id="humanResourceMgrhref">
 								<i class="icon-thumbs-up hidden" id="humanResourceMgrLine"></i>
 								<span class="menu-text hidden" id="humanResourceMgrSpan"> 人事管理 </span>
 							</a>
 						</li>
 
-						<li id="basicDataMgr" class="hidden">
+						<li id="basicDataMgr" class="hidden open active">
 							<a href="jsp/systemBuildingPage.jsp" class="hidden" id="basicDataMgrhref">
 								<i class="icon-wrench hidden" id="basicDataMgrLine"></i>
 								<span class="menu-text hidden" id="basicDataMgrSpan"> 基础数据管理 </span>
@@ -160,7 +160,7 @@
 						</li>
 						
 						
-						<li id="basicDataForClientMgr" class="hidden">
+						<li id="basicDataForClientMgr" class="hidden open active">
 							<a href="jsp/systemBuildingPage.jsp" class="hidden" id="basicDataForClientMgrhref">
 								<i class="icon-wrench hidden" id="basicDataForClientMgrLine"></i>
 								<span class="menu-text hidden" id="basicDataForClientMgrSpan"> 基础数据管理 </span>
@@ -194,7 +194,7 @@
 						</li>
 
 
-						<li id="report" class="hidden">
+						<li id="report" class="hidden open active">
 							<a href="jsp/report/dailyBusinessReport_main.jsp" class = "hidden" id="reporthref">
 								<i class="icon-file hidden" id="reportLine"></i>
 								<span class="menu-text hidden" id="reportSpan"> 报表统计 </span>
@@ -240,7 +240,7 @@
 							</ul>
 						</li>
 
-						<li id = "traningMgr" class="hidden">
+						<li id = "traningMgr" class="hidden open active">
 							<a href="jsp/systemBuildingPage.jsp" class = "hidden">
 								<i class="icon-align-left hidden"></i>
 								<span class="menu-text hidden"> CBT培训 </span>

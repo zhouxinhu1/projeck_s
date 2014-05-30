@@ -1,7 +1,7 @@
-$(".active").removeClass("active");
-$(".active open").removeClass("active open");
-$("#report").addClass("active open");
-$("#dailyBusinessReport4").addClass("active");
+//$(".active").removeClass("active");
+//$(".active open").removeClass("active open");
+//$("#report").addClass("active open");
+//$("#dailyBusinessReport4").addClass("active");
 
 $(function() {
 

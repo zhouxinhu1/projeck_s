@@ -1,7 +1,7 @@
-$(".active").removeClass("active");
-$(".active open").removeClass("active open");
-$("#dailyBusiness").addClass("active open");
-$("#quickBusiness").addClass("active");
+//$(".active").removeClass("active");
+//$(".active open").removeClass("active open");
+//$("#dailyBusiness").addClass("active open");
+//$("#quickBusiness").addClass("active");
 
 $("#open-modal-header-step1").addClass("active");
 $("#open-modal-step1").addClass("active");
