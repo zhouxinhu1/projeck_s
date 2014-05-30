@@ -200,7 +200,13 @@ String basePath = request.getScheme() + "://"
 	</div>
 	</div>
 	</div>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<!--[if !IE]> -->
+					<script src="assets/js/jquery-2.0.3.min.js"></script>
+					<!-- <![endif]-->
+					<!--[if IE]>
+					<script src="assets/js/jquery-1.10.2.min.js"></script>
+        			<![endif]-->
+					<!--[if !IE]> -->
 <script src="jsp/js/jquery.flipster.js"></script>
 <script src="jsp/js/operator.js"></script>
 </body>

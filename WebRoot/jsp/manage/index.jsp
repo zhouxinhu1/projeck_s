@@ -23,7 +23,7 @@ String basePath = request.getScheme() + "://"
         <![endif]--><!-- page specific plugin styles -->
         <link rel="stylesheet" href="assets/css/jquery-ui-1.10.3.full.min.css" />
         <!-- fonts -->
-        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300" />
+        <link rel="stylesheet" href="assets/css/font-Google.css?family=Open+Sans:400,300" />
         <!-- ace styles -->
         <link rel="stylesheet" href="assets/css/ace.min.css" />
         <link rel="stylesheet" href="assets/css/ace-rtl.min.css" />
@@ -384,14 +384,14 @@ String basePath = request.getScheme() + "://"
                 </div>
                 <!-- /.main-container -->
                 <!-- basic scripts -->
-                <!--[if !IE]> -->
-                    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js">
-                    </script>
-                <!-- <![endif]-->
-                <!--[if IE]>
-                    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-                <![endif]-->
-                <!--[if !IE]> -->
+                	<!-- basic scripts -->
+					<!--[if !IE]> -->
+					<script src="assets/js/jquery-2.0.3.min.js"></script>
+					<!-- <![endif]-->
+					<!--[if IE]>
+					<script src="assets/js/jquery-1.10.2.min.js"></script>
+        			<![endif]-->
+					<!--[if !IE]> -->
                     <script type="text/javascript">
                         window.jQuery || document.write("__tag_228$39_" + "__tag_228$88_");
                     </script>

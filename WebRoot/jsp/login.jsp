@@ -103,19 +103,13 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	<!-- /.main-container -->
 
 	<!-- basic scripts -->
-
-	<!--[if !IE]> -->
-
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-
-	<!-- <![endif]-->
-
-	<!--[if IE]>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<![endif]-->
-
-	<!--[if !IE]> -->
-
+<!--[if !IE]> -->
+					<script src="assets/js/jquery-2.0.3.min.js"></script>
+					<!-- <![endif]-->
+					<!--[if IE]>
+					<script src="assets/js/jquery-1.10.2.min.js"></script>
+        <![endif]-->
+					<!--[if !IE]> -->
 	<script type="text/javascript">
 		window.jQuery
 				|| document
