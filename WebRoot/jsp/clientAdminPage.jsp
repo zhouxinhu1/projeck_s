@@ -27,7 +27,7 @@
 <link rel="stylesheet" href="assets/css/ui.jqgrid.css" />
 <!-- fonts -->
 <link rel="stylesheet"
-	href="http://fonts.googleapis.com/css?family=Open+Sans:400,300" />
+	href="assets/css/font-Google.css?family=Open+Sans:400,300" />
 <!-- ace styles -->
 <link rel="stylesheet" href="assets/css/ace.min.css" />
 <link rel="stylesheet" href="assets/css/ace-rtl.min.css" />
@@ -108,10 +108,10 @@
 										class="label label-inverse arrowed-in">6+</span>
 									</a>
 									
-									<a href="#" class="btn btn-app no-radius btn-xs">
-										<i class="icon-edit bigger-160"></i> 工单速录 <span
-										></span>
-									</a> 
+									<button class="btn btn-app  btn-xs">
+										<i class="icon-edit bigger-160"></i> 工单速录
+									</button>
+									
 									<a href="#" class="btn btn-app  btn-xs"> <i
 										class="icon-group bigger-160"></i> 新增会员
 									</a>
@@ -1223,13 +1223,10 @@
 					<!-- /.main-container -->
 					<!-- basic scripts -->
 					<!--[if !IE]> -->
-					<script
-						src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js">
-						
-					</script>
+					<script src="assets/js/jquery-2.0.3.min.js"></script>
 					<!-- <![endif]-->
 					<!--[if IE]>
-            <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+					<script src="assets/js/jquery-1.10.2.min.js"></script>
         <![endif]-->
 					<!--[if !IE]> -->
 					<script type="text/javascript">
@@ -1257,9 +1254,7 @@
 					<script src="assets/js/date-time/bootstrap-datepicker.min.js">
 						
 					</script>
-					<script src="assets/js/jqGrid/jquery.jqGrid.min.js">
-						
-					</script>
+					<script src="assets/js/jqGrid/jquery.jqGrid.min.js"></script>
 					<script src="assets/js/jqGrid/i18n/grid.locale-en.js">
 						
 					</script>
