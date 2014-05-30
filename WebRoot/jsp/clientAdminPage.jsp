@@ -944,6 +944,98 @@
 																</td>
 
 															</tr>
+															<tr>
+
+																<td>刹车片</td>
+
+
+
+																<td><small> <s class="red"></s>
+
+																</small> <b class="green">$16.45</b></td>
+
+
+
+																<td class="hidden-480"><span
+																	class="label label-success arrowed-in arrowed-in-right">可用</span>
+
+																</td>
+
+															</tr>
+															<tr>
+
+																<td>消音器</td>
+
+
+
+																<td><small> <s class="red"></s>
+
+																</small> <b class="green">$16.45</b></td>
+
+
+
+																<td class="hidden-480"><span
+																	class="label label-success arrowed-in arrowed-in-right">可用</span>
+
+																</td>
+
+															</tr>
+															<tr>
+
+																<td>主轴</td>
+
+
+
+																<td><small> <s class="red"></s>
+
+																</small> <b class="green">$16.45</b></td>
+
+
+
+																<td class="hidden-480"><span
+																	class="label label-success arrowed-in arrowed-in-right">可用</span>
+
+																</td>
+
+															</tr>
+															
+															<tr>
+
+																<td>后轮胎</td>
+
+
+
+																<td><small> <s class="red"></s>
+
+																</small> <b class="green">$16.45</b></td>
+
+
+
+																<td class="hidden-480"><span
+																	class="label label-success arrowed-in arrowed-in-right">可用</span>
+
+																</td>
+
+															</tr>
+															
+															<tr>
+
+																<td>雨水刷</td>
+
+
+
+																<td><small> <s class="red"></s>
+
+																</small> <b class="green">$16.45</b></td>
+
+
+
+																<td class="hidden-480"><span
+																	class="label label-success arrowed-in arrowed-in-right">可用</span>
+
+																</td>
+
+															</tr>
 
 
 
@@ -1023,7 +1115,19 @@
 									</div>
 									
 									
-									<div class="col-sm-6">
+									
+									
+									
+									<div class="col-xs-6">
+                                <div class="panel panel-default">
+                                    <div class="panel-body">
+                                        <div id="pie-chart" style="min-width: 310px; height: 400px; max-width: 600px; margin: 0 auto" data-highcharts-chart="2"><div class="highcharts-container" id="highcharts-7" style="position: relative; overflow: hidden; width: 561px; height: 400px; text-align: left; line-height: normal; z-index: 0;"><svg version="1.1" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Arial, Helvetica, sans-serif;font-size:12px;" xmlns="http://www.w3.org/2000/svg" width="561" height="400"><desc>Created with Highcharts 4.0.1</desc><defs><clipPath id="highcharts-8"><rect x="0" y="0" width="541" height="338"></rect></clipPath></defs><rect x="0" y="0" width="561" height="400" strokewidth="0" fill="#FFFFFF" class=" highcharts-background"></rect><g class="highcharts-button" style="cursor:default;" stroke-linecap="round" transform="translate(527,10)"><title>Chart context menu</title><rect x="0.5" y="0.5" width="24" height="22" strokewidth="1" fill="white" stroke-width="1" stroke="none" rx="2" ry="2"></rect><path fill="#E0E0E0" d="M 6 6.5 L 20 6.5 M 6 11.5 L 20 11.5 M 6 16.5 L 20 16.5" stroke="#666" stroke-width="3" zindex="1"></path><text x="0" zindex="1" style="color:black;fill:black;" y="13"></text></g><path fill="rgba(124,181,236,0.25)" d="M 0 0"></path><g class="highcharts-series-group" zindex="3"><g class="highcharts-series highcharts-tracker" visibility="visible" zindex="0.1" transform="translate(10,47) scale(1 1)" style="cursor:pointer;"><path fill="#7cb5ec" d="M 272.47138391488085 40.000002914164895 A 140.5 140.5 0 0 1 316.00200523451196 314.095754201159 L 272.5 180.5 A 0 0 0 0 0 272.5 180.5 Z" stroke="#FFFFFF" stroke-width="1" stroke-linejoin="round" transform="translate(0,0)"></path><path fill="#434348" d="M 315.86838775157594 314.13918940127166 A 140.5 140.5 0 0 1 134.84527623972386 208.63231285340876 L 272.5 180.5 A 0 0 0 0 0 272.5 180.5 Z" stroke="#FFFFFF" stroke-width="1" stroke-linejoin="round" transform="translate(0,0)"></path><path fill="#90ed7d" d="M 134.81721275891533 208.4946440864357 A 140.5 140.5 0 0 1 156.73166218143302 100.88880757879483 L 272.5 180.5 A 0 0 0 0 0 272.5 180.5 Z" stroke="#FFFFFF" stroke-width="1" stroke-linejoin="round" transform="translate(-10,-2)"></path><path fill="#f7a35c" d="M 156.8113312447498 100.7730790658639 A 140.5 140.5 0 0 1 213.3697028671815 53.048605496116295 L 272.5 180.5 A 0 0 0 0 0 272.5 180.5 Z" stroke="#FFFFFF" stroke-width="1" stroke-linejoin="round" transform="translate(0,0)"></path><path fill="#8085e9" d="M 213.49718380558963 52.989538934530444 A 140.5 140.5 0 0 1 266.12503768874416 40.14470136282682 L 272.5 180.5 A 0 0 0 0 0 272.5 180.5 Z" stroke="#FFFFFF" stroke-width="1" stroke-linejoin="round" transform="translate(0,0)"></path><path fill="#f15c80" d="M 266.2653961514697 40.138396579221535 A 140.5 140.5 0 0 1 272.3048483187009 40.00013553095047 L 272.5 180.5 A 0 0 0 0 0 272.5 180.5 Z" stroke="#FFFFFF" stroke-width="1" stroke-linejoin="round" transform="translate(0,0)"></path></g><g class="highcharts-markers" visibility="visible" zindex="0.1" transform="translate(10,47) scale(1 1)"></g></g><text x="281" text-anchor="middle" class="highcharts-title" zindex="4" style="color:#333333;font-size:18px;fill:#333333;width:497px;" y="25"><tspan>财务一览概况</tspan></text><g class="highcharts-data-labels highcharts-tracker" visibility="visible" zindex="6" transform="translate(10,47) scale(1 1)" opacity="1" style="cursor:pointer;"><path fill="none" d="M 445.900862071471 153.82792371064065 C 440.900862071471 153.82792371064065 432.9993553467099 155.07939943096247 422.13478360016336 156.80017854640502 L 411.27021185361684 158.52095766184758" stroke-width="1" stroke="#7cb5ec"></path><path fill="none" d="M 181.63224412110273 327.7989426313784 C 186.63224412110273 327.7989426313784 190.66122973418888 320.88755529383576 196.20108495218224 311.38439770471456 L 201.7409401701756 301.88124011559336" stroke-width="1" stroke="#434348"></path><path fill="none" d="M 100.4347135684859 146.44944832229365 C 105.4347135684859 146.44944832229365 113.2735539875599 148.0471281664089 124.05195956378661 150.24393795206737 L 134.83036514001333 152.44074773772584" stroke-width="1" stroke="#90ed7d"></path><path fill="none" d="M 157.58589818899554 50.15760389236299 C 162.58589818899554 50.15760389236299 167.7431580980163 56.27337614374771 174.8343904729198 64.68256298940172 L 181.92562284782332 73.09174983505572" stroke-width="1" stroke="#f7a35c"></path><path fill="none" d="M 187.37509750395947 30 C 192.37509750395947 30 234.0689129836445 22.609843401365538 236.6704019509055 33.297792463426944 L 239.2718909181665 43.98574152548835" stroke-width="1" stroke="#8085e9"></path><path fill="none" d="M 263.75081137622794 10 C 268.75081137622794 10 268.9267263849678 18.039291778990098 269.1686095219854 29.036632027796923 L 269.41049265900295 40.03397227660375" stroke-width="1" stroke="#f15c80"></path><g zindex="1" style="cursor:pointer;" transform="translate(451,144)"><text x="3" zindex="1" style="font-size:11px;color:black;fill:black;" y="15"><tspan style="font-weight:bold">零部件</tspan><tspan dx="0">: 45.0 %</tspan></text></g><g zindex="1" style="cursor:pointer;" transform="translate(121,318)"><text x="3" zindex="1" style="font-size:11px;color:black;fill:black;" y="15"><tspan style="font-weight:bold">员工工资</tspan><tspan dx="0">: 26.8 %</tspan></text></g><g zindex="1" style="cursor:pointer;" transform="translate(5,136)"><text x="3" zindex="1" style="font-size:11px;color:black;fill:black;" y="15"><tspan style="font-weight:bold">会员收入</tspan><tspan dx="0">: 12.8 %</tspan></text></g><g zindex="1" style="cursor:pointer;" transform="translate(82,40)"><text x="3" zindex="1" style="font-size:11px;color:black;fill:black;" y="15"><tspan style="font-weight:bold">快保特服</tspan><tspan dx="0">: 8.5 %</tspan></text></g><g zindex="1" style="cursor:pointer;" transform="translate(109,20)"><text x="3" zindex="1" style="font-size:11px;color:black;fill:black;" y="15"><tspan style="font-weight:bold">借调请求</tspan><tspan dx="0">: 6.2 %</tspan></text></g><g zindex="1" style="cursor:pointer;" transform="translate(182,0)"><text x="3" zindex="1" style="font-size:11px;color:black;fill:black;" y="15"><tspan style="font-weight:bold">其他</tspan><tspan dx="0">: 0.7 %</tspan></text></g></g><g class="highcharts-legend" zindex="7"><g zindex="1"><g></g></g></g><g class="highcharts-tooltip" zindex="8" style="cursor:default;padding:0;white-space:nowrap;" transform="translate(67,146)" opacity="0" visibility="hidden"><path fill="none" d="M 3.5 0.5 L 139.5 0.5 C 142.5 0.5 142.5 0.5 142.5 3.5 L 142.5 42.5 C 142.5 45.5 142.5 45.5 139.5 45.5 L 3.5 45.5 C 0.5 45.5 0.5 45.5 0.5 42.5 L 0.5 3.5 C 0.5 0.5 0.5 0.5 3.5 0.5" stroke-width="5" isshadow="true" stroke="black" stroke-opacity="0.049999999999999996" transform="translate(1, 1)" width="142" height="45"></path><path fill="none" d="M 3.5 0.5 L 139.5 0.5 C 142.5 0.5 142.5 0.5 142.5 3.5 L 142.5 42.5 C 142.5 45.5 142.5 45.5 139.5 45.5 L 3.5 45.5 C 0.5 45.5 0.5 45.5 0.5 42.5 L 0.5 3.5 C 0.5 0.5 0.5 0.5 3.5 0.5" stroke-width="3" isshadow="true" stroke="black" stroke-opacity="0.09999999999999999" transform="translate(1, 1)" width="142" height="45"></path><path fill="none" d="M 3.5 0.5 L 139.5 0.5 C 142.5 0.5 142.5 0.5 142.5 3.5 L 142.5 42.5 C 142.5 45.5 142.5 45.5 139.5 45.5 L 3.5 45.5 C 0.5 45.5 0.5 45.5 0.5 42.5 L 0.5 3.5 C 0.5 0.5 0.5 0.5 3.5 0.5" stroke-width="1" isshadow="true" stroke="black" stroke-opacity="0.15" transform="translate(1, 1)" width="142" height="45"></path><path fill="rgba(249, 249, 249, .85)" d="M 3.5 0.5 L 139.5 0.5 C 142.5 0.5 142.5 0.5 142.5 3.5 L 142.5 42.5 C 142.5 45.5 142.5 45.5 139.5 45.5 L 3.5 45.5 C 0.5 45.5 0.5 45.5 0.5 42.5 L 0.5 3.5 C 0.5 0.5 0.5 0.5 3.5 0.5" stroke-width="1" stroke="#90ed7d"></path><text x="8" zindex="1" style="font-size:12px;color:#333333;fill:#333333;" y="21"><tspan style="font-size: 10px">Chrome</tspan><tspan x="8" dy="16">Browser share: </tspan><tspan style="font-weight:bold" dx="0">12.8%</tspan></text></g><text x="551" text-anchor="end" zindex="8" style="cursor:pointer;color:#909090;font-size:9px;fill:#909090;" y="395">Highcharts.com</text></svg></div></div>
+                                    </div>
+                                </div>
+                            </div>
+									
+									
+									<!-- <div class="col-sm-6">
 										<div class="widget-box">
 											<div class="widget-header widget-header-flat widget-header-small">
 												<h5>
@@ -1038,7 +1142,7 @@
 													</button>
 
 													<ul class="dropdown-menu pull-right dropdown-125 dropdown-lighter dropdown-caret">
-														<li class="active">
+														<li class="active" id="thisWeekPage">
 															<a href="#" class="blue">
 																<i class="icon-caret-right bigger-110">&nbsp;</i>
 																本周
@@ -1071,7 +1175,7 @@
 
 											<div class="widget-body">
 												<div class="widget-main">
-													<div id="piechart-placeholder" style="width: 90%; min-height: 150px; padding: 0px; position: relative;"><canvas class="flot-base" style="direction: ltr; position: absolute; left: 0px; top: 0px; width: 417px; height: 150px;" width="834" height="300"></canvas><canvas class="flot-overlay" style="direction: ltr; position: absolute; left: 0px; top: 0px; width: 417px; height: 150px;" width="834" height="300"></canvas><div class="legend"><div style="position: absolute; width: 92px; height: 110px; top: 15px; right: -30px; background-color: rgb(255, 255, 255); opacity: 0.85;"> </div><table style="position:absolute;top:15px;right:-30px;;font-size:smaller;color:#545454"><tbody><tr><td class="legendColorBox"><div style="border:1px solid null;padding:1px"><div style="width:4px;height:0;border:5px solid #68BC31;overflow:hidden"></div></div></td><td class="legendLabel">social networks</td></tr><tr><td class="legendColorBox"><div style="border:1px solid null;padding:1px"><div style="width:4px;height:0;border:5px solid #2091CF;overflow:hidden"></div></div></td><td class="legendLabel">search engines</td></tr><tr><td class="legendColorBox"><div style="border:1px solid null;padding:1px"><div style="width:4px;height:0;border:5px solid #AF4E96;overflow:hidden"></div></div></td><td class="legendLabel">ad campaigns</td></tr><tr><td class="legendColorBox"><div style="border:1px solid null;padding:1px"><div style="width:4px;height:0;border:5px solid #DA5430;overflow:hidden"></div></div></td><td class="legendLabel">direct traffic</td></tr><tr><td class="legendColorBox"><div style="border:1px solid null;padding:1px"><div style="width:4px;height:0;border:5px solid #FEE074;overflow:hidden"></div></div></td><td class="legendLabel">other</td></tr></tbody></table></div></div>
+													<div id="piechart-placeholder" style="width: 90%; min-height: 150px; padding: 0px; position: relative;"><canvas class="flot-base" style="direction: ltr; position: absolute; left: 0px; top: 0px; width: 417px; height: 150px;" width="834" height="300"></canvas><canvas class="flot-overlay" style="direction: ltr; position: absolute; left: 0px; top: 0px; width: 417px; height: 150px;" width="834" height="300"></canvas><div class="legend"><div style="position: absolute; width: 92px; height: 110px; top: 15px; right: -30px; background-color: rgb(255, 255, 255); opacity: 0.85;"> </div><table style="position:absolute;top:15px;right:-30px;;font-size:smaller;color:#545454"><tbody><tr><td class="legendColorBox"><div style="border:1px solid null;padding:1px"><div style="width:4px;height:0;border:5px solid #68BC31;overflow:hidden"></div></div></td><td class="legendLabel">销售比重</td></tr><tr><td class="legendColorBox"><div style="border:1px solid null;padding:1px"><div style="width:4px;height:0;border:5px solid #2091CF;overflow:hidden"></div></div></td><td class="legendLabel">采购比重</td></tr><tr><td class="legendColorBox"><div style="border:1px solid null;padding:1px"><div style="width:4px;height:0;border:5px solid #AF4E96;overflow:hidden"></div></div></td><td class="legendLabel">日常损耗</td></tr><tr><td class="legendColorBox"><div style="border:1px solid null;padding:1px"><div style="width:4px;height:0;border:5px solid #DA5430;overflow:hidden"></div></div></td><td class="legendLabel">借调比重</td></tr><tr><td class="legendColorBox"><div style="border:1px solid null;padding:1px"><div style="width:4px;height:0;border:5px solid #FEE074;overflow:hidden"></div></div></td><td class="legendLabel">其他</td></tr></tbody></table></div></div>
 
 													<div class="hr hr8 hr-double"></div>
 
@@ -1100,25 +1204,11 @@
 															<h4 class="bigger pull-right">1,050</h4>
 														</div>
 													</div>
-												</div><!-- /widget-main -->
-											</div><!-- /widget-body -->
-										</div><!-- /widget-box -->
-									</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+												</div>/widget-main
+											</div>/widget-body
+										</div>/widget-box
+									</div> -->
+	
 								</div>
 								<!-- /.page-content -->
 							</div>
