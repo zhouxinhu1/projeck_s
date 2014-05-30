@@ -4,6 +4,7 @@
             <!-- PAGE CONTENT BEGINS -->
             <div class="row">
                 <div class="col-xs-12">
+                	 <h4 class="lighter blue header" style="margin-top: 0px;">张先生您的服务单，请确认</h4>
                     <div class="table-responsive">
                         <table id="sample-table-1" class="table table-striped table-bordered table-hover">
                             <thead>
@@ -120,6 +121,44 @@
                                         30.00
                                     </td>
                                 </tr>
+								<tr>
+                                    <td class="center">
+                                        <label>
+                                            <input type="checkbox" class="ace" checked="checked"><span class="lbl"></span>
+                                        </label>
+                                    </td>
+                                    <td>
+                                        优惠卷
+                                    </td>
+                                    <td>
+                                        600-50
+                                    </td>
+                                    <td class="center">
+                                        1.00
+                                    </td>
+                                    <td class="center">
+                                       -50
+                                    </td>
+                                </tr>
+								 <tr>
+                                    <td class="center">
+                                        <label>
+                                            <input type="checkbox" class="ace" checked="checked"><span class="lbl"></span>
+                                        </label>
+                                    </td>
+                                    <td>
+                                        会员卡
+                                    </td>
+                                    <td>
+                                        80%折扣
+                                    </td>
+                                    <td class="center">
+                                        1.00
+                                    </td>
+                                    <td class="center">
+                                        -130
+                                    </td>
+                                </tr>
                                 <tr>
                                     <td class="center">
                                     </td>
@@ -131,7 +170,7 @@
                                         合计金额(估):
                                     </td>
                                     <td class="center" style="color:red;font-weight:900">
-                                        718.00
+                                        538.00
                                     </td>
                                 </tr>
                             </tbody>

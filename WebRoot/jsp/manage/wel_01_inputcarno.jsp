@@ -43,7 +43,7 @@
                             <tbody>
                                 <tr>
                                     <td class="center">
-                                       沪A550X6
+                                        沪A550X6
                                     </td>
                                     <td class="center">
                                         关谷
@@ -55,7 +55,7 @@
                                         金卡会员
                                     </td>
                                     <td>
-                                        洗车	
+                                        洗车 
                                     </td>
                                     <td>
                                         <div class="visible-md visible-lg hidden-sm hidden-xs btn-group">
@@ -67,7 +67,7 @@
                                 </tr>
                                 <tr>
                                     <td class="center">
-                                       沪A550X9
+                                        沪A550X9
                                     </td>
                                     <td class="center">
                                         张益达
@@ -91,7 +91,7 @@
                                 </tr>
                                 <tr>
                                     <td class="center">
-                                       沪A550X7
+                                        沪A550X7
                                     </td>
                                     <td class="center">
                                         曾小贤
@@ -120,9 +120,21 @@
                 </div>
                 <!-- /span -->
             </div>
-            <!-- /row -->
-            <!-- PAGE CONTENT ENDS -->
+            <!-- /row --><!-- PAGE CONTENT ENDS -->
         </div>
         <!-- /.col -->
+    </div>
+    <div class="footer wizard-actions">
+        <button class="btn btn-sm btn-prev" disabled="disabled">
+            <i class="icon-arrow-left"></i>
+            Prev
+        </button>
+        <button class="btn btn-success btn-sm btn-next" data-last="Finish ">
+            Next<i class="icon-arrow-right icon-on-right"></i>
+        </button>
+        <button class="btn btn-danger btn-sm pull-left" data-dismiss="modal">
+            <i class="icon-remove"></i>
+            Cancel
+        </button>
     </div>
 </div>

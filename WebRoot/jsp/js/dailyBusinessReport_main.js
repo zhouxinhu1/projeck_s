@@ -73,10 +73,10 @@ $(function() {
 							type : 'column'
 						},
 						title : {
-							text : 'Monthly Average Rainfall'
+							text : '全国前四营收，2014'
 						},
 						subtitle : {
-							text : 'Source: WorldClimate.com'
+							text : 'Source: www.shell.com.cn'
 						},
 						xAxis : {
 							categories : [ 'Jan', 'Feb', 'Mar', 'Apr', 'May',
@@ -86,7 +86,7 @@ $(function() {
 						yAxis : {
 							min : 0,
 							title : {
-								text : 'Rainfall (mm)'
+								text : '营收入 (万元)'
 							}
 						},
 						tooltip : {
@@ -104,28 +104,28 @@ $(function() {
 						},
 						series : [
 								{
-									name : 'Tokyo',
+									name : '南京',
 									data : [ 49.9, 71.5, 106.4, 129.2, 144.0,
 											176.0, 135.6, 148.5, 216.4, 194.1,
 											95.6, 54.4 ]
 
 								},
 								{
-									name : 'New York',
+									name : '天津',
 									data : [ 83.6, 78.8, 98.5, 93.4, 106.0,
 											84.5, 105.0, 104.3, 91.2, 83.5,
 											106.6, 92.3 ]
 
 								},
 								{
-									name : 'London',
+									name : '深圳',
 									data : [ 48.9, 38.8, 39.3, 41.4, 47.0,
 											48.3, 59.0, 59.6, 52.4, 65.2, 59.3,
 											51.2 ]
 
 								},
 								{
-									name : 'Berlin',
+									name : '成都',
 									data : [ 42.4, 33.2, 34.5, 39.7, 52.6,
 											75.5, 57.4, 60.4, 47.6, 39.1, 46.8,
 											51.1 ]
@@ -368,7 +368,7 @@ $(function() {
 							plotShadow : false
 						},
 						title : {
-							text : 'Browser market shares at a specific website, 2014'
+							text : '各门店主要项目收入比, 2014'
 						},
 						tooltip : {
 							pointFormat : '{series.name}: <b>{point.percentage:.1f}%</b>'
@@ -389,13 +389,13 @@ $(function() {
 						series : [ {
 							type : 'pie',
 							name : 'Browser share',
-							data : [ [ 'Firefox', 45.0 ], [ 'IE', 26.8 ], {
-								name : 'Chrome',
+							data : [ [ '招牌换油', 45.0 ], [ '保养', 26.8 ], {
+								name : '维修',
 								y : 12.8,
 								sliced : true,
 								selected : true
-							}, [ 'Safari', 8.5 ], [ 'Opera', 6.2 ],
-									[ 'Others', 0.7 ] ]
+							}, [ '洗车', 8.5 ], [ '商品销售', 6.2 ],
+									[ '其他', 0.7 ] ]
 						} ]
 					});
 

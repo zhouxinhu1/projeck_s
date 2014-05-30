@@ -3,62 +3,64 @@ $(".active open").removeClass("active open");
 $("#report").addClass("active open");
 $("#dailyBusinessReport1").addClass("active");
 
-$(function () {
-    
-    $('#container').highcharts({
-        
-	    chart: {
-	        polar: true
-	    },
-	    
-	    title: {
-	        text: '门店综合实力统计'
-	    },
-	    
-	    pane: {
-	        startAngle: 0,
-	        endAngle: 360
-	    },
-	
-	    xAxis: {
-	        tickInterval: 45,
-	        min: 0,
-	        max: 360,
-	        labels: {
-	        	formatter: function () {
-	        		return this.value + '°';
-	        	}
-	        }
-	    },
-	        
-	    yAxis: {
-	        min: 0
-	    },
-	    
-	    plotOptions: {
-	        series: {
-	            pointStart: 0,
-	            pointInterval: 45
-	        },
-	        column: {
-	            pointPadding: 0,
-	            groupPadding: 0
-	        }
-	    },
-	
-	    series: [{
-	        type: 'column',
-	        name: 'Column',
-	        data: [8, 7, 6, 5, 4, 3, 2, 1],
-	        pointPlacement: 'between'
-	    }, {
-	        type: 'line',
-	        name: 'Line',
-	        data: [1, 2, 3, 4, 5, 6, 7, 8]
-	    }, {
-	        type: 'area',
-	        name: 'Area',
-	        data: [1, 8, 2, 7, 3, 6, 4, 5]
-	    }]
-	});
+$(function() {
+
+	$('#container')
+			.highcharts(
+					{
+
+						chart : {
+							polar : true,
+							type : 'line'
+						},
+
+						title : {
+							text : '门店综合实力对比',
+							x : -80
+						},
+
+						pane : {
+							size : '80%'
+						},
+
+						xAxis : {
+							categories : [ '销售', '市场', '未来发展',
+									'用户评价',
+									'技术水平', '管理' ],
+							tickmarkPlacement : 'on',
+							lineWidth : 0
+						},
+
+						yAxis : {
+							gridLineInterpolation : 'polygon',
+							lineWidth : 0,
+							min : 0
+						},
+
+						tooltip : {
+							shared : true,
+							pointFormat : '<span style="color:{series.color}">{series.name}: <b>${point.y:,.0f}</b><br/>'
+						},
+
+						legend : {
+							align : 'right',
+							verticalAlign : 'top',
+							y : 70,
+							layout : 'vertical'
+						},
+
+						series : [
+								{
+									name : '南京',
+									data : [ 43, 19, 60, 35, 17,
+											10 ],
+									pointPlacement : 'on'
+								},
+								{
+									name : '南宁',
+									data : [ 50, 39, 42, 31, 26,
+											14 ],
+									pointPlacement : 'on'
+								} ]
+					});
 });
