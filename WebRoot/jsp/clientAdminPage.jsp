@@ -15,6 +15,8 @@
 <meta name="keywords" content="壳牌喜力 客户服务中心" />
 <meta name="description" content="客户服务中心" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!-- icon -->
+<link rel="apple-touch-icon" sizes="72x72" href="jsp/images/icon-ipad.png" />
 <!-- basic styles -->
 <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
 <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
@@ -91,9 +93,9 @@
 								<h3 class="header smaller lighter green"></h3>
 								<p>
 								
-									<button class="btn btn-app btn-primary btn-xs">
+									<a class="btn btn-app btn-primary btn-xs" href="#open-modal-wizard" data-toggle="modal">
 										<i class="icon-unlock bigger-160"></i> 快速开店
-									</button>
+									</a>
 									<a href="jsp/manage/wel_1_searchcar.jsp"
 										class="btn btn-app radius-4 btn-xs"> <i
 										class="icon-key bigger-160"></i> 招牌业务 <span
@@ -150,9 +152,9 @@
 										class="icon-shopping-cart bigger-160"></i> 快速采购
 									</a>
 									
-									<button class="btn btn-app btn-danger btn-xs">
+									<a class="btn btn-app btn-danger btn-xs" href="#close-modal-wizard" data-toggle="modal">
 										<i class="icon-lock bigger-160"></i> 快速关店
-									</button>
+									</a>
 								</p>
 								<h3 class="header smaller lighter green"></h3>
 								<div class="row">
@@ -1210,6 +1212,242 @@
 									</div> -->
 	
 								</div>
+								
+								
+								<!-- add by zxh-->
+                                <div id="open-modal-wizard" class="modal">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header" data-target="#modal-step-contents">
+                                                <ul class="wizard-steps">
+                                                    <li id="open-modal-header-step1" data-target="#open-modal-step1" class="active">
+                                                        <span class="step">1</span>
+                                                        <span class="title">考勤</span>
+                                                    </li>
+                                                    <li data-target="#modal-step2">
+                                                        <span class="step">2</span>
+                                                        <span class="title">盘点</span>
+                                                    </li>
+                                                    <li data-target="#modal-step3">
+                                                        <span class="step">3</span>
+                                                        <span class="title">预约</span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="modal-body step-content text-left" id="modal-step-contents" style="font-size:13px;">
+                                                <div class="step-pane active" id="open-modal-step1">
+                                                    <h5 class="lighter blue header" style="margin-top: 0px;">今日到岗员工</h5>
+                                                    <div class="row">
+                                                        <label class="control-label bolder blue col-xs-2"">
+                                 店长：
+                                                        </label>
+                                                        <label class="checkbox inline" style="margin-top:-5px">
+                                                            <input type="checkbox" id="inlineCheckbox1" value="option1">刘备
+                                                        </label>
+                                                        <label class="checkbox inline">
+                                                            <input type="checkbox" id="inlineCheckbox2" value="option2">曹操
+                                                        </label>
+                                                    </div>
+                                                    <div class="row">
+                                                        <label class="control-label bolder blue col-xs-2"">
+                                 接待部：
+                                                        </label>
+                                                        <label class="checkbox inline" style="margin-top:-5px">
+                                                            <input type="checkbox" id="inlineCheckbox1" value="option1">貂蝉
+                                                        </label>
+                                                        <label class="checkbox inline">
+                                                            <input type="checkbox" id="inlineCheckbox2" value="option2">大乔
+                                                        </label>
+                                                        <label class="checkbox inline">
+                                                            <input type="checkbox" id="inlineCheckbox2" value="option2">孙尚香
+                                                        </label>
+                                                    </div>
+                                                    <div class="row">
+                                                        <label class="control-label bolder blue col-xs-2"">
+                                 维修部：
+                                                        </label>
+                                                        <label class="checkbox inline" style="margin-top:-5px">
+                                                            <input type="checkbox" id="inlineCheckbox1" value="option1">赵云
+                                                        </label>
+                                                        <label class="checkbox inline">
+                                                            <input type="checkbox" id="inlineCheckbox2" value="option2">关于
+                                                        </label>
+                                                        <label class="checkbox inline">
+                                                            <input type="checkbox" id="inlineCheckbox2" value="option2">吕布
+                                                        </label>
+                                                        <label class="checkbox inline">
+                                                            <input type="checkbox" id="inlineCheckbox2" value="option2">张飞
+                                                        </label>
+                                                        <label class="checkbox inline">
+                                                            <input type="checkbox" id="inlineCheckbox2" value="option2">陆逊
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                                <div class="step-pane" id="modal-step2">
+                                                    <h5 class="lighter blue header" style="margin-top: 0px;">盘点钱箱和卡</h5>
+                                                    <ul class="list-unstyled spaced">
+                                                        <li>
+                                                            <i class="icon-ok bigger-110 green"></i>
+                                                            500元，收银箱中。
+                                                        </li>
+                                                        <li>
+                                                            <i class="icon-ok bigger-110 green"></i>
+                                                            30张会员卡，收银箱中。
+                                                        </li>
+                                                    </ul>
+                                                    <h5 class="lighter blue header">昨日备注</h5>
+                                                    <ul class="list-unstyled spaced">
+                                                        <li>
+                                                            <i class="icon-bell bigger-110 purple"></i>
+                                                            机油不足。（4升*4，1升*10）
+                                                        </li>
+                                                        <li class="text-warning bigger-110 orange">
+                                                            <i class="icon-warning-sign"></i>
+                                                            沪F88888 今日取车
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="step-pane" id="modal-step3">
+                                                    <h5 class="lighter blue header" style="margin-top: 0px;">今日预约</h5>
+                                                    <ul class="list-unstyled spaced">
+                                                        <li>
+                                                            <i class="icon-ok bigger-110 green"></i>
+                                                            8：00 沪A88888（福克斯） 甄姬 保养：12000KM
+                                                        </li>
+                                                        <li>
+                                                            <i class="icon-ok bigger-110 green"></i>
+                                                            8：30 沪A1234（科鲁兹） 小乔 维修：发动机抖动
+                                                        </li>
+                                                        <li>
+                                                            <i class="icon-ok bigger-110 green"></i>
+                                                            14：30 沪A1234（明锐） 甘夫人 福特 维修：排气管异响
+                                                        </li>
+                                                        <li>
+                                                            <i class="icon-ok bigger-110 green"></i>
+                                                            14：30 沪A1234（途安） 吕布 检查：四轮定位
+                                                        </li>
+                                                        </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="modal-footer wizard-actions">
+                                                        <button class="btn btn-sm btn-prev">
+                                                            <i class="icon-arrow-left"></i>
+                                                            Prev
+                                                        </button>
+                                                        <button class="btn btn-success btn-sm btn-next" data-last="Finish ">
+                                                            Next<i class="icon-arrow-right icon-on-right"></i>
+                                                        </button>
+                                                        <button class="btn btn-danger btn-sm pull-left" data-dismiss="modal">
+                                                            <i class="icon-remove"></i>
+                                                            Cancel
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div id="close-modal-wizard" class="modal">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header" data-target="#close-modal-step-contents">
+                                                        <ul class="wizard-steps">
+                                                            <li id="close-modal-header-step1" data-target="#close-modal-step1" class="active">
+                                                                <span class="step">1</span>
+                                                                <span class="title">盘点</span>
+                                                            </li>
+                                                            <li data-target="#close-modal-step2">
+                                                                <span class="step">2</span>
+                                                                <span class="title">备注</span>
+                                                            </li>
+                                                            <li data-target="#close-modal-step3">
+                                                                <span class="step">3</span>
+                                                                <span class="title">回访用户</span>
+                                                            </li>
+                                                            <li data-target="#close-modal-step4">
+                                                                <span class="step">4</span>
+                                                                <span class="title">完成</span>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="modal-body step-content text-left" id="close-modal-step-contents" style="font-size:13px;">
+                                                        <div class="step-pane active" id="close-modal-step1">
+                                                            <h5 class="lighter blue header" style="margin-top: 0px;">盘点钱箱和卡</h5>
+                                                            <div class="form-group row">
+                                                                <label class="col-sm-2 control-label no-padding-left">
+                                                                    剩余现金
+                                                                </label>
+                                                                <div class="col-sm-4 no-padding-left">
+                                                                    <input type="text" class="col-sm-9" id="form-field-1" placeholder="0.00元">
+                                                                </div>
+                                                            </div>
+                                                            <div class="form-group row">
+                                                                <label class="col-sm-2 control-label no-padding-left">
+                                                                    剩余会员卡
+                                                                </label>
+                                                                <div class="col-sm-4 no-padding-left">
+                                                                    <input type="text" class="col-sm-9" id="form-field-1" placeholder="15张">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="step-pane" id="close-modal-step2">
+                                                            <h5 class="lighter blue header" style="margin-top: 0px;">今日留言</h5>
+                                                            <ul class="list-unstyled spaced">
+                                                                <li>
+                                                                    <i class="icon-ok bigger-110 green"></i>
+                                                                    沪A88888（福克斯）维修完成 还需检验
+                                                                </li>
+                                                                <li>
+                                                                    <i class="icon-ok bigger-110 green"></i>
+                                                                    沪A1234（科鲁兹）取车
+                                                                </li>
+                                                            </ul>
+                                                            <div class="form-group">
+                                                                <div>
+                                                                    <label for="form-field-8">
+                                                                        其他备注
+                                                                    </label>
+                                                                    <textarea class="form-control" id="form-field-8" placeholder="Default Text">
+                                                                    </textarea>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="step-pane" id="close-modal-step3">
+                                                            <h5 class="lighter blue header" style="margin-top: 0px;">今日回访顾客</h5>
+                                                            <div class="row">
+                                                                <label class="checkbox" style="margin-top:-5px">
+                                                                    <input type="checkbox" id="inlineCheckbox1" value="option1">顾客：刘备 电话：15900000000
+                                                                </label>
+                                                                <label class="checkbox">
+                                                                    <input type="checkbox" id="inlineCheckbox2" value="option2">顾客：曹操 电话：13600000000
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                        <div class="step-pane" id="close-modal-step4">
+                                                            <div class="center">
+                                                                <h3 class="green">下班了</h3>
+                                                                祝君：开开心心上班，平平安安回家～～～
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="modal-footer wizard-actions">
+                                                        <button class="btn btn-sm btn-prev">
+                                                            <i class="icon-arrow-left"></i>
+                                                            Prev
+                                                        </button>
+                                                        <button class="btn btn-success btn-sm btn-next" data-last="Finish ">
+                                                            Next<i class="icon-arrow-right icon-on-right"></i>
+                                                        </button>
+                                                        <button class="btn btn-danger btn-sm pull-left" data-dismiss="modal">
+                                                            <i class="icon-remove"></i>
+                                                            Cancel
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+								
+								<!-- end add by zxh-->
+								
+								
 								<!-- /.page-content -->
 							</div>
 							<!-- /.main-content -->
@@ -1255,12 +1493,29 @@
 						
 					</script>
 					<script src="assets/js/jqGrid/jquery.jqGrid.min.js"></script>
-					<script src="assets/js/jqGrid/i18n/grid.locale-en.js">
-						
-					</script>
+					<script src="assets/js/jqGrid/i18n/grid.locale-en.js"></script>
+					<script src="assets/js/date-time/bootstrap-datepicker.min.js">
+	                </script>
+	                <script src="assets/js/jqGrid/jquery.jqGrid.min.js">
+	                </script>
+	                <script src="assets/js/jqGrid/i18n/grid.locale-en.js">
+	                </script>
+	                <script src="assets/js/fuelux/fuelux.wizard.min.js">
+	                </script>
+	                <script src="assets/js/fuelux/fuelux.wizard.min.js">
+	                </script>
+	                <script src="assets/js/jquery.validate.min.js">
+	                </script>
+	                <script src="assets/js/additional-methods.min.js">
+	                </script>
+	                <script src="assets/js/bootbox.min.js">
+	                </script>
+	                <script src="assets/js/jquery.maskedinput.min.js">
+	                </script>
+	                <script src="assets/js/select2.min.js">
+	                </script>
 					<!--[if lte IE 8]>
-            <script src="assets/js/excanvas.min.js"></script>
-        <![endif]-->
+            <script src="assets/js/excanvas.min.js"></script><![endif]-->
 					<script src="assets/js/jquery-ui-1.10.3.custom.min.js">
 						
 					</script>
