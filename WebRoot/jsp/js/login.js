@@ -42,7 +42,7 @@ function checkLoginInfo(username,password) {
 				$.cookie('shellCookieUserName', null);
 				$.cookie('shellCookieUserName', username);
 				$.cookie('shellCookiePassword', null);
-				$.cookie('shellCookiePassword', username);
+				$.cookie('shellCookiePassword', password);
 			 	window.accountType = val.accounttype;
 			 	result = true;
 			}
@@ -52,7 +52,7 @@ function checkLoginInfo(username,password) {
 
 function loginTheMainPage(level)
 {
-	//level 1 is supervisor,level 2 is regionuser,level 3 is clientuser
+	//level 1 is supervisor,level 2 is regionuser,level 3 is clientuser, level 4 is operator
 	if(level == 1)
 		location.replace("jsp/report/dailyBusinessReport_main.jsp");
 	else if(level == 2)

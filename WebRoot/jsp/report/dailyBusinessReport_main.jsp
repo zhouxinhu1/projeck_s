@@ -77,6 +77,7 @@ String basePath = request.getScheme() + "://"
                     </div>
                     <div class="page-content">
                         <!-- /.page-header --><!-- PAGE CONTENT BEGINS -->
+                        <div class="page-header">
                         <div class="row">
                             <div class="col-xs-6">
                                 <div class="panel panel-default">
@@ -95,6 +96,8 @@ String basePath = request.getScheme() + "://"
                                 </div>
                             </div>
                         </div>
+                        </div>
+                        <div class="page-header">
                         <div class="row">
                             <div class="col-xs-6">
                                 <div class="panel panel-default">
@@ -114,6 +117,7 @@ String basePath = request.getScheme() + "://"
                             </div>
                         </div>
                         <!-- PAGE CONTENT ENDS -->
+                    </div>
                     </div>
                     <!-- /.page-content -->
                 </div>

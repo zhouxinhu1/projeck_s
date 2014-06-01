@@ -1095,7 +1095,7 @@
 
 
 																<td class="hidden-480"><span
-																	class="label label-warning arrowed arrowed-right">售完</span>
+																	class="label label-warning arrowed arrowed-right">近效期</span>
 
 																</td>
 

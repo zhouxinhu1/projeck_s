@@ -44,7 +44,7 @@
 						<li id = "dailyBusiness" class ="hidden open active">
 							<a href="jsp/clientAdminPage.jsp" class = "hidden" id = "dailyBusinesshref">
 								<i class="icon-home hidden" id = "dailyBusinessLine"></i>
-								<span class="menu-text hidden" id = "dailyBusinessSpan"> 日常业务 </span>
+								<span class="menu-text hidden" id = "dailyBusinessSpan">快保中心</span>
 							</a>
 							<ul class="submenu hidden" id="dailyBusinessSubMenu">
 								<li id="quickBusiness" class = "hidden">
@@ -63,7 +63,21 @@
 								<li id="applyCard" class = "hidden">
 									<a href="jsp/systemBuildingPage.jsp" class = "hidden" id="applyCardhref">
 										<i class="icon-double-angle-right hidden" id="applyCardLine"></i>
-										会员卡
+										会员卡办理
+									</a>
+								</li>
+								
+								<li id="goodsDrawback" class = "hidden">
+									<a href="jsp/systemBuildingPage.jsp" class = "hidden" id="goodsDrawbackhref">
+										<i class="icon-double-angle-right hidden" id="goodsDrawbackLine"></i>
+										商品退销
+									</a>
+								</li>
+								
+								<li id="projectDrawback" class = "hidden">
+									<a href="jsp/systemBuildingPage.jsp" class = "hidden" id="projectDrawbackhref">
+										<i class="icon-double-angle-right hidden" id="projectDrawbackLine"></i>
+										项目退单
 									</a>
 								</li>
 							</ul>
@@ -71,7 +85,7 @@
 
                        <li id = "stockManagement" class = "hidden open active">
 							<a href="jsp/systemBuildingPage.jsp" class = "hidden" id="stockManagementhref">
-								<i class="icon-briefcase hidden" id="stockManagementLine"></i>
+								<i class="icon-inbox hidden" id="stockManagementLine"></i>
 								<span class="menu-text" id="stockManagementSpan"> 库存管理 </span>
 							</a>
 							<ul class="submenu hidden" id="stockManagementSubMenu">
@@ -97,7 +111,7 @@
 								<li id="inventoryCheck" class = "hidden">
 									<a href="jsp/systemBuildingPage.jsp" class="hidden" id="inventoryCheckhref">
 										<i class="icon-double-angle-right hidden" id="inventoryCheckLine"></i>
-										库存盘点
+										库存管理
 									</a>
 								</li>
 								<li id="goodsloan" class = "hidden">
@@ -106,14 +120,56 @@
 										货品借调
 									</a>
 								</li>
+								<li id="validWaring" class = "hidden">
+									<a href="jsp/systemBuildingPage.jsp" class = "hidden" id="validWaringhref">
+										<i class="icon-double-angle-right hidden" id="validWaringLine"></i>
+										效期预警
+									</a>
+								</li>
 							</ul>
 						</li>
 
 						<li id = "financialManage" class = "hidden open active">
 							<a href="jsp/systemBuildingPage.jsp" class = "hidden" id="financialManagehref">
 								<i class="icon-barcode hidden" id="financialManageLine"></i>
-								<span class="menu-text hidden" id="financialManageSpan"> 卡卷套餐优惠管理 </span>
+								<span class="menu-text hidden" id="financialManageSpan"> 优惠管理 </span>
 							</a>
+							<ul class="submenu hidden" id="financialManageSubMenu">
+								<li id="memberCardMgr" class = "hidden">
+									<a href="jsp/systemBuildingPage.jsp" class = "hidden" id="memberCardMgrhref">
+										<i class="icon-double-angle-right hidden" id="memberCardMgrLine"></i>
+										会员卡管理
+									</a>
+								</li>
+
+								<li id="cardCouponMgr" class = "hidden">
+									<a href="jsp/systemBuildingPage.jsp" class = "hidden" id="cardCouponMgrhref">
+										<i class="icon-double-angle-right hidden" id="cardCouponMgrLine"></i>
+										卡片优惠管理
+									</a>
+								</li>
+								<li id="couponMgr" class = "hidden">
+									<a href="jsp/systemBuildingPage.jsp" class = "hidden" id="couponMgrhref">
+										<i class="icon-double-angle-right hidden" id="couponMgrLine"></i>
+										优惠券管理
+									</a>
+								</li>
+								
+								<li id="shellPlansMgr" class = "hidden">
+									<a href="jsp/systemBuildingPage.jsp" class = "hidden" id="shellPlansMgrhref">
+										<i class="icon-double-angle-right hidden" id="shellPlansMgrLine"></i>
+										壳牌套餐管理
+									</a>
+								</li>
+								
+								<li id="regionPlanSetting" class = "hidden">
+									<a href="jsp/systemBuildingPage.jsp" class = "hidden" id="regionPlanSettinghref">
+										<i class="icon-double-angle-right hidden" id="regionPlanSettingLine"></i>
+										区域套餐设定
+									</a>
+								</li>
+								
+							</ul>	
 						</li>
 
 						<li id = "customerMgr" class = "hidden open active">
@@ -121,6 +177,69 @@
 								<i class="icon-user hidden" id="customerMgrLine"></i>
 								<span class="menu-text hidden" id="customerMgrSpan"> 客户关系管理 </span>
 							</a>
+							<ul class="submenu hidden" id="customerMgrSubMenu">
+								<li id="customerInfoMgr" class = "hidden">
+									<a href="jsp/systemBuildingPage.jsp" class = "hidden" id="customerInfoMgrhref">
+										<i class="icon-double-angle-right hidden" id="customerInfoMgrLine"></i>
+										客户信息管理
+									</a>
+								</li>
+
+								<li id="customerBackRecord" class = "hidden">
+									<a href="jsp/systemBuildingPage.jsp" class = "hidden" id="customerBackRecordhref">
+										<i class="icon-double-angle-right hidden" id="customerBackRecordLine"></i>
+										回访记录管理
+									</a>
+								</li>
+								<li id="customerBonuspointMgr" class = "hidden">
+									<a href="jsp/systemBuildingPage.jsp" class = "hidden" id="customerBonuspointMgrhref">
+										<i class="icon-double-angle-right hidden" id="customerBonuspointMgrLine"></i>
+										消费积分管理
+									</a>
+								</li>
+							</ul>
+						</li>
+							
+
+						
+						<li id = "accountingMgr" class = "hidden open active">
+							<a href="jsp/systemBuildingPage.jsp" class = "hidden" id="accountingMgrhref">
+								<i class="icon-book hidden" id="accountingMgrLine"></i>
+								<span class="menu-text hidden" id="accountingMgrSpan"> 账务管理 </span>
+							</a>
+							<ul class="submenu hidden" id="accountingMgrSubMenu">
+								<li id="settlementsDetailsMgr" class = "hidden">
+									<a href="jsp/systemBuildingPage.jsp" class = "hidden" id="settlementsDetailsMgrhref">
+										<i class="icon-double-angle-right hidden" id="settlementsDetailsMgrLine"></i>
+										结算详情管理
+									</a>
+								</li>
+								<li id="inventoryCashMgr" class = "hidden">
+									<a href="jsp/systemBuildingPage.jsp" class = "hidden" id="inventoryCashMgrhref">
+										<i class="icon-double-angle-right hidden" id="inventoryCashMgrLine"></i>
+										进销存款管理
+									</a>
+								</li>
+
+								<li id="bankAccountMgr" class = "hidden">
+									<a href="jsp/systemBuildingPage.jsp" class = "hidden" id="bankAccountMgrhref">
+										<i class="icon-double-angle-right hidden" id="bankAccountMgrLine"></i>
+										银行账目管理
+									</a>
+								</li>
+								<li id="settlementsWayMgr" class = "hidden">
+									<a href="jsp/systemBuildingPage.jsp" class = "hidden" id="settlementsWayMgrhref">
+										<i class="icon-double-angle-right hidden" id="settlementsWayMgrLine"></i>
+										结算方式管理
+									</a>
+								</li>
+								<li id="otherCashMgr" class = "hidden">
+									<a href="jsp/systemBuildingPage.jsp" class = "hidden" id="otherCashMgrhref">
+										<i class="icon-double-angle-right hidden" id="otherCashMgrLine"></i>
+										营业外收支
+									</a>
+								</li>
+							</ul>
 						</li>
 
                         <li id = "humanResourceMgr" class = "hidden open active">
@@ -128,6 +247,83 @@
 								<i class="icon-thumbs-up hidden" id="humanResourceMgrLine"></i>
 								<span class="menu-text hidden" id="humanResourceMgrSpan"> 人事管理 </span>
 							</a>
+							
+							<ul class="submenu hidden" id="humanResourceMgrSubMenu">
+								<li id="humanResourceRelationShipMgr" class = "hidden">
+									<a href="jsp/systemBuildingPage.jsp" class = "hidden" id="humanResourceRelationShipMgrhref">
+										<i class="icon-double-angle-right hidden" id="humanResourceRelationShipMgrLine"></i>
+										人事关系管理
+									</a>
+								</li>
+								<li id="sallerySystemMgr" class = "hidden">
+									<a href="jsp/systemBuildingPage.jsp" class = "hidden" id="sallerySystemMgrhref">
+										<i class="icon-double-angle-right hidden" id="sallerySystemMgrLine"></i>
+										薪酬体系管理
+									</a>
+								</li>
+
+								<li id="employeeLevelMgr" class = "hidden">
+									<a href="jsp/systemBuildingPage.jsp" class = "hidden" id="employeeLevelMgrhref">
+										<i class="icon-double-angle-right hidden" id="employeeLevelMgrLine"></i>
+										人员变动记录
+									</a>
+								</li>
+								<li id="KPISettingMgr" class = "hidden">
+									<a href="jsp/systemBuildingPage.jsp" class = "hidden" id="KPISettingMgrhref">
+										<i class="icon-double-angle-right hidden" id="KPISettingMgrLine"></i>
+										KPI考核设定
+									</a>
+								</li>
+								<li id="attendenceMgr" class = "hidden">
+									<a href="jsp/systemBuildingPage.jsp" class = "hidden" id="attendenceMgrhref">
+										<i class="icon-double-angle-right hidden" id="attendenceMgrLine"></i>
+										考勤记录查询
+									</a>
+								</li>
+							</ul>
+						</li>
+						
+						
+						<li id = "smsPlatformMgr" class = "hidden open active">
+							<a href="jsp/systemBuildingPage.jsp" class = "hidden" id="smsPlatformMgrhref">
+								<i class="icon-comments-alt hidden" id="smsPlatformMgrLine"></i>
+								<span class="menu-text hidden" id="smsPlatformMgrSpan"> 短信平台 </span>
+							</a>
+							
+							
+							<ul class="submenu hidden" id="smsPlatformMgrSubMenu">
+								<li id="smartAlertSettings" class = "hidden">
+									<a href="jsp/systemBuildingPage.jsp" class = "hidden" id="smartAlertSettingshref">
+										<i class="icon-double-angle-right hidden" id="smartAlertSettingsLine"></i>
+										智能提醒设定
+									</a>
+								</li>
+								<li id="toDoListAlertSettings" class = "hidden">
+									<a href="jsp/systemBuildingPage.jsp" class = "hidden" id="toDoListAlertSettingshref">
+										<i class="icon-double-angle-right hidden" id="toDoListAlertSettingsLine"></i>
+										代办项目提醒设置
+									</a>
+								</li>
+
+								<li id="manualSMSSend" class = "hidden">
+									<a href="jsp/systemBuildingPage.jsp" class = "hidden" id="manualSMSSendhref">
+										<i class="icon-double-angle-right hidden" id="manualSMSSendLine"></i>
+										手动短信发送
+									</a>
+								</li>
+								<li id="customerBirthdayAlert" class = "hidden">
+									<a href="jsp/systemBuildingPage.jsp" class = "hidden" id="customerBirthdayAlerthref">
+										<i class="icon-double-angle-right hidden" id="customerBirthdayAlertLine"></i>
+										客户生日提醒
+									</a>
+								</li>
+								<li id="smsSendRecord" class = "hidden">
+									<a href="jsp/systemBuildingPage.jsp" class = "hidden" id="smsSendRecordhref">
+										<i class="icon-double-angle-right hidden" id="smsSendRecordLine"></i>
+										短信记录查询
+									</a>
+								</li>
+							</ul>
 						</li>
 
 						<li id="basicDataMgr" class="hidden open active">
@@ -239,6 +435,57 @@
 								</li>
 							</ul>
 						</li>
+
+
+
+						<li id="reportForClient" class="hidden open active">
+							<a href="jsp/systemBuildingPage.jsp" class = "hidden" id="reportForClienthref">
+								<i class="icon-file hidden" id="reportForClientLine"></i>
+								<span class="menu-text hidden" id="reportForClientSpan"> 报表统计 </span>
+							</a>
+							<ul class="submenu hidden" id="reportForClientSubMenu">
+								<li id="dailyBusinessReportforClient" class="hidden">
+									<a href="jsp/systemBuildingPage.jsp" class="hidden" id="dailyBussinessReportforClienthref">
+										<i class="icon-double-angle-right hidden" id="dailyBussinessReportforClientLine"></i>
+										财务统计报表
+									</a>
+								</li>
+
+								<li id="dailyBusinessReport1forClient" class="hidden">
+									<a href="jsp/systemBuildingPage.jsp" class="hidden" id="dailyBussinessReport1forClienthref">
+										<i class="icon-double-angle-right hidden" id="dailyBussinessReport1forClientLine"></i>
+										库存统计报表
+									</a>
+								</li>
+								<li id="dailyBusinessReport2forClient" class="hidden">
+									<a href="jsp/systemBuildingPage.jsp" class="hidden" id="dailyBussinessReport2forClienthref">
+										<i class="icon-double-angle-right hidden" id="dailyBussinessReport2forClientLine"></i>
+										明细统计报表
+									</a>
+								</li>
+								<li id="dailyBusinessReport3forClient" class = "hidden">
+									<a href="jsp/systemBuildingPage.jsp" class = "hidden" id="dailyBussinessReport3forClienthref">
+										<i class="icon-double-angle-right hidden" id="dailyBussinessReport3forClientLine"></i>
+										变更记录报表
+									</a>
+								</li>
+								<li id="dailyBusinessReport4forClient" class="hidden">
+									<a href="jsp/systemBuildingPage.jsp" class="hidden" id="dailyBussinessReport4forClienthref">
+										<i class="icon-double-angle-right hidden" id="dailyBussinessReport4forClientLine"></i>
+										短信平台报表
+									</a>
+								</li>
+								<li id="dailyBusinessReport5forClient" class="hidden">
+									<a href="jsp/systemBuildingPage.jsp" class="hidden" id="dailyBussinessReport5forClienthref">
+										<i class="icon-double-angle-right hidden" id="dailyBussinessReport5forClientLine"></i>
+										员工统计报表
+									</a>
+								</li>
+							</ul>
+						</li>
+
+
+
 
 						<li id = "traningMgr" class="hidden open active">
 							<a href="jsp/systemBuildingPage.jsp" class = "hidden">
