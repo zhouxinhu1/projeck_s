@@ -18,25 +18,21 @@
         </ul>
     </div>
 	 <div class="btn-group open" style="position:absolute;left: 40px; top: 145px; z-index: 1;">
-        <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle" style="width:160px">
-            已行驶15400公里
+        <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle" style="width:200px">
+            上次里程12000KM
         </button>
-        <!--ul class="dropdown-menu">
+        <ul class="dropdown-menu">
             <ul class="list-unstyled">
                 <li>
                     <i class="icon-ok green"></i>
-                    Nested List Item
+                    历史换油：招牌套餐A
                 </li>
                 <li>
                     <i class="icon-ok green"></i>
-                    Nested List Item
-                </li>
-                <li>
-                    <i class="icon-ok green"></i>
-                    Nested List Item
+                    顾客偏好：左后胎有补，需要经常检查
                 </li>
             </ul>
-        </ul-->
+        </ul>
     </div>
 	
 	 <div class="btn-group open" style="position:absolute;left: 280px; top: 45px; z-index: 1;">
@@ -103,7 +99,7 @@
 	
 	 <div class="btn-group open" style="position:absolute;left: 810px; top: 288px; z-index: 1;">
         <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle" style="width:160px">
-            油箱（3/4）
+            油箱（满）
         </button>
         <!--ul class="dropdown-menu">
             <ul class="list-unstyled">
