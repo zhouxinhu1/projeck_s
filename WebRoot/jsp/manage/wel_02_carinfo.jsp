@@ -91,15 +91,11 @@
             <ul class="list-unstyled">
                 <li>
                     <i class="icon-ok green"></i>
-                    Nested List Item
+                    项目
                 </li>
                 <li>
                     <i class="icon-ok green"></i>
-                    Nested List Item
-                </li>
-                <li>
-                    <i class="icon-ok green"></i>
-                    Nested List Item
+                    项目
                 </li>
             </ul>
         </ul>
@@ -113,15 +109,15 @@
             <ul class="list-unstyled">
                 <li>
                     <i class="icon-ok green"></i>
-                    Nested List Item
+                    项目
                 </li>
                 <li>
                     <i class="icon-ok green"></i>
-                    Nested List Item
+                    项目
                 </li>
                 <li>
                     <i class="icon-ok green"></i>
-                    Nested List Item
+                    项目
                 </li>
             </ul>
         </ul-->
@@ -154,11 +150,11 @@
         <ul class="dropdown-menu">
             <ul class="list-unstyled">
                 <li>
-                    <i class="icon-warning-sign yellow"></i>
+                    <i class="icon-warning-sign orange"></i>
                     离合器总泵液面
                 </li>
                 <li>
-                    <i class="icon-warning-sign yellow"></i>
+                    <i class="icon-warning-sign orange"></i>
                     发动机冷却液液面
                 </li>
                 <li>
@@ -187,6 +183,11 @@
 	<div style="position:absolute;top:500px;left:60px">
 	<h3 class="lighter red header" style="margin-top: 0px;">推荐服务</h3>
 	<ul class="list-unstyled">
+		 		<li>
+                    <i class="icon-warning-sign orange"></i>
+                    上次遗留：刹车片（左边的基盘：5毫米）建议更换
+					</li>
+                <li>
                 <li>
                     <i class="icon-ok green"></i>
                     机油机滤更换服务：耗时50分钟
