@@ -69,15 +69,15 @@
             <ul class="list-unstyled">
                 <li>
                     <i class="icon-ok green"></i>
-                    Nested List Item
+                    项目
                 </li>
                 <li>
                     <i class="icon-ok green"></i>
-                    Nested List Item
+                    项目
                 </li>
                 <li>
                     <i class="icon-ok green"></i>
-                    Nested List Item
+                    项目
                 </li>
             </ul>
         </ul>
@@ -103,7 +103,7 @@
 	
 	 <div class="btn-group open" style="position:absolute;left: 810px; top: 288px; z-index: 1;">
         <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle" style="width:160px">
-            邮箱（3/4）
+            油箱（3/4）
         </button>
         <!--ul class="dropdown-menu">
             <ul class="list-unstyled">
