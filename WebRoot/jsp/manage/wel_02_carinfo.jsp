@@ -47,15 +47,15 @@
             <ul class="list-unstyled">
                 <li>
                     <i class="icon-ok green"></i>
-                    Nested List Item
+                    检查项目
                 </li>
                 <li>
                     <i class="icon-ok green"></i>
-                    Nested List Item
+                    检查项目
                 </li>
                 <li>
                     <i class="icon-ok green"></i>
-                    Nested List Item
+                    检查项目
                 </li>
             </ul>
         </ul>
@@ -151,11 +151,11 @@
             <ul class="list-unstyled">
                 <li>
                     <i class="icon-warning-sign orange"></i>
-                    离合器总泵液面
+                    离合器总泵液面（低）
                 </li>
                 <li>
                     <i class="icon-warning-sign orange"></i>
-                    发动机冷却液液面
+                    发动机冷却液液面（低）
                 </li>
                 <li>
                     <i class="icon-ok green"></i>

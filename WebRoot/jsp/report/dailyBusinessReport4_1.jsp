@@ -682,7 +682,9 @@ String basePath = request.getScheme() + "://"
     <![endif]-->
     <script type="text/javascript">
         if ("ontouchend" in document) 
-            document.write("__tag_240$52_" + "__tag_240$109_");
+            document
+					.write("<script src='assets/js/jquery.mobile.custom.min.js'>"
+							+ "<"+"/script>");
     </script>
     <script src="assets/js/bootstrap.min.js">
     </script>
@@ -729,8 +731,6 @@ String basePath = request.getScheme() + "://"
     <script src="assets/js/highcharts/modules/exporting.js">
     </script>
     <script src="assets/js/echarts/esl.js">
-    </script>
-    <script src="jsp/js/dailyBusinessReport4.js">
     </script>
     <script src="jsp/js/cookies.js">
     </script>
