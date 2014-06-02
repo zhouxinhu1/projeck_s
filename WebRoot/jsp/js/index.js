@@ -14,15 +14,6 @@ jQuery(function($) {
 		 $('#open-modal-wizard').modal("hide");
 	 });
 	 $('#close-modal-wizard .modal-header').ace_wizard().on('finished', function(e) {
-//			bootbox.dialog({
-//				message: "Thank you! Your information was successfully saved!", 
-//				buttons: {
-//					"success" : {
-//						"label" : "OK",
-//						"className" : "btn-sm btn-primary"
-//					}
-//				}
-//			})
 		 $('#close-modal-wizard').modal("hide");
 	 });
 	$.widget("ui.dialog", $.extend({}, $.ui.dialog.prototype, {

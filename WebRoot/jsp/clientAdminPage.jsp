@@ -101,8 +101,8 @@
 										class="icon-key bigger-160"></i> 招牌业务 <span
 										class="badge badge-pink">+3</span>
 									</a> 
-									<a href="#" class="btn btn-app radius-4 btn-xs"> <i
-										class="icon-dashboard bigger-160"></i> 服务中心 <span
+									<a href="jsp/manage/wel_1_searchcar.jsp" class="btn btn-app radius-4 btn-xs"> <i
+										class="icon-dashboard bigger-160"></i> 接车 <span
 										class="badge badge-pink">+3</span>
 									</a> 
 									<a href="#" class="btn btn-app btn-xs"> <i
