@@ -169,10 +169,12 @@
 													<ul class="nav nav-tabs" id="recent-tab">
 														<li class="active" id="taskForChat"><a data-toggle="tab"
 															href="#task-tab">待处理</a></li>
+															
+														<li><a data-toggle="tab" href="#comment-tab">已处理工单</a></li>
 
 														<li><a data-toggle="tab" href="#member-tab">当日新增会员</a></li>
 
-														<li><a data-toggle="tab" href="#comment-tab">服务反馈</a></li>
+														
 													</ul>
 												</div>
 											</div>
@@ -181,80 +183,86 @@
 												<div class="widget-main padding-4">
 													<div class="tab-content padding-8 overflow-visible">
 														<div id="task-tab" class="tab-pane active">
-															<ul id="tasks" class="item-list ui-sortable">
-																<li class="item-orange clearfix"><label
-																	class="inline"> <input type="checkbox"
-																		class="ace"> <span class="lbl">当前待处理工单<a href="#">4笔</a></span>
-																</label>
+														<div class="widget-body">
 
-																	<div
-																		class="pull-right easy-pie-chart percentage easyPieChart"
-																		data-size="30" data-color="#ECCB71" data-percent="42"
-																		style="width: 30px; height: 30px; line-height: 30px;">
-																		<span class="percent">42</span>%
-																		<canvas width="60" height="60"
-																			style="width: 30px; height: 30px;"></canvas>
-																	</div></li>
+												<div class="widget-main no-padding">
 
-																<li class="item-red clearfix"><label class="inline">
-																		<input type="checkbox" class="ace"> <span
-																		class="lbl"> Shell特供坦克机油<a href="#">采购中</a></span>
-																</label>
+													<table class="table table-bordered table-striped">
 
-																	<div class="pull-right action-buttons">
-																		<a href="#" class="blue"> <i
-																			class="icon-pencil bigger-130"></i>
-																		</a> <span class="vbar"></span> <a href="#" class="red">
-																			<i class="icon-trash bigger-130"></i>
-																		</a> <span class="vbar"></span> <a href="#" class="green">
-																			<i class="icon-flag bigger-130"></i>
-																		</a>
-																	</div></li>
+														<thead class="thin-border-bottom">
+															<tr>
+																<th><i class="icon-caret-right blue"></i> 车牌号</th>
+																<th><i class="icon-caret-right blue"></i> 操作区</th>
+																<th><i class="icon-caret-right blue"></i> 操作员</th>
+																<th><i class="icon-caret-right blue"></i> 合计金额</th>
+																<th class="hidden-480"><i class="icon-caret-right blue"></i> 状态</th>
+															</tr>
+														</thead>
+														<tbody>
+															<tr>
+																<td>沪A20098765</td>
+																<td>A－03</td>
+																<td>王尼玛</td>
+																<td>¥19.99</td>
+																<td class="hidden-480">
+																<a href ="#"><span class="label label-danger arrowed-right arrowed-in">去结算</span></a>
+															</tr>
+															<tr>
+																<td>沪A20098766</td>
+																<td>A－04</td>
+																<td>李尼玛</td>
+																<td>¥100</td>
+																<td class="hidden-480">
+																<a href ="#"><span class="label label-danger arrowed-right arrowed-in">去结算</span></a>
+																</td>
+																</span></td>
+															</tr>
+															<tr>
+																<td>沪A20098767</td>
+																<td>B－09</td>
+																<td>王尼玛</td>
+																<td>¥769</td>
+																<td class="hidden-480">
+																<span class="label label-lg label-yellow arrowed-in">等待中</span>
+																</td>
+																</span></td>
+															</tr>
+															<tr>
+																<td>沪A20098768</td>
+																<td>A－09</td>
+																<td>汤尼玛</td>
+																<td>¥3000</td>
+																<td class="hidden-480">
+																<span class="label label-success arrowed-in">进行中</span>
+																</td>
+															</tr>
+															<tr>
+																<td>沪A20098769</td>
+																<td>D－01</td>
+																<td>周尼玛</td>
+																<td>¥760</td>
+																<td class="hidden-480">
+																<span class="label label-success arrowed-in">进行中</span>
+																</td>
+															</tr>
+															<tr>
+																<td>沪A20098770</td>
+																<td>D－03</td>
+																<td>赵尼玛</td>
+																<td>¥2300</td>
+																<td class="hidden-480">
+																<span class="label label-success arrowed-in">进行中</span>
+																</td>
+															</tr>
+														</tbody>
 
-																<li class="item-default clearfix"><label
-																	class="inline"> <input type="checkbox"
-																		class="ace"> <span class="lbl">工单：<a href="#">40987655</a>处理中</span>
-																</label>
+													</table>
 
-																	<div
-																		class="inline pull-right position-relative dropdown-hover">
-																		<button class="btn btn-minier bigger btn-primary">
-																			<i class="icon-cog icon-only bigger-120"></i>
-																		</button>
+												</div>
+												<!-- /widget-main -->
 
-																		<ul
-																			class="dropdown-menu dropdown-only-icon dropdown-yellow dropdown-caret dropdown-close pull-right">
-																			<li><a href="#" class="tooltip-success"
-																				data-rel="tooltip" title=""
-																				data-original-title="Mark&nbsp;as&nbsp;done"> <span
-																					class="green"> <i class="icon-ok bigger-110"></i>
-																				</span>
-																			</a></li>
-
-																			<li><a href="#" class="tooltip-error"
-																				data-rel="tooltip" title=""
-																				data-original-title="Delete"> <span class="red">
-																						<i class="icon-trash bigger-110"></i>
-																				</span>
-																			</a></li>
-																		</ul>
-																	</div></li>
-
-																<li class="item-blue clearfix"><label
-																	class="inline"> <input type="checkbox"
-																		class="ace"> <span class="lbl"> 员工：<a href="#">张学友</a>打卡迟到</span>
-																</label></li>
-
-																<li class="item-grey clearfix"><label
-																	class="inline"> <input type="checkbox"
-																		class="ace"> <span class="lbl"> 货品：<a href="#">尾灯43122</a>缺货</span>
-																</label></li>
-
-																<li class="item-green clearfix"><label
-																	class="inline"> <input type="checkbox"
-																		class="ace"> <span class="lbl"> 升级：<a href="#">系统待更新项目</a></span>
-																</label></li>
-															</ul>
+											</div>
+															
 														</div>
 
 														<div id="member-tab" class="tab-pane">
@@ -551,147 +559,40 @@
 														<!-- member-tab -->
 
 														<div id="comment-tab" class="tab-pane">
-															<div class="slimScrollDiv"
-																style="position: relative; overflow: hidden; width: auto; height: 200px;">
-																<div class="comments"
-																	style="overflow: hidden; width: auto; height: 300px;">
-																	<div class="itemdiv commentdiv">
-																		<div class="user">
-																			<img alt="Bob Doe's Avatar"
-																				src="assets/avatars/avatar.png">
-																		</div>
+														<ul id="tasks" class="item-list ui-sortable">
+															<li class="item-green clearfix"><label
+																	class="inline"> <input type="checkbox"
+																		class="ace"> <span class="lbl"> 工单：<a href="#">qa12341</a>已完成</span>
+																</label></li>
 
-																		<div class="body">
-																			<div class="name">
-																				<a href="#">Bob Doe</a>
-																			</div>
+															<li class="item-green clearfix"><label
+																	class="inline"> <input type="checkbox"
+																		class="ace"> <span class="lbl"> 工单：<a href="#">qa12342</a>已完成</span>
+																</label></li>
 
-																			<div class="time">
-																				<i class="icon-time"></i> <span class="green">6
-																					min</span>
-																			</div>
+																<li class="item-green clearfix"><label
+																	class="inline"> <input type="checkbox"
+																		class="ace"> <span class="lbl"> 工单：<a href="#">qa12343</a>已完成</span>
+																</label></li>
 
-																			<div class="text">
-																				<i class="icon-quote-left"></i> 等待的时间长了点，店里的小妹很是热情，服务的小哥态度也很好，非常满意 …
-																			</div>
-																		</div>
+																<li class="item-green clearfix"><label
+																	class="inline"> <input type="checkbox"
+																		class="ace"> <span class="lbl"> 工单：<a href="#">qa12344</a>已完成</span>
+																</label></li>
 
-																		<div class="tools">
-																			<div class="inline position-relative">
-																				<button
-																					class="btn btn-minier bigger btn-yellow dropdown-toggle"
-																					data-toggle="dropdown">
-																					<i class="icon-angle-down icon-only bigger-120"></i>
-																				</button>
-
-																				<ul
-																					class="dropdown-menu dropdown-only-icon dropdown-yellow pull-right dropdown-caret dropdown-close">
-																					<li><a href="#" class="tooltip-success"
-																						data-rel="tooltip" title=""
-																						data-original-title="Approve"> <span
-																							class="green"> <i
-																								class="icon-ok bigger-110"></i>
-																						</span>
-																					</a></li>
-
-																					<li><a href="#" class="tooltip-warning"
-																						data-rel="tooltip" title=""
-																						data-original-title="Reject"> <span
-																							class="orange"> <i
-																								class="icon-remove bigger-110"></i>
-																						</span>
-																					</a></li>
-
-																					<li><a href="#" class="tooltip-error"
-																						data-rel="tooltip" title=""
-																						data-original-title="Delete"> <span
-																							class="red"> <i
-																								class="icon-trash bigger-110"></i>
-																						</span>
-																					</a></li>
-																				</ul>
-																			</div>
-																		</div>
-																	</div>
-
-																	<div class="itemdiv commentdiv">
-																		<div class="user">
-																			<img alt="Jennifer's Avatar"
-																				src="assets/avatars/avatar1.png">
-																		</div>
-
-																		<div class="body">
-																			<div class="name">
-																				<a href="#">Jennifer</a>
-																			</div>
-
-																			<div class="time">
-																				<i class="icon-time"></i> <span class="blue">15
-																					min</span>
-																			</div>
-
-																			<div class="text">
-																				<i class="icon-quote-left"></i> 车的零部件都是正品，能够出具正品资质，提前了10天短信通知了我保养的项目，非常好，这个会员办的还是挺值得的 …
-																			</div>
-																		</div>
-
-																		<div class="tools">
-																			<div class="action-buttons bigger-125">
-																				<a href="#"> <i class="icon-pencil blue"></i>
-																				</a> <a href="#"> <i class="icon-trash red"></i>
-																				</a>
-																			</div>
-																		</div>
-																	</div>
-
-																	<div class="itemdiv commentdiv">
-																		<div class="user">
-																			<img alt="Joe's Avatar"
-																				src="assets/avatars/avatar2.png">
-																		</div>
-
-																		<div class="body">
-																			<div class="name">
-																				<a href="#">Joe</a>
-																			</div>
-
-																			<div class="time">
-																				<i class="icon-time"></i> <span class="orange">22
-																					min</span>
-																			</div>
-
-																			<div class="text">
-																				<i class="icon-quote-left"></i> 我的车放在这边，大修居然只用了3天，太出乎意料了，升级钻石会员的Shell专享套餐优惠，直接就让我多了200块私房钱..^_^ …
-																			</div>
-																		</div>
-
-																		<div class="tools">
-																			<div class="action-buttons bigger-125">
-																				<a href="#"> <i class="icon-pencil blue"></i>
-																				</a> <a href="#"> <i class="icon-trash red"></i>
-																				</a>
-																			</div>
-																		</div>
-																	</div>
+																<li class="item-green clearfix"><label
+																	class="inline"> <input type="checkbox"
+																		class="ace"> <span class="lbl"> 工单：<a href="#">qa12345</a>已完成</span>
+																</label></li>
+															</ul>	
 
 
-																</div>
-																<div class="slimScrollBar ui-draggable"
-																	style="background-color: rgb(0, 0, 0); width: 7px; position: absolute; top: 0px; opacity: 0.4; display: block; border-top-left-radius: 7px; border-top-right-radius: 7px; border-bottom-right-radius: 7px; border-bottom-left-radius: 7px; z-index: 99; right: 1px; background-position: initial initial; background-repeat: initial initial;"></div>
-																<div class="slimScrollRail"
-																	style="width: 7px; height: 100%; position: absolute; top: 0px; display: none; border-top-left-radius: 7px; border-top-right-radius: 7px; border-bottom-right-radius: 7px; border-bottom-left-radius: 7px; background-color: rgb(51, 51, 51); opacity: 0.2; z-index: 90; right: 1px; background-position: initial initial; background-repeat: initial initial;"></div>
-															</div>
 
-															<div class="hr hr1"></div>
 
-															<div class="center">
-																<i class="icon-comments-alt icon-2x green"></i> &nbsp; <a
-																	href="#"> See all comments &nbsp; <i
-																	class="icon-arrow-right"></i>
-																</a>
-															</div>
 
-															<div class="hr hr-double hr8"></div>
+
+
+															
 														</div>
 													</div>
 												</div>
@@ -916,6 +817,67 @@
 																<td><small> <s class="red">$29.99</s>
 
 																</small> <b class="green">$19.99</b></td>
+																
+																
+																<td class="hidden-480"><span class="label arrowed">
+
+																		<s>无货</s>
+
+																</span></td>
+
+															</tr>
+															
+															
+															
+															<tr>
+
+																<td>后视镜</td>
+
+
+
+																<td><small> <s class="red"></s>
+
+																</small> <b class="green">$15.00</b></td>
+
+
+
+																<td class="hidden-480"><span
+																	class="label label-danger arrowed">退货</span></td>
+
+															</tr>
+															
+															
+															
+															<tr>
+
+																<td>火花塞</td>
+
+
+
+																<td><small> <s class="red"></s>
+
+																</small> <b class="green">$12.00</b></td>
+
+
+
+																<td class="hidden-480"><span
+																	class="label label-warning arrowed arrowed-right">近效期</span>
+
+																</td>
+
+															</tr>
+
+
+
+															<tr>
+
+																<td>尾灯</td>
+
+
+
+																<td><small> <s class="red">$24.99</s>
+
+																</small> <b class="green">$19.95</b></td>
 
 
 
@@ -925,6 +887,10 @@
 																</td>
 
 															</tr>
+
+
+
+															
 
 
 
@@ -1041,65 +1007,7 @@
 
 
 
-															<tr>
-
-																<td>后视镜</td>
-
-
-
-																<td><small> <s class="red"></s>
-
-																</small> <b class="green">$15.00</b></td>
-
-
-
-																<td class="hidden-480"><span
-																	class="label label-danger arrowed">退货</span></td>
-
-															</tr>
-
-
-
-															<tr>
-
-																<td>尾灯</td>
-
-
-
-																<td><small> <s class="red">$24.99</s>
-
-																</small> <b class="green">$19.95</b></td>
-
-
-
-																<td class="hidden-480"><span class="label arrowed">
-
-																		<s>无货</s>
-
-																</span></td>
-
-															</tr>
-
-
-
-															<tr>
-
-																<td>火花塞</td>
-
-
-
-																<td><small> <s class="red"></s>
-
-																</small> <b class="green">$12.00</b></td>
-
-
-
-																<td class="hidden-480"><span
-																	class="label label-warning arrowed arrowed-right">近效期</span>
-
-																</td>
-
-															</tr>
+															
 
 														</tbody>
 

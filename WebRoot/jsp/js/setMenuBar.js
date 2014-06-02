@@ -133,10 +133,10 @@ function initMenu()
 		$("#settlementsDetailsMgr").removeClass("hidden");
 		$("#settlementsDetailsMgrhref").removeClass("hidden");
 		$("#settlementsDetailsMgrLine").removeClass("hidden");
-		
-		$("#inventoryCashMgr").removeClass("hidden");
-		$("#inventoryCashMgrhref").removeClass("hidden");
-		$("#inventoryCashMgrLine").removeClass("hidden");
+//		
+//		$("#inventoryCashMgr").removeClass("hidden");
+//		$("#inventoryCashMgrhref").removeClass("hidden");
+//		$("#inventoryCashMgrLine").removeClass("hidden");
 		
 		$("#bankAccountMgr").removeClass("hidden");
 		$("#bankAccountMgrhref").removeClass("hidden");
