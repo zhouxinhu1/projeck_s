@@ -48,7 +48,7 @@
 							</a>
 							<ul class="submenu hidden" id="dailyBusinessSubMenu">
 								<li id="quickBusiness" class = "hidden">
-									<a href="jsp/manage/index.jsp" class = "hidden" id="quickBusinesshref">
+									<a href="jsp/clientAdminPage.jsp" class = "hidden" id="quickBusinesshref">
 										<i class="icon-double-angle-right hidden" id="quickBusinessLine"></i>
 										快保业务
 									</a>
