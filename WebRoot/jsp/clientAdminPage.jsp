@@ -101,7 +101,7 @@
 										class="icon-key bigger-160"></i> 招牌业务 <span
 										class="badge badge-pink">+3</span>
 									</a> 
-									<a href="jsp/manage/wel_1_searchcar.jsp" class="btn btn-app radius-4 btn-xs"> <i
+									<a href="#modal-form" class="btn btn-app radius-4 btn-xs" data-toggle="modal"> <i
 										class="icon-dashboard bigger-160"></i> 接车 <span
 										class="badge badge-pink">+3</span>
 									</a> 
@@ -1444,6 +1444,45 @@
                                                 </div>
                                             </div>
                                         </div>
+										<div id="modal-form" class="modal" tabindex="-1">
+									<div class="modal-dialog">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal">&times;</button>
+												<h4 class="blue bigger">请输入车牌号码</h4>
+											</div>
+
+											<div class="modal-body overflow-visible">
+												<div class="row">
+
+													<div class="col-xs-12 ">
+
+														<div class="form-group">
+															<label for="form-field-username"></label>
+
+															<div>
+																<input class="input-large" type="text" id="form-field-username" placeholder="沪A55849" value="沪A55849" />
+															</div>
+														</div>
+
+														<div class="space-4"></div>
+													</div>
+												</div>
+											</div>
+
+											<div class="modal-footer">
+												<button class="btn btn-sm" data-dismiss="modal">
+													<i class="icon-remove"></i>
+													Cancel
+												</button>
+
+												<button id="modal-btn-ok" class="btn btn-sm btn-primary">
+													<i class="icon-ok"></i>
+													OK
+												</button>
+											</div>
+										</div>
+									</div>
 								
 								<!-- end add by zxh-->
 								

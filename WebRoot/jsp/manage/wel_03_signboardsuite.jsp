@@ -1,4 +1,5 @@
 ﻿<div class = "page-content">
+	<h3 class="lighter red header" style="margin-top: 0px;">我们的招牌服务</h3>
     <!-- PAGE CONTENT BEGINS -->
     <div class="row">
         <div class="col-sm-6">
@@ -9,7 +10,7 @@
                 <div class="panel-body">
                     <div class="row">
                         <div class="col-sm-4">
-                            <img src="jsp/images/HX.png" height="225px"/>
+                            <img src="jsp/images/HX.png" height="220px"/>
                         </div>
                         <div class="col-sm-7 col-sm-offset-1">
                             <h2 style="color: red;">壳牌超凡喜力润滑油</h2>
@@ -34,7 +35,7 @@
                 <div class="panel-body">
                     <div class="row">
                         <div class="col-sm-4">
-                            <img src="jsp/images/HX.png" height="225px"/>
+                            <img src="jsp/images/HX.png" height="220px"/>
                         </div>
                         <div class="col-sm-7 col-sm-offset-1">
                             <h2 style="color: red;">壳牌非凡喜力润滑油</h2>
@@ -61,7 +62,7 @@
                 <div class="panel-body">
                     <div class="row">
                         <div class="col-sm-4">
-                            <img src="jsp/images/HX.png" height="225px"/>
+                            <img src="jsp/images/HX.png" height="220px"/>
                         </div>
                         <div class="col-sm-7 col-sm-offset-1">
                             <h2 style="color: red;">壳牌特级喜力润滑油</h2>
@@ -86,7 +87,7 @@
                 <div class="panel-body">
                     <div class="row">
                         <div class="col-sm-4">
-                            <img src="jsp/images/HX.png" height="225px"/>
+                            <img src="jsp/images/HX.png" height="220px"/>
                         </div>
                         <div class="col-sm-7 col-sm-offset-1">
                             <h2 style="color: red;">壳牌特级喜力润滑油</h2>

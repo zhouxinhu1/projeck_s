@@ -1,4 +1,5 @@
 ﻿<div class = "page-content">
+	<h3 class="lighter red header" style="margin-top: 0px;">详细介绍</h3>
     <!-- PAGE CONTENT BEGINS -->
     <div class="widget-box">
         <div class="widget-header widget-header-flat">

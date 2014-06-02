@@ -40,6 +40,25 @@ var PageTransitions = (function() {
 		
 			nextPage( animcursor );
 		});
+		$("#table-search-result").on('click',function(){
+			if( isAnimating ) {
+				return false;
+			}
+			
+			animcursor = 1;
+		
+			nextPage( animcursor );
+		});
+		
+		$("#btn-next").on('click',function(){
+			if( isAnimating ) {
+				return false;
+			}
+			
+			animcursor = 1;
+		
+			nextPage( animcursor );
+		});
 		
 		$iterate.on( 'click', function() {
 			if( isAnimating ) {
@@ -75,10 +94,28 @@ var PageTransitions = (function() {
 		}
 		else{
 			if( current < pagesCount - 1 ) {
+				if(current == pagesCount - 2){
+					$("#btn-next").html(' OK<i class="icon-arrow-right icon-on-right"></i>');
+				}
 				++current;
 			}
 			else {
-				current = 0;
+				//current = 0;
+				//location.href = "jsp/clientAdminPage.jsp";
+				bootbox.dialog({
+				message: "张先生,您的爱车已送到维修部。请到休息室稍等。", 
+				buttons: {
+					"success" : {
+						"label" : "OK",
+						"className" : "btn-sm btn-primary",
+						callback: function() {
+						location.href = "jsp/clientAdminPage.jsp";;
+					    }
+					}
+				}
+				});
+
+				return false;
 			}
 		}
 
