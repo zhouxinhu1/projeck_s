@@ -36,7 +36,7 @@ var PageTransitions = (function() {
 				return false;
 			}
 			
-			animcursor = 62;
+			animcursor = 1;
 		
 			nextPage( animcursor );
 		});
@@ -46,7 +46,7 @@ var PageTransitions = (function() {
 				return false;
 			}
 			
-			animcursor = 62;
+			animcursor = 1;
 		
 			nextPage( animcursor );
 	
