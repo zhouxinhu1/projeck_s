@@ -215,7 +215,6 @@
 																<td class="hidden-480">
 																<a href ="#"><span class="label label-danger arrowed-right arrowed-in">去结算</span></a>
 																</td>
-																</span></td>
 															</tr>
 															<tr>
 																<td>沪A20098767</td>
