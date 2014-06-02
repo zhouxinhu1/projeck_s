@@ -85,7 +85,7 @@ String basePath = request.getScheme() + "://"
                         <h1>报表
                             <small>
                                 <i class="icon-double-angle-right"></i>
-                                日常结算统计报表
+                                南京（A店）日常结算统计报表（2014-6-4）
                             </small>
                         </h1>
                     </div>
@@ -93,32 +93,6 @@ String basePath = request.getScheme() + "://"
                     <div class="row">
                         <div class="col-xs-12">
                             <!-- PAGE CONTENT BEGINS -->
-                            <div class="panel panel-default">
-                                <div class="panel-heading">
-                                    <h3 class="panel-title">南京日常结算统计报表（2014-6-4）</h3>
-                                </div>
-                                <div class="panel-body" style="padding: 0;">
-                                    <div class="row">
-                                        <div class="col-xs-1 center">
-                                        </div>
-                                        <div class="col-xs-2 center">
-                                            总收入:100.00
-                                        </div>
-                                        <div class="col-xs-2 center">
-                                            总成本:10.00
-                                        </div>
-                                        <div class="col-xs-2 center">
-                                            挂账合计:0.00
-                                        </div>
-                                        <div class="col-xs-2 center">
-                                            毛利合计:90.00
-                                        </div>
-                                        <div class="col-xs-2 center">
-                                            计价单位:元
-                                        </div>
-                                        <div class="col-xs-1 center">
-                                        </div>
-                                    </div>
                                     <div class="row">
                                         <div class="col-xs-12">
                                             <div class="table-responsive">
@@ -126,7 +100,7 @@ String basePath = request.getScheme() + "://"
                                                     <thead>
                                                         <tr>
                                                             <th class="center">
-                                                                序号
+                                                                单号
                                                             </th>
                                                             <th class="center">
                                                                 单据类别
@@ -135,296 +109,525 @@ String basePath = request.getScheme() + "://"
                                                                 车牌号
                                                             </th>
                                                             <th class="center">
-                                                                金额
+                                                                关键字
                                                             </th>
                                                             <th class="center">
                                                                 结算金额
                                                             </th>
                                                             <th class="center">
-                                                                毛利率
+                                                                材料成本
                                                             </th>
                                                             <th class="center">
-                                                                时间
+                                                                导购提成
+                                                            </th>
+                                                            <th class="center">
+                                                                工时提成
+                                                            </th>
+                                                            <th class="center">
+                                                                总金额
+                                                            </th>
+                                                            <th class="center">
+                                                                毛利率
                                                             </th>
                                                             <th class="center">
                                                                 结算状态
                                                             </th>
                                                             <th class="center">
-                                                                验车状态
+                                                                时间
                                                             </th>
                                                         </tr>
                                                     </thead>
                                                     <tbody>
                                                         <tr>
                                                             <td class="center">
-                                                                1
+                                                                X001
                                                             </td>
                                                             <td class="center">
-                                                                洗车单
-                                                            </td>
-                                                            <td class="center">
-                                                                鄂A99098
-                                                            </td>
-                                                            <td class="center">
-                                                                20.00
-                                                            </td>
-                                                            <td class="center">
-                                                                20.00
-                                                            </td>
-                                                            <td class="center">
-                                                                20.00
-                                                            </td>
-                                                            <td class="center">
-                                                                2014-03-13
-                                                            </td>
-                                                            <td class="center">
-                                                                收讫
-                                                            </td>
-                                                            <td class="center">
-                                                                已验车
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td class="center">
-                                                                1
-                                                            </td>
-                                                            <td class="center">
-                                                                洗车单
+                                                                销售
                                                             </td>
                                                             <td class="center">
                                                                 鄂A99098
                                                             </td>
                                                             <td class="center">
-                                                                20.00
+                                                                合成机油
                                                             </td>
                                                             <td class="center">
-                                                                20.00
+                                                                700.00
                                                             </td>
                                                             <td class="center">
-                                                                20.00
+                                                                400.00
                                                             </td>
                                                             <td class="center">
-                                                                2014-03-13
+                                                                50.00
                                                             </td>
                                                             <td class="center">
+                                                                .00
+                                                            </td>
+                                                            <td class="center">
+                                                                450
+                                                            </td>
+															 <td class="center">
+                                                                250
+                                                            </td>
+															 <td class="center">
                                                                 收讫
                                                             </td>
-                                                            <td class="center">
-                                                                已验车
+															 <td class="center">
+                                                                2014-06-04
                                                             </td>
                                                         </tr>
-                                                        <tr>
+														<tr>
                                                             <td class="center">
-                                                                1
+                                                                W001
                                                             </td>
                                                             <td class="center">
-                                                                洗车单
+                                                                维修
                                                             </td>
                                                             <td class="center">
                                                                 鄂A99098
                                                             </td>
                                                             <td class="center">
-                                                                20.00
+                                                                后保险杠更换
                                                             </td>
                                                             <td class="center">
-                                                                20.00
+                                                                1800.00
                                                             </td>
                                                             <td class="center">
-                                                                20.00
+                                                                1000.00
                                                             </td>
                                                             <td class="center">
-                                                                2014-03-13
+                                                                .00
                                                             </td>
                                                             <td class="center">
+                                                                100.00
+                                                            </td>
+                                                            <td class="center">
+                                                                1100.00
+                                                            </td>
+															 <td class="center">
+                                                                600.00
+                                                            </td>
+															 <td class="center">
                                                                 收讫
                                                             </td>
+															 <td class="center">
+                                                                2014-06-04
+                                                            </td>
+                                                        </tr>
+														<tr>
                                                             <td class="center">
-                                                                已验车
+                                                                W001
+                                                            </td>
+                                                            <td class="center">
+                                                                洗车
+                                                            </td>
+                                                            <td class="center">
+                                                                沪A99098
+                                                            </td>
+                                                            <td class="center">
+                                                                洗车
+                                                            </td>
+                                                            <td class="center">
+                                                                20.00
+                                                            </td>
+                                                            <td class="center">
+                                                                0.00
+                                                            </td>
+                                                            <td class="center">
+                                                                0.00
+                                                            </td>
+                                                            <td class="center">
+                                                                25.00
+                                                            </td>
+                                                            <td class="center">
+                                                                25.00
+                                                            </td>
+															 <td class="center red">
+                                                                -5.00
+                                                            </td>
+															 <td class="center">
+                                                                收讫
+                                                            </td>
+															 <td class="center">
+                                                                2014-06-04
+                                                            </td>
+                                                        </tr>
+														<tr>
+                                                            <td class="center">
+                                                                B001
+                                                            </td>
+                                                            <td class="center">
+                                                                保养
+                                                            </td>
+                                                            <td class="center">
+                                                                浙A99012
+                                                            </td>
+                                                            <td class="center">
+                                                                招牌换油
+                                                            </td>
+                                                            <td class="center">
+                                                                666.00
+                                                            </td>
+                                                            <td class="center">
+                                                                500.00
+                                                            </td>
+                                                            <td class="center">
+                                                                50.00
+                                                            </td>
+                                                            <td class="center">
+                                                                200.00
+                                                            </td>
+                                                            <td class="center">
+                                                            	750.00
+                                                            </td>
+															 <td class="center">
+                                                                166.00
+                                                            </td>
+															 <td class="center">
+                                                                收讫
+                                                            </td>
+															 <td class="center">
+                                                                2014-06-04
+                                                            </td>
+                                                        </tr>
+														<tr>
+                                                            <td class="center">
+                                                                B001
+                                                            </td>
+                                                            <td class="center">
+                                                                保养
+                                                            </td>
+                                                            <td class="center">
+                                                                浙A99012
+                                                            </td>
+                                                            <td class="center">
+                                                                招牌换油B
+                                                            </td>
+                                                            <td class="center">
+                                                                788.00
+                                                            </td>
+                                                            <td class="center">
+                                                                500.00
+                                                            </td>
+                                                            <td class="center">
+                                                                50.00
+                                                            </td>
+                                                            <td class="center">
+                                                                200.00
+                                                            </td>
+                                                            <td class="center">
+                                                            	770.00
+                                                            </td>
+															 <td class="center">
+                                                                288.00
+                                                            </td>
+															 <td class="center">
+                                                                收讫
+                                                            </td>
+															 <td class="center">
+                                                                2014-06-04
+                                                            </td>
+                                                        </tr>
+														<tr>
+                                                            <td class="center">
+                                                                W002
+                                                            </td>
+                                                            <td class="center">
+                                                                洗车
+                                                            </td>
+                                                            <td class="center">
+                                                                沪B12098
+                                                            </td>
+                                                            <td class="center">
+                                                                洗车
+                                                            </td>
+                                                            <td class="center">
+                                                                20.00
+                                                            </td>
+                                                            <td class="center">
+                                                                0.00
+                                                            </td>
+                                                            <td class="center">
+                                                                0.00
+                                                            </td>
+                                                            <td class="center">
+                                                                25.00
+                                                            </td>
+                                                            <td class="center">
+                                                                25.00
+                                                            </td>
+															 <td class="center red">
+                                                                -5.00
+                                                            </td>
+															 <td class="center">
+                                                                收讫
+                                                            </td>
+															 <td class="center">
+                                                                2014-06-04
+                                                            </td>
+                                                        </tr>
+														<tr>
+                                                            <td class="center">
+                                                                W003
+                                                            </td>
+                                                            <td class="center">
+                                                                洗车
+                                                            </td>
+                                                            <td class="center">
+                                                                沪C12098
+                                                            </td>
+                                                            <td class="center">
+                                                                洗车
+                                                            </td>
+                                                            <td class="center">
+                                                                20.00
+                                                            </td>
+                                                            <td class="center">
+                                                                0.00
+                                                            </td>
+                                                            <td class="center">
+                                                                0.00
+                                                            </td>
+                                                            <td class="center">
+                                                                25.00
+                                                            </td>
+                                                            <td class="center">
+                                                                25.00
+                                                            </td>
+															 <td class="center red">
+                                                                -5.00
+                                                            </td>
+															 <td class="center">
+                                                                收讫
+                                                            </td>
+															 <td class="center">
+                                                                2014-06-04
+                                                            </td>
+                                                        </tr>
+														<tr>
+                                                            <td class="center">
+                                                                M004
+                                                            </td>
+                                                            <td class="center">
+                                                                美容
+                                                            </td>
+                                                            <td class="center">
+                                                                沪D12098
+                                                            </td>
+                                                            <td class="center">
+                                                                贴膜
+                                                            </td>
+                                                            <td class="center">
+                                                                3000.00
+                                                            </td>
+                                                            <td class="center">
+                                                                1500.00
+                                                            </td>
+                                                            <td class="center">
+                                                                100.00
+                                                            </td>
+                                                            <td class="center">
+                                                                200.00
+                                                            </td>
+                                                            <td class="center">
+                                                                1800.00
+                                                            </td>
+															 <td class="center">
+                                                                1500.00
+                                                            </td>
+															 <td class="center">
+                                                                收讫
+                                                            </td>
+															 <td class="center">
+                                                                2014-06-04
+                                                            </td>
+                                                        </tr>
+														<tr>
+                                                            <td class="center">
+                                                                M004
+                                                            </td>
+                                                            <td class="center">
+                                                                美容
+                                                            </td>
+                                                            <td class="center">
+                                                                沪F12098
+                                                            </td>
+                                                            <td class="center">
+                                                                打蜡
+                                                            </td>
+                                                            <td class="center">
+                                                                100.00
+                                                            </td>
+                                                            <td class="center">
+                                                                10.00
+                                                            </td>
+                                                            <td class="center">
+                                                                10.00
+                                                            </td>
+                                                            <td class="center">
+                                                                20.00
+                                                            </td>
+                                                            <td class="center">
+                                                                40.00
+                                                            </td>
+															 <td class="center">
+                                                                90.00
+                                                            </td>
+															 <td class="center">
+                                                                未收讫
+                                                            </td>
+															 <td class="center">
+                                                                2014-06-04
+                                                            </td>
+                                                        </tr>
+														<tr>
+                                                            <td class="center">
+                                                                W003
+                                                            </td>
+                                                            <td class="center">
+                                                                洗车
+                                                            </td>
+                                                            <td class="center">
+                                                                沪C12098
+                                                            </td>
+                                                            <td class="center">
+                                                                洗车
+                                                            </td>
+                                                            <td class="center">
+                                                                20.00
+                                                            </td>
+                                                            <td class="center">
+                                                                0.00
+                                                            </td>
+                                                            <td class="center">
+                                                                0.00
+                                                            </td>
+                                                            <td class="center">
+                                                                25.00
+                                                            </td>
+                                                            <td class="center">
+                                                                25.00
+                                                            </td>
+															 <td class="center red">
+                                                                -5.00
+                                                            </td>
+															 <td class="center">
+                                                                收讫
+                                                            </td>
+															 <td class="center">
+                                                                2014-06-04
+                                                            </td>
+                                                        </tr>
+														<tr>
+                                                            <td class="center">
+                                                                B001
+                                                            </td>
+                                                            <td class="center">
+                                                                保养
+                                                            </td>
+                                                            <td class="center">
+                                                                浙C99012
+                                                            </td>
+                                                            <td class="center">
+                                                                招牌换油
+                                                            </td>
+                                                            <td class="center">
+                                                                666.00
+                                                            </td>
+                                                            <td class="center">
+                                                                500.00
+                                                            </td>
+                                                            <td class="center">
+                                                                50.00
+                                                            </td>
+                                                            <td class="center">
+                                                                200.00
+                                                            </td>
+                                                            <td class="center">
+                                                            	750.00
+                                                            </td>
+															 <td class="center">
+                                                                166.00
+                                                            </td>
+															 <td class="center">
+                                                                收讫
+                                                            </td>
+															 <td class="center">
+                                                                2014-06-04
+                                                            </td>
+                                                        </tr>
+														<tr>
+                                                            <td class="center">
+                                                                B001
+                                                            </td>
+                                                            <td class="center">
+                                                                保养
+                                                            </td>
+                                                            <td class="center">
+                                                                浙B99012
+                                                            </td>
+                                                            <td class="center">
+                                                                招牌换油
+                                                            </td>
+                                                            <td class="center">
+                                                                666.00
+                                                            </td>
+                                                            <td class="center">
+                                                                500.00
+                                                            </td>
+                                                            <td class="center">
+                                                                50.00
+                                                            </td>
+                                                            <td class="center">
+                                                                200.00
+                                                            </td>
+                                                            <td class="center">
+                                                            	750.00
+                                                            </td>
+															 <td class="center">
+                                                                166.00
+                                                            </td>
+															 <td class="center">
+                                                                收讫
+                                                            </td>
+															 <td class="center">
+                                                                2014-06-04
                                                             </td>
                                                         </tr>
                                                         <tr>
-                                                            <td class="center">
-                                                                1
-                                                            </td>
-                                                            <td class="center">
-                                                                洗车单
-                                                            </td>
-                                                            <td class="center">
-                                                                鄂A99098
-                                                            </td>
-                                                            <td class="center">
-                                                                20.00
-                                                            </td>
-                                                            <td class="center">
-                                                                20.00
-                                                            </td>
-                                                            <td class="center">
-                                                                20.00
-                                                            </td>
-                                                            <td class="center">
-                                                                2014-03-13
-                                                            </td>
-                                                            <td class="center">
-                                                                收讫
-                                                            </td>
-                                                            <td class="center">
-                                                                已验车
+                                                            <td class='center' colspan='12'>
+                                                                <div class="row ">
+                                                                    <div class="col-xs-1 center">
+                                                                    </div>
+                                                                    <div class="col-xs-2 center">
+                                                                        总收入:8366.00
+                                                                    </div>
+                                                                    <div class="col-xs-2 center">
+                                                                        总成本:4910.00
+                                                                    </div>
+                                                                    <div class="col-xs-2 center">
+                                                                        挂账合计:100.00
+                                                                    </div>
+                                                                    <div class="col-xs-2 center red bolder">
+                                                                        毛利合计:3206.00
+                                                                    </div>
+                                                                    <div class="col-xs-2 center">
+                                                                        计价单位:元
+                                                                    </div>
+                                                                    <div class="col-xs-1 center">
+                                                                    </div>
+                                                                </div>
                                                             </td>
                                                         </tr>
                                                         <tr>
-                                                            <td class="center">
-                                                                1
-                                                            </td>
-                                                            <td class="center">
-                                                                洗车单
-                                                            </td>
-                                                            <td class="center">
-                                                                鄂A99098
-                                                            </td>
-                                                            <td class="center">
-                                                                20.00
-                                                            </td>
-                                                            <td class="center">
-                                                                20.00
-                                                            </td>
-                                                            <td class="center">
-                                                                20.00
-                                                            </td>
-                                                            <td class="center">
-                                                                2014-03-13
-                                                            </td>
-                                                            <td class="center">
-                                                                收讫
-                                                            </td>
-                                                            <td class="center">
-                                                                已验车
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td class="center">
-                                                                1
-                                                            </td>
-                                                            <td class="center">
-                                                                洗车单
-                                                            </td>
-                                                            <td class="center">
-                                                                鄂A99098
-                                                            </td>
-                                                            <td class="center">
-                                                                20.00
-                                                            </td>
-                                                            <td class="center">
-                                                                20.00
-                                                            </td>
-                                                            <td class="center">
-                                                                20.00
-                                                            </td>
-                                                            <td class="center">
-                                                                2014-03-13
-                                                            </td>
-                                                            <td class="center">
-                                                                收讫
-                                                            </td>
-                                                            <td class="center">
-                                                                已验车
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td class="center">
-                                                                1
-                                                            </td>
-                                                            <td class="center">
-                                                                洗车单
-                                                            </td>
-                                                            <td class="center">
-                                                                鄂A99098
-                                                            </td>
-                                                            <td class="center">
-                                                                20.00
-                                                            </td>
-                                                            <td class="center">
-                                                                20.00
-                                                            </td>
-                                                            <td class="center">
-                                                                20.00
-                                                            </td>
-                                                            <td class="center">
-                                                                2014-03-13
-                                                            </td>
-                                                            <td class="center">
-                                                                收讫
-                                                            </td>
-                                                            <td class="center">
-                                                                已验车
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td class="center">
-                                                                1
-                                                            </td>
-                                                            <td class="center">
-                                                                洗车单
-                                                            </td>
-                                                            <td class="center">
-                                                                鄂A99098
-                                                            </td>
-                                                            <td class="center">
-                                                                20.00
-                                                            </td>
-                                                            <td class="center">
-                                                                20.00
-                                                            </td>
-                                                            <td class="center">
-                                                                20.00
-                                                            </td>
-                                                            <td class="center">
-                                                                2014-03-13
-                                                            </td>
-                                                            <td class="center">
-                                                                收讫
-                                                            </td>
-                                                            <td class="center">
-                                                                已验车
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td class="center">
-                                                                1
-                                                            </td>
-                                                            <td class="center">
-                                                                洗车单
-                                                            </td>
-                                                            <td class="center">
-                                                                鄂A99098
-                                                            </td>
-                                                            <td class="center">
-                                                                20.00
-                                                            </td>
-                                                            <td class="center">
-                                                                20.00
-                                                            </td>
-                                                            <td class="center">
-                                                                20.00
-                                                            </td>
-                                                            <td class="center">
-                                                                2014-03-13
-                                                            </td>
-                                                            <td class="center">
-                                                                收讫
-                                                            </td>
-                                                            <td class="center">
-                                                                已验车
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <th class="center" colspan='9'>
+                                                            <td class="center" colspan='12'>
                                                                 第1页 共1页     打印人：管理员     打印时间：2014-6-4 23:14 
-                                                            </th>
+                                                            </td>
                                                         </tr>
-														 <tr>
-                                                            <th class="center" colspan='9'>
-                                                                地址：上海市沪太路802号    电话：021-12345678    传真：021-12345678
-                                                            </th>
+                                                        <tr>
+                                                            <td class="center" colspan='12'>
+                                                                地址：南市沪太路802号    电话：0551-12345678    传真：0551-12345678
+                                                            </td>
                                                         </tr>
                                                     </tbody>
                                                 </table>
@@ -432,14 +635,19 @@ String basePath = request.getScheme() + "://"
                                             <!-- /.table-responsive -->
                                         </div>
                                     </div>
-                                    <div class="row" style="float: right;padding:0 20px 5px 0">
+                                   
+                                    <!-- /span -->
+							 <div class="row" style="float: right;padding:0 20px 5px 0">
                                         <div class="col-xs-12">
-                                       <button class="btn btn-info">打印</button> <button class="btn btn-danger" id="btn-back">返回</button>
+                                            <button class="btn btn-info">
+                                                打印
+                                            </button>
+                                            <button class="btn btn-danger" id="btn-back">
+                                                返回
+                                            </button>
                                         </div>
                                     </div>
-                                    <!-- /span -->
-                                </div>
-                            </div>
+							
                         </div>
                         <!-- PAGE CONTENT ENDS -->
                     </div>
@@ -455,13 +663,14 @@ String basePath = request.getScheme() + "://"
     </div>
     <!-- /.main-container -->
     <!-- basic scripts -->
-					<!--[if !IE]> -->
-					<script src="assets/js/jquery-2.0.3.min.js"></script>
-					<!-- <![endif]-->
-					<!--[if IE]>
-					<script src="assets/js/jquery-1.10.2.min.js"></script>
-        			<![endif]-->
-					<!--[if !IE]> -->
+    <!--[if !IE]> -->
+        <script src="assets/js/jquery-2.0.3.min.js">
+        </script>
+    <!-- <![endif]-->
+    <!--[if IE]>
+        <script src="assets/js/jquery-1.10.2.min.js"></script>
+    <![endif]-->
+    <!--[if !IE]> -->
         <script type="text/javascript">
             window.jQuery || document.write("__tag_228$39_" + "__tag_228$88_");
         </script>

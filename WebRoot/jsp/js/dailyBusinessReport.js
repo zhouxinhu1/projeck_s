@@ -72,6 +72,11 @@ $(function() {
 							name : 'USD to EUR',
 							pointInterval : 24 * 3600 * 1000,
 							pointStart : Date.UTC(2006, 0, 01),
+							events: {
+							    click: function(e) {
+									location.href = "jsp/report/dailyBusinessReport4_1.jsp";
+							    }
+							   },
 							data : [ 8446, 8445, 8444, 8451, 8418,
 									8264, 8258, 8232, 8233, 8258,
 									8283, 8278, 8256, 8292, 8239,
