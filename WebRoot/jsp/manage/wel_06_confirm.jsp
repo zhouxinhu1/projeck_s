@@ -1,4 +1,5 @@
-﻿<div class = "page-content">
+﻿<%@ page language="java" pageEncoding="UTF-8" contentType="text/html;charset=utf-8"%>	
+<div class = "page-content">
 	<h2 class="lighter red header" style="margin-top: 0px;">结算：张先生您的服务单，请确认</h2>
     <div class="row">
         <div class="col-xs-12">
