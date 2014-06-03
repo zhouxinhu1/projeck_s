@@ -14,7 +14,7 @@ jQuery(function($) {
 		 $('#open-modal-wizard').modal("hide");
 	 });
 	 $('#close-modal-wizard .modal-header').ace_wizard().on('finished', function(e) {
-		 $('#close-modal-wizard').modal("hide");
+		 $('#close-modal-wizard').modal("hide"); 
 	 });
 	$.widget("ui.dialog", $.extend({}, $.ui.dialog.prototype, {
 		_title: function(title) {

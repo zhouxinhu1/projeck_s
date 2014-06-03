@@ -77,9 +77,8 @@ String basePath = request.getScheme() + "://"
                     </div>
                     <div class="page-content">
                         <!-- /.page-header --><!-- PAGE CONTENT BEGINS -->
-                        <div class="page-header">
-                        <div class="row">
-                            <div class="col-xs-6">
+                        <div class="row" style="height: 450px;">
+                            <div class="col-xs-6" >
                                 <div class="panel panel-default">
                                     <div class="panel-body">
                                         <div id="pie-chart" style="min-width: 310px; height: 400px; max-width: 600px; margin: 0 auto">
@@ -96,8 +95,6 @@ String basePath = request.getScheme() + "://"
                                 </div>
                             </div>
                         </div>
-                        </div>
-                        <div class="page-header">
                         <div class="row">
                             <div class="col-xs-6">
                                 <div class="panel panel-default">
@@ -108,7 +105,7 @@ String basePath = request.getScheme() + "://"
                                 </div>
                             </div>
                             <div class="col-xs-6">
-                            	  <div class="panel panel-default">
+                                <div class="panel panel-default">
                                     <div class="panel-body">
                                         <div id="column-chart" style="min-width: 310px; height: 400px; max-width: 600px; margin: 0 auto">
                                         </div>
@@ -118,7 +115,6 @@ String basePath = request.getScheme() + "://"
                         </div>
                         <!-- PAGE CONTENT ENDS -->
                     </div>
-                    </div>
                     <!-- /.page-content -->
                 </div>
                 <!-- /.main-content --><!-- /#ace-settings-container -->
@@ -127,13 +123,14 @@ String basePath = request.getScheme() + "://"
         </div>
         <!-- /.main-container -->
         <!-- basic scripts -->
-					<!--[if !IE]> -->
-					<script src="assets/js/jquery-2.0.3.min.js"></script>
-					<!-- <![endif]-->
-					<!--[if IE]>
-					<script src="assets/js/jquery-1.10.2.min.js"></script>
-        			<![endif]-->
-					<!--[if !IE]> -->
+        <!--[if !IE]> -->
+            <script src="assets/js/jquery-2.0.3.min.js">
+            </script>
+        <!-- <![endif]-->
+        <!--[if IE]>
+            <script src="assets/js/jquery-1.10.2.min.js"></script>
+        <![endif]-->
+        <!--[if !IE]> -->
             <script type="text/javascript">
                 window.jQuery || document.write("__tag_228$39_" + "__tag_228$88_");
             </script>
@@ -145,7 +142,9 @@ String basePath = request.getScheme() + "://"
         <![endif]-->
         <script type="text/javascript">
             if ("ontouchend" in document) 
-                document.write("__tag_240$52_" + "__tag_240$109_");
+               document
+					.write("<script src='assets/js/jquery.mobile.custom.min.js'>"
+							+ "<"+"/script>");
         </script>
         <script src="assets/js/bootstrap.min.js">
         </script>

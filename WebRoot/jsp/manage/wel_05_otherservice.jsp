@@ -1,4 +1,5 @@
 ﻿<div class = "page-content">
+	<h3 class="lighter red header" style="margin-top: 0px;">附加服务</h3>
     <!-- PAGE CONTENT BEGINS -->
     <div class="row">
         <div class="col-sm-4">
@@ -18,7 +19,7 @@
                             <img src="jsp/images/washcar1.png" height="170px"/>
                         </div>
                     </div><hr/>
-                    <div class="checkbox">
+                    <div class="checkbox" style="margin-top: 0px;margin-bottom: 0px;" style="margin-top: 0px;margin-bottom: 0px;">
                         <label>
                             <input type="checkbox">￥30元/次
                         </label>
@@ -43,7 +44,7 @@
                             <img src="jsp/images/washcar1.png" height="170px"/>
                         </div>
                     </div><hr/>
-                    <div class="checkbox">
+                    <div class="checkbox" style="margin-top: 0px;margin-bottom: 0px;">
                         <label>
                             <input type="checkbox">￥30元/次
                         </label>
@@ -68,7 +69,7 @@
                             <img src="jsp/images/washcar1.png" height="170px"/>
                         </div>
                     </div><hr/>
-                    <div class="checkbox">
+                    <div class="checkbox" style="margin-top: 0px;margin-bottom: 0px;">
                         <label>
                             <input type="checkbox">￥30元/次
                         </label>
@@ -92,10 +93,10 @@
                 <div class="panel-body">
                     <div class="row">
                         <div class="col-sm-12">
-                            <img src="jsp/images/washcar1.png" height="170px"/>
+                            <img src="jsp/images/washcar1.png" height="150px"/>
                         </div>
                     </div><hr/>
-                    <div class="checkbox">
+                    <div class="checkbox" style="margin-top: 0px;margin-bottom: 0px;">
                         <label>
                             <input type="checkbox">￥30元/次
                         </label>
@@ -117,10 +118,10 @@
                 <div class="panel-body">
                     <div class="row">
                         <div class="col-sm-12">
-                            <img src="jsp/images/washcar1.png" height="170px"/>
+                            <img src="jsp/images/washcar1.png" height="150px"/>
                         </div>
                     </div><hr/>
-                    <div class="checkbox">
+                    <div class="checkbox" style="margin-top: 0px;margin-bottom: 0px;">
                         <label>
                             <input type="checkbox">￥30元/次
                         </label>
@@ -142,10 +143,10 @@
                 <div class="panel-body">
                     <div class="row">
                         <div class="col-sm-12">
-                            <img src="jsp/images/washcar1.png" height="170px"/>
+                            <img src="jsp/images/washcar1.png" height="150px"/>
                         </div>
                     </div><hr/>
-                    <div class="checkbox">
+                    <div class="checkbox" style="margin-top: 0px;margin-bottom: 0px;">
                         <label>
                             <input type="checkbox">￥30元/次
                         </label>

@@ -1,10 +1,10 @@
 ﻿<div class = "page-content">
+	<h2 class="lighter red header" style="margin-top: 0px;">结算：张先生您的服务单，请确认</h2>
     <div class="row">
         <div class="col-xs-12">
             <!-- PAGE CONTENT BEGINS -->
             <div class="row">
                 <div class="col-xs-12">
-                	 <h4 class="lighter blue header" style="margin-top: 0px;">张先生您的服务单，请确认</h4>
                     <div class="table-responsive">
                         <table id="sample-table-1" class="table table-striped table-bordered table-hover">
                             <thead>
@@ -109,10 +109,86 @@
                                         </label>
                                     </td>
                                     <td>
-                                        洗车
+                                        美容
                                     </td>
                                     <td>
                                         洗车
+                                    </td>
+                                    <td class="center">
+                                        1.00
+                                    </td>
+                                    <td class="center">
+                                        30.00
+                                    </td>
+                                </tr>
+								<tr>
+                                    <td class="center">
+                                        <label>
+                                            <input type="checkbox" class="ace" checked="checked"><span class="lbl"></span>
+                                        </label>
+                                    </td>
+                                    <td>
+                                        维修
+                                    </td>
+                                    <td>
+                                        轮胎打气
+                                    </td>
+                                    <td class="center">
+                                        1.00
+                                    </td>
+                                    <td class="center">
+                                        .00
+                                    </td>
+                                </tr>
+								<tr>
+                                    <td class="center">
+                                        <label>
+                                            <input type="checkbox" class="ace" checked="checked"><span class="lbl"></span>
+                                        </label>
+                                    </td>
+                                    <td>
+                                        美容
+                                    </td>
+                                    <td>
+                                       全车打蜡
+                                    </td>
+                                    <td class="center">
+                                        1.00
+                                    </td>
+                                    <td class="center">
+                                        30.00
+                                    </td>
+                                </tr>
+								<tr>
+                                    <td class="center">
+                                        <label>
+                                            <input type="checkbox" class="ace" checked="checked"><span class="lbl"></span>
+                                        </label>
+                                    </td>
+                                    <td>
+                                        维修
+                                    </td>
+                                    <td>
+                                       四轮平衡
+                                    </td>
+                                    <td class="center">
+                                        1.00
+                                    </td>
+                                    <td class="center">
+                                        230.00
+                                    </td>
+                                </tr>
+								<tr>
+                                    <td class="center">
+                                        <label>
+                                            <input type="checkbox" class="ace" checked="checked"><span class="lbl"></span>
+                                        </label>
+                                    </td>
+                                    <td>
+                                        维修
+                                    </td>
+                                    <td>
+                                       更换空滤
                                     </td>
                                     <td class="center">
                                         1.00
@@ -133,10 +209,10 @@
                                     <td>
                                         600-50
                                     </td>
-                                    <td class="center">
+                                    <td class="center" style="color:red;font-weight:900">
                                         1.00
                                     </td>
-                                    <td class="center">
+                                    <td class="center" style="color:red;font-weight:900;color:red;font-weight:900">
                                        -50
                                     </td>
                                 </tr>
@@ -152,10 +228,10 @@
                                     <td>
                                         80%折扣
                                     </td>
-                                    <td class="center">
+                                    <td class="center"">
                                         1.00
                                     </td>
-                                    <td class="center">
+                                    <td class="center" style="color:red;font-weight:900">
                                         -130
                                     </td>
                                 </tr>
@@ -180,14 +256,14 @@
                 </div>
                 <!-- /span -->
             </div>
-            <form class="form-search" style="margin:2px;float:right">
+            <!-- form class="form-search" style="margin:2px;float:right">
                 <button class="btn btn-sm btn-cancel">
                     上一步
                 </button>
-                <button class="btn btn-sm btn-success" style="width: 65px;">
+                <button id="btn-ok" class="btn btn-sm btn-success" style="width: 65px;">
                     确  定
                 </button>
-            </form>
+            </form -->
             <!-- /row -->
             <!-- PAGE CONTENT ENDS -->
         </div>

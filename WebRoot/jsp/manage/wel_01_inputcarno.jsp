@@ -1,10 +1,11 @@
 ﻿<div class = "page-content">
+	<h3 class="lighter red header" style="margin-top: 0px;">搜索结果</h3>
     <form class="form-search">
         <div class="row" style="margin-bottom:5px">
             <div class="col-xs-3 col-sm-3">
                 <div class="input-group">
-                    <input type="text" class="form-control search-query" placeholder="请输入车牌号码"><span class="input-group-btn">
-                        <button type="button" class="btn btn-purple btn-sm">
+                    <input type="text" class="form-control search-query" placeholder="沪A55849" value="沪A55849"><span class="input-group-btn">
+                        <button id="btn-search" type="button" class="btn btn-purple btn-sm">
                             Search<i class="icon-search icon-on-right bigger-110"></i>
                         </button>
                     </span>
@@ -12,7 +13,7 @@
             </div>
         </div>
     </form>
-    <div class="row">
+    <div class="row" id="table-search-result">
         <div class="col-xs-12">
             <!-- PAGE CONTENT BEGINS -->
             <div class="row">
@@ -25,7 +26,7 @@
                                         车牌
                                     </th>
                                     <th class="center">
-                                        姓名
+                                        车主
                                     </th>
                                     <th>
                                         车型
@@ -123,18 +124,5 @@
             <!-- /row --><!-- PAGE CONTENT ENDS -->
         </div>
         <!-- /.col -->
-    </div>
-    <div class="footer wizard-actions">
-        <button class="btn btn-sm btn-prev" disabled="disabled">
-            <i class="icon-arrow-left"></i>
-            Prev
-        </button>
-        <button class="btn btn-success btn-sm btn-next" data-last="Finish ">
-            Next<i class="icon-arrow-right icon-on-right"></i>
-        </button>
-        <button class="btn btn-danger btn-sm pull-left" data-dismiss="modal">
-            <i class="icon-remove"></i>
-            Cancel
-        </button>
     </div>
 </div>

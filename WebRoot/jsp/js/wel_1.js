@@ -1,5 +1,23 @@
 
 jQuery(function($) {
+	$("#btn-ok").on('click',function(){
+		bootbox.dialog({
+			message: "张先生请到休息室稍等您的爱车。", 
+			buttons: {
+				"success" : {
+					"label" : "OK",
+					"className" : "btn-sm btn-primary",
+					callback: function() {
+					location.href = "jsp/clientAdminPage.jsp";;
+				    }
+				}
+			}
+			});
+	});
+//	$("#table-search-result").hide();
+	$("#btn-search").on('click',function(){
+		$("#table-search-result").show();
+	});
 //	alert('init');
 //	$("body").bind('swiperight', function() {
 //		alert('swiperight');

@@ -52,11 +52,11 @@ String basePath = request.getScheme() + "://"
             }
         </script>
         <div>
-            <div class="pt-triggers ">
+            <!-- div class="pt-triggers ">
                 <button id="iterateEffects" class="pt-touch-button">
                     Show next page transition
                 </button>
-            </div>
+            </div -->
             <div id="pt-main">
                 <div class="pt-page">
                     <%@ include file="./wel_01_inputcarno.jsp" %>
@@ -77,20 +77,32 @@ String basePath = request.getScheme() + "://"
                     <%@ include file="./wel_06_confirm.jsp" %>
                 </div>
             </div>
+            <div class="footer wizard-actions" style="z-index: 9999;position: absolute;right: 20px;bottom: 20px;"/>
+			<div id="div-btn-next">
+                <button class="btn btn-sm btn-prev" disabled="disabled">
+                    <i class="icon-arrow-left"></i>
+                    Prev
+                </button>
+                <button id="btn-next" class="btn btn-success btn-sm btn-next" data-last="Finish ">
+                    Next<i class="icon-arrow-right icon-on-right"></i>
+                </button>
+				</div>
+            </div>
         </div>
         <!-- /.main-content --><!-- /#ace-settings-container -->
     </div>
-    <!-- /.main-container-inner --><a href="#" id="btn-scroll-up" class="btn-scroll-up btn btn-sm btn-inverse"><i class="icon-double-angle-up icon-only bigger-110"></i></a>
+    <!-- /.main-container-inner -->
     </div>
     <!-- /.main-container -->
     <!-- basic scripts -->
-					<!--[if !IE]> -->
-					<script src="assets/js/jquery-2.0.3.min.js"></script>
-					<!-- <![endif]-->
-					<!--[if IE]>
-					<script src="assets/js/jquery-1.10.2.min.js"></script>
-        			<![endif]-->
-					<!--[if !IE]> -->
+    <!--[if !IE]> -->
+        <script src="assets/js/jquery-2.0.3.min.js">
+        </script>
+    <!-- <![endif]-->
+    <!--[if IE]>
+        <script src="assets/js/jquery-1.10.2.min.js"></script>
+    <![endif]-->
+    <!--[if !IE]> -->
         <script type="text/javascript">
             window.jQuery || document.write("__tag_228$39_" + "__tag_228$88_");
         </script>
@@ -117,6 +129,7 @@ String basePath = request.getScheme() + "://"
     </script>
     <script src="assets/js/modernizr.custom.js">
     </script>
+	<script src="assets/js/bootbox.min.js"></script>
     <!--[if lte IE 8]>
         <script src="assets/js/excanvas.min.js"></script>
     <![endif]-->
