@@ -40,7 +40,7 @@ String basePath = request.getScheme() + "://"
 		<div class="flipster">
 		  <ul>
 		  	<li>
-		  		<div href="demo.html" class="Button Block">
+		  		<div href="demo.html" class="Button Blockfinish">
 		  			<h1>车主：韩寒</h1>
 		  			<h1>车型：Anniversario</h1>
 		  			<h1>预约服务：</h1>
@@ -69,13 +69,13 @@ String basePath = request.getScheme() + "://"
 		  		</div>
 		  	</li>
 	  		<li>
-	  			<div class="Button Block">
+	  			<div class="Button Blockdoing">
 		  			<h1>车主：罗永浩</h1>
 		  			<h1>车型：Tesla Model S</h1>
 		  			<h1>预约服务：</h1>						
 						<div class="message-item message-unread">
 							<label class="inline">
-							<input type="checkbox" class="ace">
+							<input type="checkbox" class="ace" checked="checked">
 							<span class="lbl"></span>
 							</label>
 							<span class="sender" title="Alex John Red Smith">充电</span>
